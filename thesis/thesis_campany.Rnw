@@ -1,0 +1,233 @@
+
+\documentclass[a4paper]{article}
+
+%--- Load packages. 
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{framed}
+\usepackage{textcomp}
+
+% avoid ugly indentation of paragraphs
+\usepackage{parskip}
+\usepackage{graphicx}
+
+% open sans font
+\usepackage[default,osfigures,scale=0.95]{opensans}
+
+% subfolder with the figures (within manuscript/)
+\graphicspath{ {./figures/} }
+
+% for author affiliations
+\usepackage{authblk}
+
+%allows inline citations
+\usepackage[round]{natbib}
+\bibliographystyle{plainnat}
+
+% for degree symbol
+\usepackage{gensymb}
+
+% for line numbers
+\usepackage{lineno}
+
+% margin size
+\usepackage{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=3cm,rmargin=3cm}
+
+% for bibtex
+% \usepackage{authordate1-4}
+% \bibliographystyle{authordate1}
+
+%allows subscripts in text mode
+\usepackage{fixltx2e}
+
+%allows rotation of table??
+\usepackage{rotating} 
+
+%allows alignment of caption to the left
+% \usepackage{caption} 
+% \captionsetup[table]{singlelinecheck=false}
+
+%allows not italic greek letters
+\usepackage{textgreek}
+
+%centers different heading styles (look at package detail for font info, etc)
+\usepackage{sectsty}
+  \chapterfont{\centering}
+  \sectionfont{\centering}
+  
+%set page numering to roman and then change once chapters start  
+\pagenumbering{roman}  
+
+%--------------------------------------------------------------------------------------------%
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+%--------------------------------------------------------------------------------------------%
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+        
+        \huge
+        \textbf{Resource allocation in Eucalpytus}
+        
+        \vspace{3.5cm}
+        
+        \Large
+        By\\
+        
+        \vspace{1cm}
+        
+        \LARGE
+        \textbf{Courtney Campany}
+        
+        \vfill
+        
+        A thesis submitted in fulfilment of the requirements \\
+        for the degree of Doctor of Philosophy\\
+        
+        \vspace{2.5cm}
+        
+        \includegraphics[width=0.4\textwidth]{WSU_HIE_Logo2.jpg}
+
+        2015
+        
+    \end{center}
+\end{titlepage}
+
+%--------------------------------------------------------------------------------------------%
+\section*{Acknowledgements}
+\thispagestyle{empty}
+        \vspace{1.5cm}
+        I wish to thank Jesus and my mom yo
+
+\clearpage
+%--------------------------------------------------------------------------------------------%
+\section*{}
+\thispagestyle{empty}
+    \begin{center}
+      \vspace*{7cm}
+        \LARGE
+        \textbf{Statement of Authentication}
+        \vspace{2.5cm}
+        
+        \normalsize
+        The work presented in this thesis is, to the best of my knowledge and belief, original\\
+        except as acknowledged in the text. I hereby declare that I have not submitted this\\
+        material, either in full or in part, for a degree at this or any other institution.\\
+        
+    \end{center}
+\clearpage
+
+%--------------------------------------------------------------------------------------------%
+\tableofcontents
+
+\setcounter{page}{4}
+\clearpage
+%--------------------------------------------------------------------------------------------%
+\section*{LIST OF TABLES}
+   
+\addcontentsline{toc}{section}{LIST OF TABLES}       
+\clearpage
+%--------------------------------------------------------------------------------------------%
+\section*{LIST OF FIGURES}
+  
+\addcontentsline{toc}{section}{LIST OF FIGURES}      
+\clearpage
+%--------------------------------------------------------------------------------------------%
+\section*{LIST OF ABBREVIATIONS}
+      
+\addcontentsline{toc}{section}{LIST OF ABBREVIATIONS}  
+\clearpage
+%--------------------------------------------------------------------------------------------%
+\section*{ABSTRACT}
+
+\addcontentsline{toc}{section}{ABSTRACT}      
+\clearpage
+%--------------------------------------------------------------------------------------------%
+\section*{CHAPTER 1 \\ \mbox{ }\\ GENERAL INTRODUCTION}
+\subsection*{BACKGROUND}
+\subsection*{LITERATURE REVIEW}
+\subsection*{THESIS OVERVIEW}
+
+\pagenumbering{arabic}
+\setcounter{page}{1}     
+\addcontentsline{toc}{section}{CHAPTER 1 GENERAL INTRODUCTION}
+\addcontentsline{toc}{subsection}{BACKGROUND}
+\addcontentsline{toc}{subsection}{LITERATURE REVIEW}
+\addcontentsline{toc}{subsection}{THESIS OVERVIEW}
+\clearpage
+%--------------------------------------------------------------------------------------------%
+
+\section*{CHAPTER 2 \\ \mbox{ }\\ Below-ground sink limitation alters growth and carbon balance of Eucalyptus seedlings}
+\subsection*{ABSTRACT}
+\subsection*{INTRODUCTION}
+\subsection*{MATERIALS AND METHODS}
+\subsection*{RESULTS}
+\subsection*{DISCUSSION}
+
+   
+\addcontentsline{toc}{section}{CHAPTER 2 BELOWGROUND SINK LIMITATION ALTERS GROWTH AND CARBON BALANCE OF EUCALYPTUS SEEDLINGS}
+\addcontentsline{toc}{subsection}{ABSTRACT}
+\addcontentsline{toc}{subsection}{INTRODUCTION}
+\addcontentsline{toc}{subsection}{MATERIALS AND METHODS}
+\addcontentsline{toc}{subsection}{RESULTSS}
+\addcontentsline{toc}{subsection}{DISCUSSION}
+\clearpage
+%--------------------------------------------------------------------------------------------%
+
+\section*{CHAPTER 3 \\ \mbox{ }\\ Rapid response of mesophyll conductance to light availability allows shade leaves to take advantage of sunflecks}
+\subsection*{ABSTRACT}
+\subsection*{INTRODUCTION}
+\subsection*{MATERIALS AND METHODS}
+\subsection*{RESULTS}
+\subsection*{DISCUSSION}
+
+   
+\addcontentsline{toc}{section}{CHAPTER 3 RAPID RESPONSE OF MESOPHYLL CONDUCTANCE TO LIGHT AVAILABILITY ALLOWS SHADE LEAVES TO TAKE ADVANTAGE OF SUNFLECKS}
+\addcontentsline{toc}{subsection}{ABSTRACT}
+\addcontentsline{toc}{subsection}{INTRODUCTION}
+\addcontentsline{toc}{subsection}{MATERIALS AND METHODS}
+\addcontentsline{toc}{subsection}{RESULTSS}
+\addcontentsline{toc}{subsection}{DISCUSSION}
+\clearpage
+%--------------------------------------------------------------------------------------------%
+
+\section*{CHAPTER 4 \\ \mbox{ }\\ Elevated atmospheric CO\textsubscript{2} and drought alter carbon allocation above but not belowground in \textit{Eucalyptus saligna}}
+\subsection*{ABSTRACT}
+\subsection*{INTRODUCTION}
+\subsection*{MATERIALS AND METHODS}
+\subsection*{RESULTS}
+\subsection*{DISCUSSION}
+
+\pagenumbering{arabic}
+\setcounter{page}{1}     
+\addcontentsline{toc}{section}{CHAPTER 1 ELEVATED ATMOSPHERIC CO\textsubscript{2} AND DROUGHT ALTER CARBON ALLOCATION ABOVE BUT NOT BELOWGROUND IN \textit{EUCALYPTUS SALIGNA}}
+\addcontentsline{toc}{subsection}{ABSTRACT}
+\addcontentsline{toc}{subsection}{INTRODUCTION}
+\addcontentsline{toc}{subsection}{MATERIALS AND METHODS}
+\addcontentsline{toc}{subsection}{RESULTSS}
+\addcontentsline{toc}{subsection}{DISCUSSION}
+\clearpage
+%--------------------------------------------------------------------------------------------%
+\section*{CHAPTER 5 \\ \mbox{ }\\ SYNTHESIS AND CONCLUSIONS}
+\subsection*{SYNTHESIS}
+\subsection*{CONCLUSIONS}
+
+\addcontentsline{toc}{section}{CHAPTER 1 GENERAL INTRODUCTION}
+\addcontentsline{toc}{subsection}{BACKGROUND}
+\clearpage
+%--------------------------------------------------------------------------------------------%
+\section*{APPENDIX A: SUPPLEMENTARY FIGURES AND TABLES}
+
+
+\addcontentsline{toc}{section}{APPENDIX A: \\ SUPPLEMENTARY FIGURES AND TABLES}
+\clearpage
+%--------------------------------------------------------------------------------------------%
+\section*{REFERENCES}
+
+\addcontentsline{toc}{section}{REFERENCES}
+
+%--------------------------------------------------------------------------------------------%
+\end{document}
