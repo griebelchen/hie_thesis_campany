@@ -119,7 +119,7 @@ How will biomass partitioning and carbon allocation in *Eucalyptus* trees be aff
 What do mass balance approaches reveal about the coordination of growth and photosynthesis at different temporal scales?
 
 \
-3.	**Are whole canopies optimized for carbon gain? **
+3.	**Are whole canopies optimized for carbon gain?**
 \
 How does resource availability within *Eucalyptus* tree canopies interact with dynamic physiology of sun and shade leaves to maximize canopy carbon gain?
 
