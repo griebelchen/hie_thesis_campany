@@ -23,8 +23,11 @@ opts_knit$set(root.dir = '../')
 
 ## Where does the C go?
 
+
 ## **When do photosynthesis and growth not add up?**
 
 ## **Are whole canopies optimized for carbon gain?**
 
 ## Conclusion
+
+# References {.unnumbered}
