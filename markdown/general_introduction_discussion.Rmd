@@ -17,6 +17,74 @@ library(knitr)
 opts_knit$set(root.dir = '../')
 ```
 
+# Acknowledgements
+## Statement of Authentication
+The work presented in this thesis is, to the best of my knowledge and belief, original
+except as acknowledged in the text. I hereby declare that I have not submitted this
+material, either in full or in part, for a degree at this or any other institution.
+## Table of Contents
+## LIST OF TABLES
+## LIST OF FIGURES
+
+# LIST OF ABBREVIATIONS
+
+*A~n~*  Net leaf photosynthesis rate
+A CO~2~ assimilation rate
+
+AC~i~ Photosynthetic CO2 response curves 
+A~sat Leaf net photosynthesis at saturating light
+A~max Leaf net photosynthesis at saturating light and CO~2~ concentration
+[CO~2~] CO~2~ concentration
+C~a~ Atmospheric CO~2~ concentration
+C~i~ Intercellular CO~2~ concentration (or parital pressure)
+C~c~
+E Leaf transpiration
+g~s~  Stomatal conductance
+g~m~  Mesophyll conductance
+LMA Leaf mass per unit area
+Vc~max Maximum rate of Rubisco carboxylation 
+J~max Naximum rate of photosynthetic electron transport 
+N  Nitrogen
+N~a~ Leaf nitrogen on an area basis
+C Carbon
+PPFD  Photosynthetic photon flux density
+Q~10~ Rate of change in respiration due to 10 &deg;C increase in temperature
+TNC Total non-structural carbohydrate
+TDL
+VPD Vapour pressure deficit
+VPDP standard Vienna Pee Dee Belemnite
+C~a~  Atmospheric CO~2~ concentration
+aC~a~
+eC~a~
+AT  Ambient air temperature treatment
+ET  Elevated air temperature treatment
+K hydraulic conductance 
+K~l~ Leaf-specific hydraulic conductance 
+ITE Leaf level instantaneous transpiration efficiency
+WTC whole-tree chambers
+$\delta$  isotope discrimination
+$$\Delta$$ Carbon isotope discrimination during C3 photosynthesis 
+$\Gamma_{*}$ compensation point in the absence of mitochondrial respiration
+R Leaf dark respiration rates
+R~d~ light respiration (?)
+t ternary effect corrections
+free  naturally planted
+LA Leaf area
+SLA Specific leaf area
+SLA~f~  TNC-free Specific leaf area
+M dry biomass
+A~c~ Component specific biomass partitioning
+C~day~ Predicted daily carbon assimilation
+$\sigma$~s~ Self shading parameter
+LMF Leaf mass fraction
+SMF Stem mass fraction
+RMF Root mass fraction
+N~f~
+$\Psi$~pd~  Predawn leaf water potential
+$\Psi$~l~ Midday leaf water potential
+M seedling growth model simulation
+FRLD Fine root length density
+TBCA Total belowground carbon allocation
 
 # Abstract 
 
