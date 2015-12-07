@@ -211,15 +211,11 @@ LMA Leaf mass per unit area
 \
 LMF Leaf mass fraction
 \
-M dry biomass????
-\
-M seedling growth model simulation????
-\
 N  Nitrogen
 \
 N~a~ Leaf nitrogen on an area basis
 \
-N~f~
+N~f~ TNC-free leaf nitrogen content
 \
 PPFD  Photosynthetic photon flux density
 \
