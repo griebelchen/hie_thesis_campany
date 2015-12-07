@@ -58,7 +58,7 @@ material, either in full or in part, for a degree at this or any other instituti
 **Table 3.2**. Responses of *Eucalyptus tereticornis* leaf gas exchange parameters for sun and shade leaves under ambient and elevated temperature treatments. Each value reflects the mean (&pm; 1 standard error) for each treatment across gas exchange campaigns (n=6). Units for A and E are $\mu$mol m^-2^ s^-1^, for g~s~ and g~m~ are mol m^-2^ s^-1^ and for VPD are kPa. Different letters represent significant differences between leaf type, light environment and temperature treatments. The P value represents the overall effect between each unique combination of leaf type, light environment and temperature treatment for each parameter.
 
 \
-**Table 4.1**. Final harvest C mass of above and belowground tissues, cumulative aboveground tree C uptake ($\text{F}_{c,T}$) and specific leaf area (SLA). Each value represents the mean (&pm; 1 standard error) for each treatment combination. Units for C mass and $\text{F}_{c,T}$ are g C, while SLA are cm^2^ g^-1^. For each variable, different letters represent significant differences between treatments from the overall model which includes C~a~ * drought interactions. P values represent overall differences of C~a~ or drought main effects and the C~a~ * drought interaction.
+**Table 4.1**. Final harvest C mass of above and belowground tissues, cumulative aboveground tree C uptake ($\text{F}_{c,T}$) and specific leaf area (SLA). Each value represents the mean (&pm; 1 standard error) for each treatment combination. Units for C mass and $\text{F}_{c,T}$ are g C, while SLA are cm^2^ g^-1^. For each variable, different letters represent significant differences between treatments from the overall model which includes CO~2~ * drought interactions. P values represent overall differences of CO~2~ or drought main effects and the CO~2~ * drought interaction.
 
 ## LIST OF FIGURES
 
@@ -153,7 +153,7 @@ Cumulative aboveground net C flux and additive C allocation of individual tree c
 \
 A~c~ Component specific biomass partitioning??
 \
-aC~a~ Ambeint CO~2~ treatment
+aC~a~ Ambient CO~2~ treatment
 \
 AC~i~ Photosynthetic CO2 response curves 
 \
@@ -165,9 +165,9 @@ AT  Ambient air temperature treatment
 \
 C Carbon
 \
-[CO~2~] CO~2~ concentration
+[CO~2~]   CO~2~ concentration
 \
-C~a~ Atmospheric CO~2~ concentration
+C~a~  Atmospheric CO~2~ concentration
 \
 $\text{C}_{ab}$ Aboveground standing crop C mass
 \
