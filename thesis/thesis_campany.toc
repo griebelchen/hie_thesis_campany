@@ -12,18 +12,21 @@
 \contentsline {subsection}{MATERIALS AND METHODS}{2}
 \contentsline {subsection}{RESULTSS}{2}
 \contentsline {subsection}{DISCUSSION}{2}
+\contentsline {subsection}{SUPPORTING INFORMATION}{2}
 \contentsline {section}{CHAPTER 3 RAPID RESPONSE OF MESOPHYLL CONDUCTANCE TO LIGHT AVAILABILITY ALLOWS SHADE LEAVES TO TAKE ADVANTAGE OF SUNFLECKS}{3}
 \contentsline {subsection}{ABSTRACT}{3}
 \contentsline {subsection}{INTRODUCTION}{3}
 \contentsline {subsection}{MATERIALS AND METHODS}{3}
 \contentsline {subsection}{RESULTSS}{3}
 \contentsline {subsection}{DISCUSSION}{3}
+\contentsline {subsection}{SUPPORTING INFORMATION}{3}
 \contentsline {section}{CHAPTER 1 ELEVATED ATMOSPHERIC CO\textsubscript {2} AND DROUGHT ALTER CARBON ALLOCATION ABOVE BUT NOT BELOWGROUND IN \textit {EUCALYPTUS SALIGNA}}{1}
 \contentsline {subsection}{ABSTRACT}{1}
 \contentsline {subsection}{INTRODUCTION}{1}
 \contentsline {subsection}{MATERIALS AND METHODS}{1}
 \contentsline {subsection}{RESULTSS}{1}
 \contentsline {subsection}{DISCUSSION}{1}
+\contentsline {subsection}{SUPPORTING INFORMATION}{1}
 \contentsline {section}{CHAPTER 1 GENERAL INTRODUCTION}{2}
 \contentsline {subsection}{BACKGROUND}{2}
 \contentsline {section}{APPENDIX A: \\ SUPPLEMENTARY FIGURES AND TABLES}{3}

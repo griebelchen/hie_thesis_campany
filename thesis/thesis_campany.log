@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.8)  23 OCT 2015 16:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.8)  8 DEC 2015 18:55
 entering extended mode
 **thesis_campany.tex
 (C:\Users\90919620\github_repos\hie_thesis_campany\thesis\thesis_campany.tex
@@ -528,13 +528,13 @@ LaTeX Font Info:    Font shape `TS1/fosj/m/n' will be
 LaTeX Font Info:    Font shape `TS1/fosj/m/n' will be
 (Font)              scaled to size 4.74998pt on input line 6.
 LaTeX Font Info:    Font shape `T1/fosj/bx/n' in size <7> not available
-(Font)              Font shape `T1/fosj/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/fosj/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `T1/fosj/b/n' will be
-(Font)              scaled to size 6.64998pt on input line 21.
+(Font)              scaled to size 6.64998pt on input line 23.
 LaTeX Font Info:    Font shape `T1/fosj/bx/it' in size <10> not available
-(Font)              Font shape `T1/fosj/b/it' tried instead on input line 21.
+(Font)              Font shape `T1/fosj/b/it' tried instead on input line 23.
 LaTeX Font Info:    Font shape `T1/fosj/b/it' will be
-(Font)              scaled to size 9.49997pt on input line 21.
+(Font)              scaled to size 9.49997pt on input line 23.
 )
 \tf@toc=\write4
 
@@ -563,11 +563,11 @@ LaTeX Font Info:    Font shape `T1/fosj/b/n' will be
 
 ]
 LaTeX Font Info:    Font shape `TS1/fosj/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 198.
+(Font)              scaled to size 13.67995pt on input line 202.
 LaTeX Font Info:    Font shape `T1/fosj/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/fosj/b/it' tried instead on input line 198.
+(Font)              Font shape `T1/fosj/b/it' tried instead on input line 202.
 LaTeX Font Info:    Font shape `T1/fosj/b/it' will be
-(Font)              scaled to size 13.67995pt on input line 198.
+(Font)              scaled to size 13.67995pt on input line 202.
  [1
 
 ] [2
@@ -582,7 +582,7 @@ LaTeX Font Info:    Font shape `T1/fosj/b/it' will be
 Here is how much of TeX's memory you used:
  5641 strings out of 493921
  83179 string characters out of 3147273
- 124731 words of memory out of 3000000
+ 125731 words of memory out of 3000000
  8778 multiletter control sequences out of 15000+200000
  70925 words of font info for 91 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -594,7 +594,7 @@ pensans/opensans-01.enc}<C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/typ
 e1/public/opensans/OpenSans-Bold.pfb><C:/Users/90919620/AppData/Roaming/MiKTeX/
 2.9/fonts/type1/public/opensans/OpenSans-BoldItalic.pfb><C:/Users/90919620/AppD
 ata/Roaming/MiKTeX/2.9/fonts/type1/public/opensans/OpenSans-Regular.pfb>
-Output written on thesis_campany.pdf (15 pages, 3647343 bytes).
+Output written on thesis_campany.pdf (15 pages, 3647616 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
