@@ -1,7 +1,4 @@
 ###reproducibility notes
 
+#1. alternate between two manuscript syyle docx files for thesis formatting
 
-###references
-
-#1. subscripts wiht co2:  in bibtex file (in R) replace CO2 with CO_2
-#2. italics use textit{}, for now cannot use this in citation software (medendely or zotero)
