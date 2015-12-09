@@ -8,8 +8,6 @@ output:
   pdf_document: default
   html_document:
     number_sections: yes
-csl: tree-physiology.csl
-bibliography: references.bib
 ---
 
 ```{r, results="asis", echo=FALSE, warning=FALSE}
@@ -17,28 +15,65 @@ library(knitr)
 opts_knit$set(root.dir = '../')
 ```
 
+\
+\
+**Resource allocation *Eucalpytus***
+\
+\
+\
+\
+**By**
+
+\
+**Courtney Campany**
+\
+\
+\
+\
+**A thesis submitted in fulfilment of the requirements**
+\
+**for the degree of Doctor of Philosophy**
+\
+\
+\
+```{r concept, echo=FALSE, error=TRUE,fig.width=3, fig.height=2,dev="png", dpi=600, dev.args=list(type="cairo")}
+library(png)
+concept <- readPNG("thesis/WSU_HIE_Logo3.png")
+par(mar=c(0,0,0,0))
+plot(c(0,1),c(0,1), type="n", axes=F, xlab="", ylab="")
+rasterImage(concept, xleft = 0, ybottom = 0, xright = 1, ytop =1)
+
+```
+
+\
+**2015**
+
 # Acknowledgements
 
-“I am the Lorax. I speak for the trees. I speak for the trees for the trees have no tongues.”
---Dr. Seuss
+<!-- “I am the Lorax. I speak for the trees. I speak for the trees for the trees have no tongues.” -->
+<!-- --Dr. Seuss -->
 
-\
-I dedicate this thesis to my mother, for she has been my inspiration to become a scientist for as long as I can remember. Her passion for the natural world is infectious and her ability to pass her scientific knowledge to others is inspirational. It is because of you that I flip over rocks to see what is hiding underneath.
+<!-- \ -->
+<!-- I dedicate this thesis to my mother, for she has been my inspiration to become a scientist for as long as I can remember. Her passion for the natural world is infectious and her ability to pass her scientific knowledge to others is inspirational. It is because of you that I flip over rocks to see what is hiding underneath. -->
 
-\
-I would equally like to acknowledge my father for instilling in me the work ethic and drive that has carried me to this point. Without his undying support I might never have achieved the level of success I have been afforded. You share in all my triumphs and my failures as a
+<!-- \ -->
+<!-- I would equally like to acknowledge my father for instilling in me the work ethic and drive that has carried me to this point. Without his undying support I might never have achieved the level of success I have been afforded. You share in all my triumphs and my failures as a -->
 
-\
-To Caroline, none of this would be possible without you by my side. You have been a rock when I need a foundation and a light when my path seems lost. Je t'aime.
+<!-- \ -->
+<!-- To Caroline, none of this would be possible without you by my side. You have been a rock when I need a foundation and a light when my path seems lost. Je t'aime. -->
 
 # Statement of Authentication
+\
+\
+\
+\
 The work presented in this thesis is, to the best of my knowledge and belief, original
 except as acknowledged in the text. I hereby declare that I have not submitted this
 material, either in full or in part, for a degree at this or any other institution.
 
-## Table of Contents
+# Table of Contents
 
-## LIST OF TABLES
+# LIST OF TABLES
 
 **Table 2.1**.Responses of plant and leaf characteristics of *Eucalyptus tereticornis* seedlings to soil volume treatments. Each value reflects the mean(standard error) for each treatment. Seedling mass and leaf $\delta$^13^C values are from final harvest. Values of leaf starch, sugars, nitrogen and SLA represent overall means across measurement campaigns (n=6). Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings.
 
@@ -60,7 +95,7 @@ material, either in full or in part, for a degree at this or any other instituti
 \
 **Table 4.1**. Final harvest C mass of above and belowground tissues, cumulative aboveground tree C uptake ($\text{F}_{c,T}$) and specific leaf area (SLA). Each value represents the mean (&pm; 1 standard error) for each treatment combination. Units for C mass and $\text{F}_{c,T}$ are g C, while SLA are cm^2^ g^-1^. For each variable, different letters represent significant differences between treatments from the overall model which includes CO~2~ * drought interactions. P values represent overall differences of CO~2~ or drought main effects and the CO~2~ * drought interaction.
 
-## LIST OF FIGURES
+# LIST OF FIGURES
 
 **Figure 2.1**. Soil volume treatment means &pm; standard error of height growth (a), diameter growth (b), and interpolated seedling leaf area (c) measured weekly of *Eucalyptus tereticornis* seedlings across the experiment duration in 2013.
 
@@ -155,7 +190,7 @@ A~c~ Component specific biomass partitioning??
 \
 aC~a~ Ambient CO~2~ treatment
 \
-AC~i~ Photosynthetic CO2 response curves 
+AC~i~ Photosynthetic CO~2~ response curves 
 \
 A~sat Leaf net photosynthesis at saturating light
 \
@@ -201,7 +236,7 @@ g~m~  Mesophyll conductance
 \
 ITE Leaf level instantaneous transpiration efficiency
 \
-J~max Maximum rate of photosynthetic electron transport 
+J~max~ Maximum rate of photosynthetic electron transport 
 \
 K~l~ Leaf-specific hydraulic conductance 
 \
@@ -237,7 +272,7 @@ TNC Total non-structural carbohydrate
 \
 TDL Tunable diode laser
 \
-Vc~max Maximum rate of Rubisco carboxylation 
+Vc~max~ Maximum rate of rubisco carboxylation 
 \
 VPD Vapour pressure deficit
 \
@@ -265,7 +300,7 @@ Plants must utilize external resources including light, CO~2~, water and mineral
 First, I determined whether manipulations of soil volume would limit growth in *Eucalyptus tereticornis* seedlings by disrupting the balance between source and sink activity. Seedlings were grown in a large range of container sizes and planted flush to the soil alongside naturally planted seedlings ('free').  Aboveground growth of seedlings in containers was negatively affected compared to free seedlings soon after the experiment started. Despite large reductions in growth across soil volume treatments, relative partitioning of mass to leaves, stems and roots was similar for all seedlings after 120 days. Leaf photosynthetic capacity decreased in containers compared to free seedlings, and was correlated to both leaf nitrogen (N) content and starch accumulation. Although belowground sink limitation resulted in a reduction of net leaf photosynthesis (*A~n~*), a mass balance model concluded that these reductions were not large enough to explain observed growth responses. As *A~n~* and growth were not tightly coordinated, the model predicted excess photosynthetic C not attributed to biomass in potted seedlings. Quantifying the fate of this excess C will be essential in evaluating feed-backs between sink strength and leaf C uptake in future studies.
 
 \
-Second, I investigated how light gradients within *Eucalyptus tereticornis* tree canopies affect the distribution of resources that define photosynthetic capacity of sun and shade leaves. Trees were grown in climate-controlled  whole tree chambers under prevailing ambient and warmed (+3 °C) treatments and leaf gas exchange was coupled with online C isotope discrimination to measure *A~n~*, stomatal conductance (g~s~) and mesophyll conductance (g~m~) of sun and shade leaves. Photosynthesis rates were reduced by ca. 40 % in shade leaves associated with a 75 % reduction in photosynthetically active radiation compared to sun leaves. Photosynthetic capacity (ca. 20 % lower Vcmax and Jmax) and leaf N were also lower in shade leaves than sun leaves however, g~s~ was similar. Leaf C~i~, estimated from both leaf $\delta$^13^C and gas exchange, was higher in shade leaves than sun leaves. Here, the optimization theory hypothesis that C~i~ should be optimized throughout the canopy was rejected because water use efficiency was lower in shade leaves, compared to sun leaves. When light intensity was increased from low light to high light for shade leaves both g~s~ and g~m~ increased rapidly, leading to increases in *A~n~* greater than sun leaves at the same high light environment. This rapid response of g~m~ with light enables shade leaves to respond quickly to sunflecks and represents a new mechanism underpinning leaf gas exchange responses to light. This capacity of shade leaves to adjust their physiological behavior and increase C uptake when sunflecks occur likely plays significant role in whole tree C uptake for some tree species. These findings reveal that plant resources within a canopy may be distributed to utilize sunflecks and the dynamic physiological responses of shade leaves to altered light environments must be accounted for when up-scaling leaf level measurements to predict whole canopy C gain. 
+Second, I investigated how light gradients within *Eucalyptus tereticornis* tree canopies affect the distribution of resources that define photosynthetic capacity of sun and shade leaves. Trees were grown in climate-controlled  whole tree chambers under prevailing ambient and warmed (+3 °C) treatments and leaf gas exchange was coupled with online C isotope discrimination to measure *A~n~*, stomatal conductance (g~s~) and mesophyll conductance (g~m~) of sun and shade leaves. Photosynthesis rates were reduced by ca. 40 % in shade leaves associated with a 75 % reduction in photosynthetically active radiation compared to sun leaves. Photosynthetic capacity (ca. 20 % lower Vc~max~ and J~max~) and leaf N were also lower in shade leaves than sun leaves however, g~s~ was similar. Leaf C~i~, estimated from both leaf $\delta$^13^C and gas exchange, was higher in shade leaves than sun leaves. Here, the optimization theory hypothesis that C~i~ should be optimized throughout the canopy was rejected because water use efficiency was lower in shade leaves, compared to sun leaves. When light intensity was increased from low light to high light for shade leaves both g~s~ and g~m~ increased rapidly, leading to increases in *A~n~* greater than sun leaves at the same high light environment. This rapid response of g~m~ with light enables shade leaves to respond quickly to sunflecks and represents a new mechanism underpinning leaf gas exchange responses to light. This capacity of shade leaves to adjust their physiological behavior and increase C uptake when sunflecks occur likely plays significant role in whole tree C uptake for some tree species. These findings reveal that plant resources within a canopy may be distributed to utilize sunflecks and the dynamic physiological responses of shade leaves to altered light environments must be accounted for when up-scaling leaf level measurements to predict whole canopy C gain. 
 
 \
 Finally, I examined how net aboveground C uptake correlated to tree biomass growth and whether elevated [CO~2~] and drought treatments altered C allocation patterns above or belowground in *Eucalyptus saligna* trees. Trees were grown in climate-controlled whole tree chambers (WTCs) over a period of two years with interacting treatments of two [CO~2~] (380 ppm and 620 ppm) and two watering regimes (well-watered and a four-month drought). Additionally, we utilized a novel approach to calculate total belowground C allocation (TBCA) for each WTC as the residual between the aboveground net CO~2~ uptake and aboveground C mass. Measured cumulative aboveground net C uptake correlated positively to whole tree C mass production and leaf area over the final eleven months of the experiment. Contrary to previous studies, cumulative TBCA was unaffected by either elevated CO~2~ or drought treatments. As a fraction of total aboveground net C uptake, TBCA was also found to remain relatively stable across daily time steps for all trees. Increases in C allocation to leaves were detected in elevated CO~2~ treatments, while the effects of a 4 month drought were negligible on C allocation in aboveground tissues.  These results reveal how climate change factors impact the investment of photosynthetic C in a *Eucalyptus* tree species and provide evidence that belowground processes may not be as sensitive to global change factors as previously thought. 
