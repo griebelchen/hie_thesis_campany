@@ -16,7 +16,7 @@ opts_knit$set(root.dir = '../')
 ```
 
 \
-**Resource allocation *Eucalpytus***
+**Resource allocation in *Eucalyptus***
 \
 \
 \
@@ -188,9 +188,9 @@ aC~a~ Ambient CO~2~ treatment
 \
 AC~i~ Photosynthetic CO~2~ response curves 
 \
-A~sat Leaf net photosynthesis at saturating light
+A~sat~ Leaf net photosynthesis at saturating light
 \
-A~max Leaf net photosynthesis at saturating light and CO~2~ concentration
+A~max~ Leaf net photosynthesis at saturating light and CO~2~ concentration
 \
 AT  Ambient air temperature treatment
 \
@@ -272,13 +272,13 @@ Vc~max~ Maximum rate of rubisco carboxylation
 \
 VPD Vapour pressure deficit
 \
-VPDP standard Vienna Pee Dee Belemnite
+VPDP Standard Vienna Pee Dee Belemnite
 \
 WUE Water-use efficiency
 \
-WTC whole-tree chambers
+WTC Whole-tree chambers
 \
-$\delta$  isotope discrimination
+$\delta$  Isotope discrimination
 \
 $\Delta$ Carbon isotope discrimination during C3 photosynthesis 
 \
