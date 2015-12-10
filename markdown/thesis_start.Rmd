@@ -46,17 +46,17 @@ rasterImage(concept, xleft = 0, ybottom = 0, xright = 1, ytop =1)
 
 # Acknowledgements
 
-<!-- “I am the Lorax. I speak for the trees. I speak for the trees for the trees have no tongues.” -->
-<!-- --Dr. Seuss -->
+“I am the Lorax. I speak for the trees. I speak for the trees for the trees have no tongues.”
+--Dr. Seuss
 
-<!-- \ -->
-<!-- I dedicate this thesis to my mother, for she has been my inspiration to become a scientist for as long as I can remember. Her passion for the natural world is infectious and her ability to pass her scientific knowledge to others is inspirational. It is because of you that I flip over rocks to see what is hiding underneath. -->
+\
+I dedicate this thesis to my mother, for she has been my inspiration to become a scientist for as long as I can remember. Her passion for the natural world is infectious and her ability to pass her scientific knowledge to others is inspirational. It is because of you that I flip over rocks to see what is hiding underneath.
 
-<!-- \ -->
-<!-- I would equally like to acknowledge my father for instilling in me the work ethic and drive that has carried me to this point. Without his undying support I might never have achieved the level of success I have been afforded. You share in all my triumphs and my failures as a -->
+\
+I would equally like to acknowledge my father for instilling in me the work ethic and drive that has carried me to this point. Without his undying support I might never have achieved the level of success I have been afforded.
 
-<!-- \ -->
-<!-- To Caroline, none of this would be possible without you by my side. You have been a rock when I need a foundation and a light when my path seems lost. Je t'aime. -->
+\
+À Caroline, rien de tout ça n’aurait été possible sans que tu sois à mes côtés. Tu as été un roc quand j’avais besoin d’ancrage et une lumière quand mon chemin semblait perdu.”
 
 ## Statement of Authentication
 \
@@ -66,6 +66,8 @@ rasterImage(concept, xleft = 0, ybottom = 0, xright = 1, ytop =1)
 The work presented in this thesis is, to the best of my knowledge and belief, original
 except as acknowledged in the text. I hereby declare that I have not submitted this
 material, either in full or in part, for a degree at this or any other institution.
+
+# Preface
 
 # Table of Contents
 
