@@ -16,17 +16,14 @@ opts_knit$set(root.dir = '../')
 ```
 
 \
-\
 **Resource allocation *Eucalpytus***
 \
 \
 \
-\
-**By**
+By
 
 \
 **Courtney Campany**
-\
 \
 \
 \
@@ -34,8 +31,7 @@ opts_knit$set(root.dir = '../')
 \
 **for the degree of Doctor of Philosophy**
 \
-\
-\
+
 ```{r concept, echo=FALSE, error=TRUE,fig.width=3, fig.height=2,dev="png", dpi=600, dev.args=list(type="cairo")}
 library(png)
 concept <- readPNG("thesis/WSU_HIE_Logo3.png")
@@ -62,7 +58,7 @@ rasterImage(concept, xleft = 0, ybottom = 0, xright = 1, ytop =1)
 <!-- \ -->
 <!-- To Caroline, none of this would be possible without you by my side. You have been a rock when I need a foundation and a light when my path seems lost. Je t'aime. -->
 
-# Statement of Authentication
+## Statement of Authentication
 \
 \
 \
