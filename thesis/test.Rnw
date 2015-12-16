@@ -1,0 +1,85 @@
+
+\documentclass[a4paper]{article}
+
+%--- Load packages. 
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{framed}
+\usepackage{textcomp}
+% for permil
+\usepackage{wasysym}
+
+% avoid ugly indentation of paragraphs
+\usepackage{parskip}
+\usepackage{graphicx}
+
+% open sans font
+\usepackage[default,osfigures,scale=0.95]{opensans}
+
+% subfolder with the figures (within manuscript/)
+\graphicspath{ {./figures/} }
+
+% for author affiliations
+\usepackage{authblk}
+
+%allows inline citations
+\usepackage[round]{natbib}
+\bibliographystyle{plainnat}
+%include bib in TOC
+\usepackage[nottoc]{tocbibind}
+
+
+% for degree symbol
+\usepackage{gensymb}
+
+% for line numbers
+\usepackage{lineno}
+
+% margin size
+\usepackage{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=3cm,rmargin=3cm}
+
+% for bibtex
+% \usepackage{authordate1-4}
+% \bibliographystyle{authordate1}
+
+%allows subscripts in text mode
+\usepackage{fixltx2e}
+
+%allows rotation of table??
+\usepackage{rotating} 
+
+%allows alignment of caption to the left
+% \usepackage{caption} 
+% \captionsetup[table]{singlelinecheck=false}
+
+%allows not italic greek letters
+\usepackage{textgreek}
+
+%centers different heading styles (look at package detail for font info, etc)
+\usepackage{sectsty}
+  \chapterfont{\centering}
+  \sectionfont{\centering}
+  
+%set page numering to roman and then change once chapters start  
+\pagenumbering{roman}  
+
+%--------------------------------------------------------------------------------------------%
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+%--------------------------------------------------------------------------------------------%
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+
+As woody plants have competing tissue carbohydrate sinks, growth should principally depend on the allocation of leaf C assimilate among different sink organs \citep{kozlowski1992carbohydrate, lacointe2000carbon}. In response to changing environmental conditions, however, trees may adaptively shift tissue C allocation to balance growth, storage and C loss. Due to conservation of mass, it is theoretically possible to track the fates of this assimilate from leaf C uptake to their eventual destination in above and belowground pools. Although mass balance approaches can be used to quantitatively asses tree C allocation, few studies so far have been able to provide direct empirical measurements of C allocation among component pools \citep{klein2015}.
+
+
+\medskip
+ 
+\bibliography{references}
+
+
+\end{document}
