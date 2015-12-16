@@ -184,15 +184,13 @@ Cumulative aboveground net C flux and additive C allocation of individual tree c
 
 *A~n~*  Net leaf photosynthesis rate
 \
-A~c~ Component specific biomass partitioning??
-\
 aC~a~ Ambient CO~2~ treatment
 \
 AC~i~ Photosynthetic CO~2~ response curves 
 \
-A~sat~ Leaf net photosynthesis at saturating light
-\
 A~max~ Leaf net photosynthesis at saturating light and CO~2~ concentration
+\
+A~sat~ Leaf net photosynthesis at saturating light
 \
 AT  Ambient air temperature treatment
 \
@@ -218,7 +216,7 @@ eC~a~ Elevated CO~2~ treatment
 \
 ET  Elevated air temperature treatment
 \
-FACE Free-air C0~2~ enrichment experiments
+FACE Free-air CO~2~ enrichment experiments
 \
 $\text{F}_{c}$  Net aboveground carbon uptake
 \
