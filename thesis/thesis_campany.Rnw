@@ -70,6 +70,13 @@
 \begin{document}
 \SweaveOpts{concordance=TRUE}
 
+
+<<preload, echo=FALSE>>=
+library(knitr)
+opts_chunk$set(echo=FALSE)
+@
+
+
 %--------------------------------------------------------------------------------------------%
 
 \begin{titlepage}
@@ -512,11 +519,77 @@ Science is driven by data, yet it is a challenge to ensure that reported experim
 \clearpage
 %--------------------------------------------------------------------------------------------%
 
+% Load data for tables chapter 2
+<<echo=FALSE, message=FALSE, warning=FALSE>>=
+library(xtable)
+pve_tab1 <- read.csv("data/pve_table1.csv")
+
+colnames(pve_tab1) <- c("Volume (L)",
+                        "Seedling~mass~(g)",
+                        "SLA\\textsubscript{TNC-free}~(m\\textsuperscript{2}~kg\\textsuperscript{-1})",
+                        "Leaf~Starch~(\\%)",
+                        "Leaf~Sugars~(\\%)",
+                        "Leaf~Nitrogen{TNC-free}~(\\%)",
+                        "{Leaf~\\textdelta}\\textsuperscript{13}C~(\\text{\\textperthousand})")
+
+pve_tab2 <- read.csv("data/root_table.csv")
+colnames(pve_tab2) <- c("Root~Nitrogen~(\\%)",
+                        "SRL~(cm~m\\textsuperscript{-1})",
+                        "FRLD~(m~dm\\textsuperscript{-3})")
+
+
+pve_tab3 <- read.csv("data/pve_table2.csv")
+colnames(pve_tab3) <- c("Volume~(L)",
+                        "\\textit{A}\\textsubscript{max}~(\\textmugreek}mol~m\\textsuperscript{-2}~s\\textsuperscript{-1})",
+                        "\\textit{R}\\textsubscript{dark}~(\\textmugreek}mol~m\\textsuperscript{-2}~s\\textsuperscript{-1})",
+                        "\\textit{J}\\textsubscript{max}",
+                        "\\textit{Vc}\\textsubscript{max}",
+                        "\\textit{g}\\textsubscript{s}~(mol~m\\textsuperscript{-1}~s\\textsuperscript{-1})",
+                        "\\textit{g}\\textsubscript{1}")
+
+
+
+@
+
 \section*{CHAPTER 2 \\ \mbox{ }\\ Below-ground sink limitation alters growth and carbon balance of Eucalyptus seedlings}
 \subsection*{ABSTRACT}
 \subsection*{INTRODUCTION}
 \subsection*{MATERIALS AND METHODS}
 \subsection*{RESULTS}
+
+<<results=verbatim, echo=FALSE,message=FALSE, warning=FALSE>>=
+  datatab1 <- xtable(pve_tab1, label="table:Table1")
+
+  print(datatab1, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
+        floating.environment='sidewaystable', caption.placement="top",
+         hline.after = getOption("xtable.hline.after", c(-1,0,7,nrow(datatab1))))
+
+@
+
+
+%' %' %pvetable2
+%' <<results='asis'>>=
+%' phystab <- xtable(pve_tab2, label="table:Table2",caption="Responses of root characteristics of \\textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean (\\pm~1 standard error) for each treatment. All values are from the final harvest. Values for FRLD were only calculated for seedlings in containers as free seedlings had potentially unlimited soil volume to exploit. Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings, except for FRLD which represents only differences between seedlings in containers.")
+%' 
+%' print(pve_tab2, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
+%'       floating.environment='sidewaystable',caption.placement="top",
+%'        hline.after = getOption("xtable.hline.after", c(-1,0,7,nrow(datatab))))
+%' @
+%' 
+%' 
+%' %pvetable3
+%' <<results='asis'>>=
+%' phystab <- xtable(pve_tab3, label="table:Table2",caption="Responses of leaf level gas exchange parameters of \\textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean (\\pm~1 standard error) for each treatment. \\textit{A}\\textsubscript{max}, \\textit{R}\\textsubscript{dark} and \\textit{g}\\textsubscript{s} are each measured at 25$\\degree$C. Values of \\textit{A}\\textsubscript{max}, \\textit{g}\\textsubscript{s} and \\textit{g}\\textsubscript{1} represent overall means across measurement campaigns (n=6). \\textit{R}\\textsubscript{dark}, \\textit{J}\\textsubscript{max} and \\textit{Vc}\\textsubscript{max} values are means of two measurement campaigns at beginning and end of gas exchange measurements. Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings.")
+%' 
+%' print(pve_tab3, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
+%'       floating.environment='sidewaystable',caption.placement="top",
+%'        hline.after = getOption("xtable.hline.after", c(-1,0,7,nrow(datatab))))
+%' @
+%' 
+%' 
+% , caption="Responses of plant and leaf characterisitics of \\textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean (\\pm~1 standard error) for each treatment. Seedling mass and leaf \\textdelta\\textsuperscript{13}C values are from final harvest. Values of leaf starch, sugars, nitrogen and SLA represent overall means across measurement campaigns (n=6). Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings."
+
+
 \subsection*{DISCUSSION}
 \subsection*{SUPPORTING INFORMATION}
 
@@ -626,4 +699,9 @@ Second, aspects of leaf physiology and C allocation in these \textit{Eucalyptus}
 
 \addcontentsline{toc}{section}{REFERENCES}
 %--------------------------------------------------------------------------------------------%
+% \clearpage
+% \bibliography{references}
+
+
+
 \end{document}

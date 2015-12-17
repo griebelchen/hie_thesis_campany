@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.8)  16 DEC 2015 16:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.8)  17 DEC 2015 11:11
 entering extended mode
 **thesis_campany.tex
 (C:\Users\90919620\github_repos\hie_thesis_campany\thesis\thesis_campany.tex
@@ -517,33 +517,33 @@ Package gensymb Info: Using \textmu for \micro on input line 71.
 (C:\Users\90919620\github_repos\hie_thesis_campany\thesis\thesis_campany-concor
 dance.tex)
 LaTeX Font Info:    Font shape `T1/fosj/m/n' will be
-(Font)              scaled to size 19.70294pt on input line 80.
+(Font)              scaled to size 19.70294pt on input line 83.
 LaTeX Font Info:    Font shape `T1/fosj/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/fosj/b/n' tried instead on input line 81.
+(Font)              Font shape `T1/fosj/b/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `T1/fosj/b/n' will be
-(Font)              scaled to size 19.70294pt on input line 81.
+(Font)              scaled to size 19.70294pt on input line 84.
 LaTeX Font Info:    Font shape `T1/fosj/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 85.
+(Font)              scaled to size 13.67995pt on input line 88.
 LaTeX Font Info:    Font shape `T1/fosj/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 90.
+(Font)              scaled to size 16.41594pt on input line 93.
 LaTeX Font Info:    Font shape `T1/fosj/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/fosj/b/n' tried instead on input line 91.
+(Font)              Font shape `T1/fosj/b/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `T1/fosj/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 91.
+(Font)              scaled to size 16.41594pt on input line 94.
  <WSU_HIE_Logo2.jpg, id=2, 5928.1475pt x 3970.835pt>
 File: WSU_HIE_Logo2.jpg Graphic file (type jpg)
 
 <use WSU_HIE_Logo2.jpg>
-Package pdftex.def Info: WSU_HIE_Logo2.jpg used on input line 100.
+Package pdftex.def Info: WSU_HIE_Logo2.jpg used on input line 103.
 (pdftex.def)             Requested size: 170.71393pt x 114.3333pt.
  [1
 
 {C:/Users/90919620/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users
 /90919620/github_repos/hie_thesis_campany/thesis/WSU_HIE_Logo2.jpg>]
 LaTeX Font Info:    Font shape `T1/fosj/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/fosj/b/n' tried instead on input line 108.
+(Font)              Font shape `T1/fosj/b/n' tried instead on input line 111.
 LaTeX Font Info:    Font shape `T1/fosj/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 108.
+(Font)              scaled to size 13.67995pt on input line 111.
  [1] [2
 
 ]
@@ -593,50 +593,50 @@ LaTeX Font Info:    Font shape `T1/fosj/b/it' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/fosj/m/it' will be
-(Font)              scaled to size 9.49997pt on input line 138.
-LaTeX Font Info:    Try loading font information for LGR+fosj on input line 138
+(Font)              scaled to size 9.49997pt on input line 141.
+LaTeX Font Info:    Try loading font information for LGR+fosj on input line 141
 .
  (C:\Users\90919620\AppData\Roaming\MiKTeX\2.9\tex\latex\opensans\lgrfosj.fd
 File: lgrfosj.fd 2011/11/11 Fontinst v1.927 font definitions for LGR/fosj.
 )
 LaTeX Font Info:    Font shape `LGR/fosj/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 138.
+(Font)              scaled to size 9.49997pt on input line 141.
 LaTeX Font Info:    Font shape `T1/fosj/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 138.
+(Font)              scaled to size 6.64998pt on input line 141.
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--157
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--157
+Underfull \hbox (badness 10000) in paragraph at lines 141--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--157
+Underfull \hbox (badness 10000) in paragraph at lines 141--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--157
+Underfull \hbox (badness 10000) in paragraph at lines 141--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--157
+Underfull \hbox (badness 10000) in paragraph at lines 141--160
 
  []
 
 
-Overfull \hbox (5.79878pt too wide) in paragraph at lines 138--157
+Underfull \hbox (badness 10000) in paragraph at lines 141--160
+
+ []
+
+
+Overfull \hbox (5.79878pt too wide) in paragraph at lines 141--160
 \T1/fosj/m/n/10 leaves un-der am-bi-ent and el-e-vated tem-per-a-ture treat-men
 ts. Each value re-flects the mean ($\OMS/cmsy/m/n/10 $ \T1/fosj/m/n/10 1 stan-
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--157
+Underfull \hbox (badness 10000) in paragraph at lines 141--160
 
  []
 
@@ -645,144 +645,144 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--157
 ]
 
 Package natbib Warning: Citation `evans1986carbon' on page vi undefined on inpu
-t line 199.
+t line 202.
 
 
 Package natbib Warning: Citation `barton2012effects' on page vi undefined on in
-put line 223.
+put line 226.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--247
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--250
 
  []
 
@@ -790,273 +790,273 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--247
 
 ] [7] [8] [9]
 LaTeX Font Info:    Font shape `T1/fosj/m/it' will be
-(Font)              scaled to size 6.64998pt on input line 253.
+(Font)              scaled to size 6.64998pt on input line 256.
 LaTeX Font Info:    Font shape `T1/fosj/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 277.
+(Font)              scaled to size 4.74998pt on input line 280.
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--410
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--413
 
  []
 
 [10
 
 ] [11]
-Overfull \hbox (3.92682pt too wide) in paragraph at lines 418--420
+Overfull \hbox (3.92682pt too wide) in paragraph at lines 421--423
 \T1/fosj/m/n/10 in a large range of con-tainer sizes and planted flush to the s
 oil along-side nat-u-rally planted seedlings
  []
@@ -1065,366 +1065,371 @@ oil along-side nat-u-rally planted seedlings
 
 ] [13]
 LaTeX Font Info:    Font shape `T1/fosj/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 434.
+(Font)              scaled to size 11.39996pt on input line 437.
 LaTeX Font Info:    Font shape `T1/fosj/bx/n' in size <12> not available
-(Font)              Font shape `T1/fosj/b/n' tried instead on input line 434.
+(Font)              Font shape `T1/fosj/b/n' tried instead on input line 437.
 LaTeX Font Info:    Font shape `T1/fosj/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 434.
+(Font)              scaled to size 11.39996pt on input line 437.
 
 
 Package natbib Warning: Citation `grace1997allocation' on page xiv undefined on
- input line 437.
-
-
-Package natbib Warning: Citation `korner2006plant' on page xiv undefined on inp
-ut line 437.
-
-
-Package natbib Warning: Citation `fourcaud2008plant' on page xiv undefined on i
-nput line 437.
-
-
-Package natbib Warning: Citation `friedlingstein1999toward' on page xiv undefin
-ed on input line 437.
-
-
-Package natbib Warning: Citation `franklin2012modeling' on page xiv undefined o
-n input line 437.
-
-
-Package natbib Warning: Citation `de2014does' on page xiv undefined on input li
-ne 437.
-
-
-Package natbib Warning: Citation `bloom1985resource' on page xiv undefined on i
-nput line 440.
-
-
-Package natbib Warning: Citation `bazzaz2000reproductive' on page xiv undefined
- on input line 440.
-
-
-Package natbib Warning: Citation `shipley2002balanced' on page xiv undefined on
  input line 440.
 
 
-Package natbib Warning: Citation `monsi2005factor' on page xiv undefined on inp
+Package natbib Warning: Citation `korner2006plant' on page xiv undefined on inp
 ut line 440.
 
 
-Package natbib Warning: Citation `davidson1969effect' on page xiv undefined on 
-input line 443.
+Package natbib Warning: Citation `fourcaud2008plant' on page xiv undefined on i
+nput line 440.
 
 
-Package natbib Warning: Citation `cannell1985attributes' on page xiv undefined 
-on input line 443.
+Package natbib Warning: Citation `friedlingstein1999toward' on page xiv undefin
+ed on input line 440.
+
+
+Package natbib Warning: Citation `franklin2012modeling' on page xiv undefined o
+n input line 440.
+
+
+Package natbib Warning: Citation `de2014does' on page xiv undefined on input li
+ne 440.
+
+
+Package natbib Warning: Citation `bloom1985resource' on page xiv undefined on i
+nput line 443.
+
+
+Package natbib Warning: Citation `bazzaz2000reproductive' on page xiv undefined
+ on input line 443.
 
 
 Package natbib Warning: Citation `shipley2002balanced' on page xiv undefined on
  input line 443.
 
 
+Package natbib Warning: Citation `monsi2005factor' on page xiv undefined on inp
+ut line 443.
+
+
+Package natbib Warning: Citation `davidson1969effect' on page xiv undefined on 
+input line 446.
+
+
+Package natbib Warning: Citation `cannell1985attributes' on page xiv undefined 
+on input line 446.
+
+
+Package natbib Warning: Citation `shipley2002balanced' on page xiv undefined on
+ input line 446.
+
+
 Package natbib Warning: Citation `muller2000effect' on page xiv undefined on in
-put line 443.
+put line 446.
 
 
 Package natbib Warning: Citation `zens2002sizing' on page xiv undefined on inpu
-t line 443.
+t line 446.
 
 
 Package natbib Warning: Citation `reich2002root' on page xiv undefined on input
- line 443.
+ line 446.
 
 
 Package natbib Warning: Citation `monsi2005factor' on page xiv undefined on inp
-ut line 446.
+ut line 449.
 
 
 Package natbib Warning: Citation `field1986photosynthesis' on page xiv undefine
-d on input line 446.
+d on input line 449.
 
 
 Package natbib Warning: Citation `farquhar1982stomatal' on page xiv undefined o
-n input line 446.
+n input line 449.
 
 
 Package natbib Warning: Citation `sellin2008effects' on page xiv undefined on i
-nput line 446.
+nput line 449.
 
 
 Package natbib Warning: Citation `niinemets2012optimization' on page xiv undefi
-ned on input line 446.
+ned on input line 449.
 
 
 Package natbib Warning: Citation `niinemets2012optimization' on page xiv undefi
-ned on input line 446.
+ned on input line 449.
 
 
 Package natbib Warning: Citation `peltoniemi2012co' on page xiv undefined on in
-put line 446.
+put line 449.
 
 [14
 
 ]
 
 Package natbib Warning: Citation `litton2007carbon' on page xv undefined on inp
-ut line 449.
+ut line 452.
 
 
 Package natbib Warning: Citation `fatichi2014moving' on page xv undefined on in
-put line 449.
+put line 452.
 
 
 Package natbib Warning: Citation `paul2001sink' on page xv undefined on input l
-ine 449.
+ine 452.
 
 
 Package natbib Warning: Citation `kozlowski1992carbohydrate' on page xv undefin
-ed on input line 452.
+ed on input line 455.
 
 
 Package natbib Warning: Citation `lacointe2000carbon' on page xv undefined on i
-nput line 452.
+nput line 455.
 
 
 Package natbib Warning: Citation `klein2015' on page xv undefined on input line
- 452.
+ 455.
 
 
 Package natbib Warning: Citation `boland2006forest' on page xv undefined on inp
-ut line 455.
+ut line 458.
 
 
 Package natbib Warning: Citation `ASOFR2013' on page xv undefined on input line
- 455.
+ 458.
 
 
 Package natbib Warning: Citation `pryor1981eucalyptus' on page xv undefined on 
-input line 455.
+input line 458.
 
 
 Package natbib Warning: Citation `byrne2013adaptation' on page xv undefined on 
-input line 455.
+input line 458.
 
 
 Package natbib Warning: Citation `IUFRO2015' on page xv undefined on input line
- 455.
+ 458.
 
 
 Package natbib Warning: Citation `friedlingstein1999toward' on page xv undefine
-d on input line 460.
+d on input line 463.
 
 
 Package natbib Warning: Citation `poorter2012biomass' on page xv undefined on i
-nput line 460.
+nput line 463.
 
 
 Package natbib Warning: Citation `litton2007carbon' on page xv undefined on inp
-ut line 460.
+ut line 463.
 
 
 Package natbib Warning: Citation `poorter2015does' on page xv undefined on inpu
-t line 460.
+t line 463.
 
 
 Package natbib Warning: Citation `reich2002root' on page xv undefined on input 
-line 460.
+line 463.
 
 
 Package natbib Warning: Citation `muller2000effect' on page xv undefined on inp
-ut line 460.
+ut line 463.
 
 
 Package natbib Warning: Citation `poorter2015does' on page xv undefined on inpu
-t line 460.
+t line 463.
 
 
 Package natbib Warning: Citation `shipley2002balanced' on page xv undefined on 
-input line 460.
+input line 463.
 
 [15]
 
 Package natbib Warning: Citation `friedlingstein1999toward' on page xvi undefin
-ed on input line 462.
+ed on input line 465.
 
 
 Package natbib Warning: Citation `franklin2012modeling' on page xvi undefined o
-n input line 462.
+n input line 465.
 
 
 Package natbib Warning: Citation `iversen2014terrestrial' on page xvi undefined
- on input line 462.
+ on input line 465.
 
 
 Package natbib Warning: Citation `litton2007carbon' on page xvi undefined on in
-put line 462.
+put line 465.
 
 
 Package natbib Warning: Citation `warren2012timing' on page xvi undefined on in
-put line 462.
+put line 465.
 
 
 Package natbib Warning: Citation `sweet1966role' on page xvi undefined on input
- line 465.
+ line 468.
 
 
 Package natbib Warning: Citation `korner2013growth' on page xvi undefined on in
-put line 465.
+put line 468.
 
 
 Package natbib Warning: Citation `rocha2006linking' on page xvi undefined on in
-put line 465.
+put line 468.
 
 
 Package natbib Warning: Citation `litton2007carbon' on page xvi undefined on in
-put line 465.
+put line 468.
 
 
 Package natbib Warning: Citation `gough2008multi' on page xvi undefined on inpu
-t line 465.
+t line 468.
 
 
 Package natbib Warning: Citation `peltoniemi2012co' on page xvi undefined on in
-put line 468.
+put line 471.
 
 
 Package natbib Warning: Citation `niinemets2012optimization' on page xvi undefi
-ned on input line 468.
+ned on input line 471.
 
 
 Package natbib Warning: Citation `peltoniemi2012co' on page xvi undefined on in
-put line 468.
+put line 471.
 
 
 Package natbib Warning: Citation `thornley1972model' on page xvi undefined on i
-nput line 470.
+nput line 473.
 
 
 Package natbib Warning: Citation `peltoniemi2012co' on page xvi undefined on in
-put line 470.
+put line 473.
 
 
 Package natbib Warning: Citation `jifon2003moderate' on page xvi undefined on i
-nput line 470.
+nput line 473.
 
 
 Package natbib Warning: Citation `tissue2006spatial' on page xvi undefined on i
-nput line 470.
+nput line 473.
 
 
 Package natbib Warning: Citation `sellin2010variation' on page xvi undefined on
- input line 470.
+ input line 473.
 
 
 Package natbib Warning: Citation `lloyd1992low' on page xvi undefined on input 
-line 470.
+line 473.
 
 
 Package natbib Warning: Citation `warren2003transfer' on page xvi undefined on 
-input line 470.
+input line 473.
 
 
 Package natbib Warning: Citation `piel2002effect' on page xvi undefined on inpu
-t line 470.
+t line 473.
 
 
 Package natbib Warning: Citation `warren2007internal' on page xvi undefined on 
-input line 470.
+input line 473.
 
 [16]
 
 Package natbib Warning: Citation `hughes2011web' on page xvii undefined on inpu
-t line 475.
+t line 478.
 
 
 Package natbib Warning: Citation `stanturf2013eucalyptus' on page xvii undefine
-d on input line 475.
+d on input line 478.
 
 
 Package natbib Warning: Citation `hughes2003climate' on page xvii undefined on 
-input line 475.
+input line 478.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--493
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 477--493
+Underfull \hbox (badness 10000) in paragraph at lines 480--496
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--493
+Underfull \hbox (badness 10000) in paragraph at lines 480--496
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--496
 
  []
 
 [17] [18]
 
 Package natbib Warning: Citation `hanson2011making' on page xix undefined on in
-put line 505.
+put line 508.
 
 
 Package natbib Warning: Citation `peng2011reproducible' on page xix undefined o
-n input line 505.
+n input line 508.
 
-[1] [2
+[1]
+LaTeX Font Info:    Try loading font information for T1+aett on input line 528.
+
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+) [2
 
 ] [3
 
 ]
 LaTeX Font Info:    Font shape `TS1/fosj/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 554.
+(Font)              scaled to size 13.67995pt on input line 610.
 LaTeX Font Info:    Font shape `T1/fosj/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/fosj/b/it' tried instead on input line 554.
+(Font)              Font shape `T1/fosj/b/it' tried instead on input line 610.
 LaTeX Font Info:    Font shape `T1/fosj/b/it' will be
-(Font)              scaled to size 13.67995pt on input line 554.
+(Font)              scaled to size 13.67995pt on input line 610.
  [1
 
 ]
 
 Package natbib Warning: Citation `bazzaz2000reproductive' on page 2 undefined o
-n input line 575.
+n input line 631.
 
 
 Package natbib Warning: Citation `chapin1987plant' on page 2 undefined on input
- line 575.
+ line 631.
 
 
 Package natbib Warning: Citation `givnish1988adaptation' on page 2 undefined on
- input line 575.
+ input line 631.
 
 
 Package natbib Warning: Citation `litton2007carbon' on page 2 undefined on inpu
-t line 580.
+t line 636.
 
 
 Package natbib Warning: Citation `franklin2012modeling' on page 2 undefined on 
-input line 580.
+input line 636.
 
 
 Package natbib Warning: Citation `poorter2015does' on page 2 undefined on input
- line 582.
+ line 638.
 
 [2
 
 ]
 
 Package natbib Warning: Citation `sala2012carbon' on page 3 undefined on input 
-line 586.
+line 642.
 
 
 Package natbib Warning: Citation `dietze2014nonstructural' on page 3 undefined 
-on input line 586.
+on input line 642.
 
 
-Overfull \hbox (4.99454pt too wide) in paragraph at lines 586--587
+Overfull \hbox (4.99454pt too wide) in paragraph at lines 642--643
 \T1/fosj/m/n/10 [@re-ich2002root], in-creased root ex-u-da-tion to al-le-vi-ate
  re-source lim-i-ta-tion [@phillips2011enhanced]
  []
 
 
-Overfull \hbox (14.98161pt too wide) in paragraph at lines 586--587
+Overfull \hbox (14.98161pt too wide) in paragraph at lines 642--643
 \T1/fosj/m/n/10 strength, re-source avail-abil-ity and source C sup-ply. Par-ti
 al ev-i-dence for these \TS1/fosj/m/n/10 '\T1/fosj/m/n/10 non-biomass\TS1/fosj/
 m/n/10 '\T1/fosj/m/n/10 responses
@@ -1432,166 +1437,166 @@ m/n/10 '\T1/fosj/m/n/10 responses
 
 
 Package natbib Warning: Citation `palmroth2006aboveground' on page 3 undefined 
-on input line 588.
+on input line 644.
 
 
 Package natbib Warning: Citation `iversen2014terrestrial' on page 3 undefined o
-n input line 588.
+n input line 644.
 
 
 Package natbib Warning: Citation `shipley2002balanced' on page 3 undefined on i
-nput line 588.
+nput line 644.
 
 
 Package natbib Warning: Citation `poorter2012biomass' on page 3 undefined on in
-put line 588.
+put line 644.
 
 
 Package natbib Warning: Citation `smith2007coordination' on page 3 undefined on
- input line 592.
+ input line 648.
 
 
 Package natbib Warning: Citation `kozlowski1992carbohydrate' on page 3 undefine
-d on input line 592.
+d on input line 648.
 
 
 Package natbib Warning: Citation `sage1994acclimation' on page 3 undefined on i
-nput line 592.
+nput line 648.
 
 
 Package natbib Warning: Citation `kitao2007interaction' on page 3 undefined on 
-input line 592.
+input line 648.
 
 
 Package natbib Warning: Citation `chapin1990ecology' on page 3 undefined on inp
-ut line 592.
+ut line 648.
 
 [3]
 
 Package natbib Warning: Citation `hoch2002altitudinal' on page 4 undefined on i
-nput line 594.
+nput line 650.
 
 
 Package natbib Warning: Citation `iglesias2002regulation' on page 4 undefined o
-n input line 594.
+n input line 650.
 
 
 Package natbib Warning: Citation `equiza2006photosynthetic' on page 4 undefined
- on input line 594.
+ on input line 650.
 
 
 Package natbib Warning: Citation `urban2007girdling;' on page 4 undefined on in
-put line 594.
+put line 650.
 
 
 Package natbib Warning: Citation `haouari2013fruit' on page 4 undefined on inpu
-t line 594.
+t line 650.
 
 
 Package natbib Warning: Citation `palacio2014does' on page 4 undefined on input
- line 596.
+ line 652.
 
 
 Package natbib Warning: Citation `genet2010age' on page 4 undefined on input li
-ne 596.
+ne 652.
 
 
 Package natbib Warning: Citation `niinemets2009packing' on page 4 undefined on 
-input line 600.
+input line 656.
 
 
 Package natbib Warning: Citation `de1997simple' on page 4 undefined on input li
-ne 600.
+ne 656.
 
 
 Package natbib Warning: Citation `linderson2012up' on page 4 undefined on input
- line 600.
+ line 656.
 
 
 Package natbib Warning: Citation `dai2004two' on page 4 undefined on input line
- 600.
+ 656.
 
 
 Package natbib Warning: Citation `peltoniemi2012co' on page 4 undefined on inpu
-t line 600.
+t line 656.
 
 
 Package natbib Warning: Citation `niinemets2012optimization' on page 4 undefine
-d on input line 600.
+d on input line 656.
 
 
 Package natbib Warning: Citation `cgivnish1988adaptation' on page 4 undefined o
-n input line 600.
+n input line 656.
 
 
 Package natbib Warning: Citation `cowan1977stomatal' on page 4 undefined on inp
-ut line 600.
+ut line 656.
 
 
 Package natbib Warning: Citation `medlyn2011reconciling' on page 4 undefined on
- input line 600.
+ input line 656.
 
 
 Package natbib Warning: Citation `peltoniemi2012co' on page 4 undefined on inpu
-t line 600.
+t line 656.
 
 
 Package natbib Warning: Citation `wright2003least' on page 4 undefined on input
- line 600.
+ line 656.
 
 
 Package natbib Warning: Citation `heroult2013optimal' on page 4 undefined on in
-put line 600.
+put line 656.
 
 
 Package natbib Warning: Citation `prentice2014balancing' on page 4 undefined on
- input line 600.
+ input line 656.
 
 
 Package natbib Warning: Citation `lin2015optimal' on page 4 undefined on input 
-line 600.
+line 656.
 
 [4]
 
 Package natbib Warning: Citation `wright2003least' on page 5 undefined on input
- line 602.
+ line 658.
 
 
 Package natbib Warning: Citation `peltoniemi2012co' on page 5 undefined on inpu
-t line 604.
+t line 660.
 
 
 Package natbib Warning: Citation `pearcy2012two' on page 5 undefined on input l
-ine 604.
+ine 660.
 
 
 Package natbib Warning: Citation `tausz2005dynamic' on page 5 undefined on inpu
-t line 604.
+t line 660.
 
 
 Package natbib Warning: Citation `field1983allocating' on page 5 undefined on i
-nput line 609.
+nput line 665.
 
 [5]
 
 Package natbib Warning: Citation `cowan1981coping' on page 6 undefined on input
- line 612.
+ line 668.
 
 
 Package natbib Warning: Citation `king1997functional' on page 6 undefined on in
-put line 612.
+put line 668.
 
 
 Package natbib Warning: Citation `james2000leaf' on page 6 undefined on input l
-ine 612.
+ine 668.
 
 
 Package natbib Warning: Citation `falster2003leaf' on page 6 undefined on input
- line 612.
+ line 668.
 
 
 Package natbib Warning: Citation `ipcc2014' on page 6 undefined on input line 6
-14.
+70.
 
 [6] [7
 
@@ -1605,11 +1610,11 @@ Package natbib Warning: There were undefined citations.
 (C:\Users\90919620\github_repos\hie_thesis_campany\thesis\thesis_campany.aux) )
  
 Here is how much of TeX's memory you used:
- 6974 strings out of 493921
- 103208 string characters out of 3147273
+ 6999 strings out of 493921
+ 103640 string characters out of 3147273
  166361 words of memory out of 3000000
- 10057 multiletter control sequences out of 15000+200000
- 97175 words of font info for 119 fonts, out of 3000000 for 9000
+ 10076 multiletter control sequences out of 15000+200000
+ 98022 words of font info for 122 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  35i,8n,26p,2173b,212s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/opensans/opensans
@@ -1624,11 +1629,12 @@ onts/type1/public/opensans/OpenSans-Bold.pfb><C:/Users/90919620/AppData/Roaming
 ans-Regular.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
 i10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/90919620/
-AppData/Roaming/MiKTeX/2.9/fonts/type1/public/wasy/wasy10.pfb>
-Output written on thesis_campany.pdf (29 pages, 3770519 bytes).
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/90919620/AppData/
+Roaming/MiKTeX/2.9/fonts/type1/public/wasy/wasy10.pfb>
+Output written on thesis_campany.pdf (29 pages, 3790203 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
+ 153 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  10 words of extra memory for PDF output out of 10000 (max. 10000000)
 
