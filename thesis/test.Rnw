@@ -5,16 +5,19 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{framed}
-\usepackage{textcomp}
-% for permil
-\usepackage{wasysym}
+%\usepackage{textcomp}
+
+\pagestyle{empty}
 
 % avoid ugly indentation of paragraphs
 \usepackage{parskip}
 \usepackage{graphicx}
 
 % open sans font
-\usepackage[default,osfigures,scale=0.95]{opensans}
+%\usepackage[default,osfigures,scale=0.9]{opensans}
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+
 
 % subfolder with the figures (within manuscript/)
 \graphicspath{ {./figures/} }
@@ -25,9 +28,6 @@
 %allows inline citations
 \usepackage[round]{natbib}
 \bibliographystyle{plainnat}
-%include bib in TOC
-\usepackage[nottoc]{tocbibind}
-
 
 % for degree symbol
 \usepackage{gensymb}
@@ -50,36 +50,57 @@
 \usepackage{rotating} 
 
 %allows alignment of caption to the left
-% \usepackage{caption} 
-% \captionsetup[table]{singlelinecheck=false}
+\usepackage{caption} 
+\captionsetup[table]{singlelinecheck=false}
 
 %allows not italic greek letters
 \usepackage{textgreek}
 
-%centers different heading styles (look at package detail for font info, etc)
-\usepackage{sectsty}
-  \chapterfont{\centering}
-  \sectionfont{\centering}
-  
-%set page numering to roman and then change once chapters start  
-\pagenumbering{roman}  
-
-%--------------------------------------------------------------------------------------------%
 \begin{document}
-\SweaveOpts{concordance=TRUE}
+
+%------------------------------------------------------------------------------------------%
+
+<<preload, echo=FALSE>>=
+library(knitr)
+opts_chunk$set(echo=FALSE)
+@
+
 
 %--------------------------------------------------------------------------------------------%
 
-\begin{document}
-\SweaveOpts{concordance=TRUE}
+<<echo=FALSE, message=FALSE, warning=FALSE>>=
+library(xtable)
 
 
-As woody plants have competing tissue carbohydrate sinks, growth should principally depend on the allocation of leaf C assimilate among different sink organs \citep{kozlowski1992carbohydrate, lacointe2000carbon}. In response to changing environmental conditions, however, trees may adaptively shift tissue C allocation to balance growth, storage and C loss. Due to conservation of mass, it is theoretically possible to track the fates of this assimilate from leaf C uptake to their eventual destination in above and belowground pools. Although mass balance approaches can be used to quantitatively asses tree C allocation, few studies so far have been able to provide direct empirical measurements of C allocation among component pools \citep{klein2015}.
+phys_data <- read.csv("pdfs/pve_table2.csv")
+colnames(phys_data) <- c("Volume~(L)", 
+                        "\\textit{A}\\textsubscript{max}", 
+                        "\\textit{R}\\textsubscript{dark}",
+                        "\\textit{J}\\textsubscript{max}",
+                        "\\textit{Vc}\\textsubscript{max}",
+                        "\\textit{g}\\textsubscript{s}",
+                        "\\textit{g}\\textsubscript{1}")
+
+@
 
 
-\medskip
- 
-\bibliography{references}
+%seedling data table
 
 
+<<results='asis'>>=
+phystab <- xtable(phys_data, label="table:Table2",caption="Responses of leaf level gas exchange parameters ")
+
+print(phystab, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
+      floating.environment='sidewaystable',caption.placement="top",
+       hline.after = getOption("xtable.hline.after", c(-1,0,7,nrow(phystab))))
+@
+
+
+
+
+%--------------------------------------------------------------------------------------------%
+
+
+-------------------------------------------------------------------------%
 \end{document}
+

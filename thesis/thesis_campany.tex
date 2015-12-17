@@ -1,20 +1,75 @@
 
-\documentclass[a4paper]{article}
+\documentclass[a4paper]{article}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
 
 %--- Load packages. 
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{framed}
-\usepackage{textcomp}
+%\usepackage{textcomp}
+
 % for permil
 \usepackage{wasysym}
+
+\pagestyle{empty}
+
 
 % avoid ugly indentation of paragraphs
 \usepackage{parskip}
 \usepackage{graphicx}
 
 % open sans font
-\usepackage[default,osfigures,scale=0.95]{opensans}
+%\usepackage[default,osfigures,scale=0.95]{opensans}
+\usepackage{newtxtext}
+\usepackage{newtxmath}
 
 % subfolder with the figures (within manuscript/)
 \graphicspath{ {./figures/} }
@@ -52,8 +107,8 @@
 \usepackage{rotating} 
 
 %allows alignment of caption to the left
-% \usepackage{caption} 
-% \captionsetup[table]{singlelinecheck=false}
+\usepackage{caption}
+\captionsetup[table]{singlelinecheck=false}
 
 %allows not italic greek letters
 \usepackage{textgreek}
@@ -67,9 +122,8 @@
 \pagenumbering{roman}  
 
 %--------------------------------------------------------------------------------------------%
-\usepackage{Sweave}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \begin{document}
-\input{thesis_campany-concordance}
 
 
 
@@ -516,7 +570,9 @@ Science is driven by data, yet it is a challenge to ensure that reported experim
 \clearpage
 %--------------------------------------------------------------------------------------------%
 
+
 % Load data for tables chapter 2
+
 
 \section*{CHAPTER 2 \\ \mbox{ }\\ Below-ground sink limitation alters growth and carbon balance of Eucalyptus seedlings}
 \subsection*{ABSTRACT}
@@ -524,13 +580,14 @@ Science is driven by data, yet it is a challenge to ensure that reported experim
 \subsection*{MATERIALS AND METHODS}
 \subsection*{RESULTS}
 
-\begin{Schunk}
-\begin{Soutput}
+
+%pvetable1
 % latex table generated in R 3.2.3 by xtable 1.8-0 package
-% Thu Dec 17 11:11:10 2015
+% Thu Dec 17 17:19:10 2015
 \begin{sidewaystable}[ht]
 \centering
-\label{table:Table1}
+\caption{Responses of plant and leaf characteristics of \textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean($\pm$1 standard error) for each treatment. Seedling mass and leaf {\textdelta}\textsuperscript{13}C values are from final harvest. Values of leaf starch, sugars, nitrogen and SLA represent overall means across measurement campaigns (n=6). Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings.} 
+\label{table:Table 2.1}
 \begin{tabular}{lllllll}
   \hline
 Volume (L) & Seedling~mass~(g) & SLA\textsubscript{TNC-free}~(m\textsuperscript{2}~kg\textsuperscript{-1}) & Leaf~Starch~(\%) & Leaf~Sugars~(\%) & Leaf~Nitrogen{TNC-free}~(\%) & {Leaf~\textdelta}\textsuperscript{13}C~(\text{\textperthousand}) \\ 
@@ -547,35 +604,93 @@ Volume Effect (P value) & 0.001 & 0.001 & 0.029 & 0.125 & 0.001 & 0.372 \\
    \hline
 \end{tabular}
 \end{sidewaystable}
-\end{Soutput}
-\end{Schunk}
 
 
-%' %' %pvetable2
-%' <<results='asis'>>=
-%' phystab <- xtable(pve_tab2, label="table:Table2",caption="Responses of root characteristics of \\textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean (\\pm~1 standard error) for each treatment. All values are from the final harvest. Values for FRLD were only calculated for seedlings in containers as free seedlings had potentially unlimited soil volume to exploit. Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings, except for FRLD which represents only differences between seedlings in containers.")
-%' 
-%' print(pve_tab2, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
-%'       floating.environment='sidewaystable',caption.placement="top",
-%'        hline.after = getOption("xtable.hline.after", c(-1,0,7,nrow(datatab))))
-%' @
-%' 
-%' 
-%' %pvetable3
-%' <<results='asis'>>=
-%' phystab <- xtable(pve_tab3, label="table:Table2",caption="Responses of leaf level gas exchange parameters of \\textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean (\\pm~1 standard error) for each treatment. \\textit{A}\\textsubscript{max}, \\textit{R}\\textsubscript{dark} and \\textit{g}\\textsubscript{s} are each measured at 25$\\degree$C. Values of \\textit{A}\\textsubscript{max}, \\textit{g}\\textsubscript{s} and \\textit{g}\\textsubscript{1} represent overall means across measurement campaigns (n=6). \\textit{R}\\textsubscript{dark}, \\textit{J}\\textsubscript{max} and \\textit{Vc}\\textsubscript{max} values are means of two measurement campaigns at beginning and end of gas exchange measurements. Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings.")
-%' 
-%' print(pve_tab3, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
-%'       floating.environment='sidewaystable',caption.placement="top",
-%'        hline.after = getOption("xtable.hline.after", c(-1,0,7,nrow(datatab))))
-%' @
-%' 
-%' 
-% , caption="Responses of plant and leaf characterisitics of \\textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean (\\pm~1 standard error) for each treatment. Seedling mass and leaf \\textdelta\\textsuperscript{13}C values are from final harvest. Values of leaf starch, sugars, nitrogen and SLA represent overall means across measurement campaigns (n=6). Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings."
+
+
+%pvetable2
+% latex table generated in R 3.2.3 by xtable 1.8-0 package
+% Thu Dec 17 17:19:10 2015
+\begin{sidewaystable}[ht]
+\centering
+\caption{Responses of root characteristics of \textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean ($\pm$1 standard error) for each treatment. All values are from the final harvest. Values for FRLD were only calculated for seedlings in containers as free seedlings had potentially unlimited soil volume to exploit. Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings, except for FRLD which represents only differences between seedlings in containers.} 
+\label{table:Table 2.2}
+\begin{tabular}{llll}
+  \hline
+Root~Nitrogen~(\%) & SRL~(cm~m\textsuperscript{-1}) & FRLD~(m~dm\textsuperscript{-3}) & NA \\ 
+  \hline
+5 & 0.78 (0.04) ab & 73.0 (6.73) ab & 36.4 (5.68) bc \\ 
+  10 & 0.75 (0.02) a & 99.6 (8.70) b & 45.9 (8.68) c \\ 
+  15 & 0.71 (0.02) a & 74.6 (6.98) ab & 20.9 (1.51) ab \\ 
+  20 & 0.76 (0.04) a & 85.8 (7.37) ab & 23.0 (3.09) ab \\ 
+  25 & 0.74 (0.02) a & 82.5 (15.02) ab & 24.7 (7.58) ab \\ 
+  35 & 0.77 (0.03) ab & 63.1 (6.47) a & 13.3 (1.98) a \\ 
+  Free & 0.90 (0.03) b & 50.9 (5.00) a &  \\ 
+   \hline
+Volume Effect (P value) & 0.017 & 0.009 & 0.001 \\ 
+   \hline
+\end{tabular}
+\end{sidewaystable}
+
+
+
+%pvetable3
+% latex table generated in R 3.2.3 by xtable 1.8-0 package
+% Thu Dec 17 17:19:10 2015
+\begin{sidewaystable}[ht]
+\centering
+\caption{Responses of leaf level gas exchange parameters of \textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean ($\pm$1 standard error) for each treatment. \textit{A}\textsubscript{max}, \textit{R}\textsubscript{dark} and \textit{g}\textsubscript{s} are each measured at 25$\degree$C. Values of \textit{A}\textsubscript{max}, \textit{g}\textsubscript{s} and \textit{g}\textsubscript{1} represent overall means across measurement campaigns (n=6). \textit{R}\textsubscript{dark}, \textit{J}\textsubscript{max} and \textit{Vc}\textsubscript{max} values are means of two measurement campaigns at beginning and end of gas exchange measurements. Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings.} 
+\label{table:Table 2.3}
+\begin{tabular}{lllllll}
+  \hline
+Volume~(L) & \textit{A}\textsubscript{max}~({\textmugreek}mol~m\textsuperscript{-2}~s\textsuperscript{-1}) & \textit{R}\textsubscript{dark}~({\textmugreek}mol~m\textsuperscript{-2}~s\textsuperscript{-1}) & \textit{J}\textsubscript{max} & \textit{Vc}\textsubscript{max} & \textit{g}\textsubscript{s}~(mol~m\textsuperscript{-1}~s\textsuperscript{-1}) & \textit{g}\textsubscript{1} \\ 
+  \hline
+5 & 21.2 (0.9) a & 0.61 (0.04) a & 104.5 (3.3) a & 63.3 (2.5) a & 0.30 (0.009) a & 5.1 (0.14) bc \\ 
+  10 & 22.3 (1.4) ab & 0.79 (0.06) a & 116.5 (7.5) a & 69.4 (4.7) a & 0.36 (0.009) ab & 5.4 (0.10) cd \\ 
+  15 & 23.3 (1.2) ab & 0.70 (0.05) a & 125.4 (7.8) a & 80.8 (5.1) ab & 0.42 (0.010) ab & 5.8 (0.14) d \\ 
+  20 & 26.1 (0.7) b & 0.73 (0.11) a & 131.5 (8.6) a & 82.1 (4.7) ab & 0.37 (0.011) ab & 4.9 (0.12) ac \\ 
+  25 & 23.9 (0.9) ab & 0.53 (0.13) a & 132.8 (13.1) a & 79.0 (8.7) a & 0.30 (0.009) a & 4.5 (0.14) a \\ 
+  35 & 25.0 (1.0) ab & 0.61 (0.04) a & 127.2 (6.1) a & 82.4 (3.6) a & 0.31 (0.011) a & 4.4 (0.15) a \\ 
+  Free & 33.1 (0.7) c & 0.64 (0.07) a & 169.0 (8.2) b & 100.4 (3.3) b & 0.44 (0.011) b & 4.5 (0.14) ab \\ 
+   \hline
+Volume Effect (P value) & 0.001 & 0.269 & 0.004 & 0.005 & 0.007 & 0.001 \\ 
+   \hline
+\end{tabular}
+\end{sidewaystable}
+
 
 
 \subsection*{DISCUSSION}
 \subsection*{SUPPORTING INFORMATION}
+
+
+%modtable
+% latex table generated in R 3.2.3 by xtable 1.8-0 package
+% Thu Dec 17 17:19:10 2015
+\begin{sidewaystable}[ht]
+\centering
+\caption{Seedling growth model default parameters.} 
+\label{table:Table 2.S1}
+\begin{tabular}{lllll}
+  \hline
+Variable & Description & Default.Value & Units & Source \\ 
+  \hline
+Leaf area$\backslash$textsubscript\{i\} & initial leaf area & 0.035 & m\verb|^|2\verb|^| & this study \\ 
+  Leaf mass$\backslash$textsubscript\{i\} & initial leaf mass & 3.45 & g & this study \\ 
+  Stem mass$\backslash$textsubscript\{i\} & initial stem mass & 1.51 & g & this study \\ 
+  Root mass$\backslash$textsubscript\{i\} & initial root mass & 0.99 & g & this study \\ 
+  $\backslash$epsilon$\backslash$textsubscript\{c\} & biomass conversion efficiency & 0.65 & g C g mass\verb|^|-1\verb|^| & M?kel? (1997) \\ 
+  R$\backslash$textsubscript\{coarse\}\~{}$\backslash$textsubscript\{root\} & coarse root respiration & 0.00124 & g C g root\verb|^|-1\verb|^| d\verb|^|-1\verb|^| & Marden et al. (2008) \\ 
+  R$\backslash$textsubscript\{fine\}\~{}$\backslash$textsubscript\{root\} & fine root respiration & 0.01037 & g C g root\verb|^|-1\verb|^| d\verb|^|-1\verb|^| & Ryan et al. (2010) \\ 
+   \hline
+R$\backslash$textsubscript\{stem\} & stem respiration & 0.00187 & g C g stem\verb|^|-1\verb|^| d\verb|^|-1\verb|^| & Drake et al. (unpublished) \\ 
+  C$\backslash$textsubscript\{day\} & daily leaf carbon assimilation & 5.4 - 7.6 & g C m\verb|^|-2\verb|^| d\verb|^|-1\verb|^| & this study \\ 
+  $\backslash$Lambda & leaf or root turnover & 1 & yr\verb|^|-1\verb|^| & theoretical \\ 
+   \hline
+\end{tabular}
+\end{sidewaystable}
+
+
 
    
 \addcontentsline{toc}{section}{CHAPTER 2 BELOWGROUND SINK LIMITATION ALTERS GROWTH AND CARBON BALANCE OF EUCALYPTUS SEEDLINGS}
@@ -588,11 +703,69 @@ Volume Effect (P value) & 0.001 & 0.001 & 0.029 & 0.125 & 0.001 & 0.372 \\
 \clearpage
 %--------------------------------------------------------------------------------------------%
 
+% Load data for tables chapter 3
+
+
+
+
 \section*{CHAPTER 3 \\ \mbox{ }\\ Rapid response of mesophyll conductance to light availability allows shade leaves to take advantage of sunflecks}
 \subsection*{ABSTRACT}
 \subsection*{INTRODUCTION}
 \subsection*{MATERIALS AND METHODS}
 \subsection*{RESULTS}
+
+
+%wtc1tab
+% latex table generated in R 3.2.3 by xtable 1.8-0 package
+% Thu Dec 17 17:19:10 2015
+\begin{sidewaystable}[ht]
+\centering
+\caption{\textit{Eucalyptus tereticornis} leaf morphological and physiological traits between full sun and shade leaves under ambient and elevated temperature treatments. Leaf mass per area, N	extsubscript{a}, {\textdelta}\textsuperscript{13}C, $\Psi\textsubscript{pd}$, $\Psi\textsubscript{l}$ and K	extsubscript{l} values represent treatment mean ($\pm$~1~standard error) across measurement campaigns (n=6). Values of Vc\textsubscript{max} and J\textsubscript{max} are treatment mean ($\pm$ 1 standard error) from AC\textsubscript{i} curves measured in each chamber at saturating light. Units of LMA and Leaf N\textsubscript{area} are g~m\textsuperscript{2}, K\textsubscript{l} is mmol~m\textsuperscript{-2}~s\textsuperscript{-1} MPa, WP is MPA and {\textdelta}\textsuperscript{13}C is \permil. Different letters represent significant differences between leaf type and temperature treatments. The P value represents the overall effect between each unique combination of leaf type and temperature treatment for each trait.} 
+\label{table:Table 3.1}
+\begin{tabular}{llllllllll}
+  \hline
+Leaf & Temperature & LMA & N\textsubscript{a} & Vc\textsubscript{max} & J\textsubscript{max} & K & WP\textsubscript{pre} & WP\textsubscript{mid} & {\textdelta}\textsuperscript{13}C \\ 
+  \hline
+Sun & AT & 114.1 (4.5) a & 2.63 (0.08) b & 96.0 (6.7) b & 141.6 (7.5) b & 1.69 (0.18) a & -0.32 (0.03) a & -1.60 (0.10) a & -28.1 (0.18) b \\ 
+   & ET & 109.9 (4.8) a & 2.60 (0.09) b & 95.5 (6.6) ab & 148.3 (11.8) b & 1.79 (0.15) a & -0.32 (0.02) a & -1.70 (0.09) a & -28.3 (0.17) b \\ 
+  Shade & AT & 118.3 (4.4) a & 2.13 (0.07) a & 73.3 (6.4) a & 102.1 (6.9) a & 1.70 (0.13) a & -0.27 (0.02) a & -1.50 (0.09) a & -29.9 (0.17) a \\ 
+   & ET & 113.1 (4.3) a & 1.88 (0.06) a & 77.6 (4.9) ab & 106.2 (6.5) a & 1.78 (0.14) a & -0.30 (0.02) a & -1.60 (0.11) a & -30.4 (0.22) a \\ 
+   \hline
+P value &  & 0.785 & 0.001 & 0.028 & 0.002 & 0.001 & 0.3486 & 0.6385 & 0.973 \\ 
+   \hline
+\end{tabular}
+\end{sidewaystable}
+
+
+
+
+%wtc1tab
+% latex table generated in R 3.2.3 by xtable 1.8-0 package
+% Thu Dec 17 17:19:10 2015
+\begin{sidewaystable}[ht]
+\centering
+\caption{Responses of \textit{Eucalyptus tereticornis} leaf gas exchange parameters for sun and shade leaves under ambient and elevated temperature treatments. Each value reflects the mean ($\pm$~1~standard error) for each treatment across gas exchange campaigns (n=6). Units for A and E are {\textmugreek}mol~m\textsuperscript{-2}~s\textsuperscript{-1}, for g\textsubscript{s} and g\textsubscript{m} are mol~m\textsuperscript{-2}~s\textsuperscript{-1} and for VPD are kPa. Different letters represent significant differences between leaf type, light environment and temperature treatments. The P value represents the overall effect between each unique combination of leaf type, light environment and temperature treatment for each parameter.} 
+\label{table:Table 3.2}
+\begin{tabular}{lllllllllll}
+  \hline
+Leaf & Light & Temperature & A & g\textsubscript{s} & g\textsubscript{m} & ITE & E & VPD & C\textsubscript{i} & C\textsubscript{c} \\ 
+  \hline
+Sun & High & AT & 13.5 (0.3) b & 0.122 (0.005) a & 0.163 (0.005) c & 8.26 (0.48) b & 1.78 (0.07) a & 1.60 (0.04) ab & 179.8 ( 3.2) a & 92.2 ( 2.9) a \\ 
+   &  & ET & 13.1 (0.3) b & 0.123 (0.005) a & 0.153 (0.007) bc & 6.57 (0.39) ab & 2.21 (0.09) a & 1.90 (0.05) b & 187.9 ( 2.9) a & 92.2 ( 2.8) a \\ 
+  Shade & Low & AT & 10.4 (0.1) a & 0.150 (0.005) a & 0.117 (0.004) ab & 6.24 (0.50) a & 1.93 (0.07) a & 1.40 (0.04) a & 255.4 ( 3.8) b & 160.0 ( 4.1) c \\ 
+   &  & ET & 10.0 (0.1) a & 0.146 (0.005) a & 0.116 (0.004) a & 5.43 (0.51) a & 2.23 (0.09) a & 1.60 (0.05) a & 253.8 ( 4.1) b & 160.3 ( 3.5) bc \\ 
+   & High & AT & 18.1 (0.3) c & 0.255 (0.007) b & 0.184 (0.003) c & 5.85 (0.33) a & 3.42 (0.12) b & 1.40 (0.04) a & 237.4 ( 2.2) b & 137.4 ( 1.9) b \\ 
+   &  & ET & 16.7 (0.2) c & 0.246 (0.009) b & 0.177 (0.003) c & 5.02 (0.35) a & 3.81 (0.15) b & 1.70 (0.04) ab & 238.1 ( 3.2) b & 141.7 ( 2.8) bc \\ 
+   \hline
+P value &  &  & 0.001 & 0.001 & 0.001 & 0.001 & 0.001 & 0.005 & 0.001 & 0.001 \\ 
+   \hline
+\end{tabular}
+\end{sidewaystable}
+
+
+
+
+
 \subsection*{DISCUSSION}
 \subsection*{SUPPORTING INFORMATION}
 
@@ -607,11 +780,41 @@ Volume Effect (P value) & 0.001 & 0.001 & 0.029 & 0.125 & 0.001 & 0.372 \\
 \clearpage
 %--------------------------------------------------------------------------------------------%
 
+% Load data for tables chapter 4
+
+
+
 \section*{CHAPTER 4 \\ \mbox{ }\\ Elevated atmospheric CO\textsubscript{2} and drought alter carbon allocation above but not belowground in \textit{Eucalyptus saligna}}
 \subsection*{ABSTRACT}
 \subsection*{INTRODUCTION}
 \subsection*{MATERIALS AND METHODS}
 \subsection*{RESULTS}
+
+%wtc1tab
+% latex table generated in R 3.2.3 by xtable 1.8-0 package
+% Thu Dec 17 17:19:10 2015
+\begin{sidewaystable}[ht]
+\centering
+\caption{Final harvest C mass of above and belowground tissues, cumulative aboveground tree C uptake (F\textsubscript{c,T}) and specific leaf area (SLA). Each value represents the mean ($\pm$~1 standard error) for each treatment combination. Units for C mass and F\textsubscript{c,T} are g~C, while SLA are cm\textsuperscript{2}~g\textsuperscript{-1}. For each variable, different letters represent significant differences between treatments from the overall model which includes CO\textsubscript{s} * drought interactions. P values represent overall differences of CO\textsubscript{s} or drought main effects and the CO\textsubscript{s} * drought interaction.} 
+\label{table:Table 4.1}
+\begin{tabular}{llllllll}
+  \hline
+Treatment & Bole & Branch & Leaf & Litter & Root & Tree.C.flux & SLA \\ 
+  \hline
+aCO\~{}2\~{}-dry & 5231.8 (687.0) b & 2799.2 (628.3) a & 2642.8 (370.7) a & 1129.8 (336.0) a & 3052.9 (500.2) a & 19394.2 (2169.5) a & 83.2 (3.3) a \\ 
+  aCO\~{}2\~{}-wet & 7785.1 (267.1) ab & 3154.6 (687.1) a & 3254.2 (393.5) a & 1043.1 (47.3) a & 3677.4 (316.8) a & 23556.5 (1689.0) a & 87.9 (2.8) a \\ 
+  eCO\~{}2\~{}-dry & 4080.5 (682.5) a & 1926.0 (369.4) a & 2232.1 (235.4) a & 889.4 (82.6) a & 2518.7 (481.6) a & 14620.7 (3456.2) a & 70.6 (3.6) a \\ 
+  eCO\~{}2\~{}-wet & 4026.3 (783.3) a & 1856.8 (474.5) a & 2358.3 (473.6) a & 919.0 (244.3) a & 2213.9 (705.8) a & 15197.9 (3253.5) a & 81.8 (6.1) a \\ 
+   \hline
+CO\~{}2\~{} effect (P) & 0.005 & 0.086 & 0.122 & 0.417 & 0.091 & 0.044 & 0.053 \\ 
+  Drought effect (P) & 0.085 & 0.803 & 0.358 & 0.897 & 0.766 & 0.413 & 0.089 \\ 
+  CO\~{}2\~{} * Drought (P) & 0.075 & 0.712 & 0.539 & 0.792 & 0.397 & 0.532 & 0.454 \\ 
+   \hline
+\end{tabular}
+\end{sidewaystable}
+
+
+
 \subsection*{DISCUSSION}
 \subsection*{SUPPORTING INFORMATION}
 
@@ -683,8 +886,8 @@ Second, aspects of leaf physiology and C allocation in these \textit{Eucalyptus}
 
 \addcontentsline{toc}{section}{REFERENCES}
 %--------------------------------------------------------------------------------------------%
-% \clearpage
-% \bibliography{references}
+ \clearpage
+ \bibliography{references}
 
 
 

@@ -1,8 +1,611 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{87}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Barton et~al.(2012)Barton, Duursma, Medlyn, Ellsworth, Eamus, Tissue,
+  Adams, Conroy, Crous, Liberloo, and Others]{barton2012effects}
+Craig V~M Barton, Remko~A Duursma, Belinda~E Medlyn, David~S Ellsworth, Derek
+  Eamus, David~T Tissue, Mark~A Adams, Jann Conroy, Kristine~Y Crous, Marion
+  Liberloo, and Others.
+\newblock {Effects of elevated atmospheric [CO_2] on instantaneous
+  transpiration efficiency at leaf and canopy scales in \textit{Eucalyptus
+  saligna}}.
+\newblock \emph{Global Change Biology}, 18\penalty0 (2):\penalty0 585--595,
+  2012.
+
+\bibitem[Bazzaz et~al.(2000)Bazzaz, Ackerly, and
+  Reekie]{bazzaz2000reproductive}
+Fakhri~A Bazzaz, David~D Ackerly, and Edward~G Reekie.
+\newblock {Reproductive allocation in plants}.
+\newblock \emph{Seeds: the ecology of regeneration in plant communities}, pages
+  1--29, 2000.
+
+\bibitem[Bloom et~al.(1985)Bloom, Chapin, and Mooney]{bloom1985resource}
+Arnold~J Bloom, F~Stuart Chapin, and Harold~A Mooney.
+\newblock {Resource limitation in plants--an economic analogy}.
+\newblock \emph{Annual review of Ecology and Systematics}, pages 363--392,
+  1985.
+
+\bibitem[Boland et~al.(2006)Boland, Brooker, Chippendale, Hall, Hyland,
+  Johnston, Kleinig, McDonald, and Turner]{boland2006forest}
+Douglas~J Boland, M~Ian~H Brooker, G~M Chippendale, N~Hall, B~P~M Hyland, R~D
+  Johnston, D~A Kleinig, M~W McDonald, and J~D Turner.
+\newblock \emph{{Forest trees of Australia}}.
+\newblock CSIRO publishing, 2006.
+
+\bibitem[Byrne et~al.(2013)Byrne, Prober, McLean, Steane, Stock, Potts, and
+  Vaillancourt]{byrne2013adaptation}
+Margaret Byrne, Suzanne Prober, E~McLean, Dorothy Steane, William Stock,
+  B~Potts, and R~Vaillancourt.
+\newblock {Adaptation to climate in widespread eucalypt species}.
+\newblock \emph{Gold Coast: National Climate Change Adaptation Research
+  Facility}, 2013.
+
+\bibitem[Cannell et~al.(1985)Cannell, Jackson, and
+  Others]{cannell1985attributes}
+Melvin G~R Cannell, John~Ellwood Jackson, and Others.
+\newblock \emph{{Attributes of trees as crop plants.}}
+\newblock Institute of Terrestrial Ecology, 1985.
+
+\bibitem[Chapin et~al.(1987)Chapin, Bloom, Field, and Waring]{chapin1987plant}
+F~Stuart Chapin, Arnold~J Bloom, Christopher~B Field, and Richard~H Waring.
+\newblock {Plant responses to multiple environmental factors}.
+\newblock \emph{Bioscience}, pages 49--57, 1987.
+
+\bibitem[Chapin et~al.(1990)Chapin, Schulze, and Mooney]{chapin1990ecology}
+F~Stuart Chapin, Ernst-Detlef Schulze, and Harold~A Mooney.
+\newblock {The ecology and economics of storage in plants}.
+\newblock \emph{Annual review of ecology and systematics}, pages 423--447,
+  1990.
+
+\bibitem[Cowan(1981)]{cowan1981coping}
+I~R Cowan.
+\newblock {Coping with water stress}, 1981.
+
+\bibitem[Cowan and Farquhar(1977)]{cowan1977stomatal}
+I~R Cowan and G~D Farquhar.
+\newblock {Stomatal function in relation to leaf metabolism and environment.}
+\newblock In \emph{Symposia of the Society for Experimental Biology},
+  number~31, pages 471--505, 1977.
+
+\bibitem[Dai et~al.(2004)Dai, Dickinson, and Wang]{dai2004two}
+Yongjiu Dai, Robert~E Dickinson, and Ying-Ping Wang.
+\newblock {A two-big-leaf model for canopy temperature, photosynthesis, and
+  stomatal conductance}.
+\newblock \emph{Journal of Climate}, 17\penalty0 (12):\penalty0 2281--2299,
+  2004.
+
+\bibitem[Davidson(1969)]{davidson1969effect}
+R~L Davidson.
+\newblock {Effect of root/leaf temperature differentials on root/shoot ratios
+  in some pasture grasses and clover}.
+\newblock \emph{Annals of Botany}, 33\penalty0 (3):\penalty0 561--569, 1969.
+
+\bibitem[{De Kauwe} et~al.(2014){De Kauwe}, Medlyn, Zaehle, Walker, Dietze,
+  Wang, Luo, Jain, El-Masri, Hickler, and Others]{de2014does}
+Martin~G {De Kauwe}, Belinda~E Medlyn, S{\"{o}}nke Zaehle, Anthony~P Walker,
+  Michael~C Dietze, Ying-Ping Wang, Yiqi Luo, Atul~K Jain, Bassil El-Masri,
+  Thomas Hickler, and Others.
+\newblock {Where does the carbon go? A model--data intercomparison of
+  vegetation carbon allocation and turnover processes at two temperate forest
+  free-air CO_2 enrichment sites}.
+\newblock \emph{New Phytologist}, 203\penalty0 (3):\penalty0 883--899, 2014.
+
+\bibitem[{De Pury} and Farquhar(1997)]{de1997simple}
+D~G~G {De Pury} and G~D Farquhar.
+\newblock {Simple scaling of photosynthesis from leaves to canopies without the
+  errors of big-leaf models}.
+\newblock \emph{Plant Cell and Environment}, 20\penalty0 (5):\penalty0
+  537--557, 1997.
+
+\bibitem[Dietze et~al.(2014)Dietze, Sala, Carbone, Czimczik, Mantooth,
+  Richardson, and Vargas]{dietze2014nonstructural}
+Michael~C Dietze, Anna Sala, Mariah~S Carbone, Claudia~I Czimczik, Joshua~A
+  Mantooth, Andrew~D Richardson, and Rodrigo Vargas.
+\newblock {Nonstructural carbon in woody plants}.
+\newblock \emph{Annual review of plant biology}, 65:\penalty0 667--687, 2014.
+
+\bibitem[Equiza et~al.(2006)Equiza, Day, Jagels, and
+  Li]{equiza2006photosynthetic}
+M~Alejandra Equiza, Michael~E Day, Richard Jagels, and Xiaochun Li.
+\newblock {Photosynthetic downregulation in the conifer \textit{Metasequoia
+  glyptostroboides} growing under continuous light: the significance of
+  carbohydrate sinks and paleoecophysiological implications}.
+\newblock \emph{Botany}, 84\penalty0 (9):\penalty0 1453--1461, 2006.
+
+\bibitem[Evans et~al.(1986)Evans, Sharkey, Berry, and
+  Farquhar]{evans1986carbon}
+J~R Evans, T~D Sharkey, J~A Berry, and G~D Farquhar.
+\newblock {Carbon isotope discrimination measured concurrently with gas
+  exchange to investigate CO_2 diffusion in leaves of higher plants}.
+\newblock \emph{Functional Plant Biology}, 13\penalty0 (2):\penalty0 281--292,
+  1986.
+
+\bibitem[Falster and Westoby(2003)]{falster2003leaf}
+Daniel~S Falster and Mark Westoby.
+\newblock {Leaf size and angle vary widely across species: what consequences
+  for light interception?}
+\newblock \emph{New Phytologist}, 158\penalty0 (3):\penalty0 509--525, 2003.
+
+\bibitem[Farquhar and Sharkey(1982)]{farquhar1982stomatal}
+Graham~D Farquhar and Thomas~D Sharkey.
+\newblock {Stomatal conductance and photosynthesis}.
+\newblock \emph{Annual review of plant physiology}, 33\penalty0 (1):\penalty0
+  317--345, 1982.
+
+\bibitem[Fatichi et~al.(2014)Fatichi, Leuzinger, and
+  K{\"{o}}rner]{fatichi2014moving}
+Simone Fatichi, Sebastian Leuzinger, and Christian K{\"{o}}rner.
+\newblock {Moving beyond photosynthesis: from carbon source to sink-driven
+  vegetation modeling}.
+\newblock \emph{New Phytologist}, 201\penalty0 (4):\penalty0 1086--1095, 2014.
+
+\bibitem[Field and Mooney(1986)]{field1986photosynthesis}
+C~H Field and H~A Mooney.
+\newblock photosynthesis--nitrogen relationship in wild plants.
+\newblock In \emph{On the economy of plant form and function: proceedings of
+  the Sixth Maria Moors Cabot Symposium," Evolutionary Constraints on Primary
+  Productivity, Adaptive Patterns of Energy Capture in Plants," Harvard Forest,
+  August 1983}, 1986.
+
+\bibitem[Field(1983)]{field1983allocating}
+Christopher Field.
+\newblock {Allocating leaf nitrogen for the maximization of carbon gain: leaf
+  age as a control on the allocation program}.
+\newblock \emph{Oecologia}, 56\penalty0 (2-3):\penalty0 341--347, 1983.
+
+\bibitem[Fourcaud et~al.(2008)Fourcaud, Zhang, Stokes, Lambers, and
+  K{\"{o}}rner]{fourcaud2008plant}
+Thierry Fourcaud, Xiaopeng Zhang, Alexia Stokes, Hans Lambers, and Christian
+  K{\"{o}}rner.
+\newblock {Plant growth modelling and applications: the increasing importance
+  of plant architecture in growth models}.
+\newblock \emph{Annals of Botany}, 101\penalty0 (8):\penalty0 1053--1063, 2008.
+
+\bibitem[Franklin et~al.(2012)Franklin, Johansson, Dewar, Dieckmann, McMurtrie,
+  Br{\"{a}}nnstr{\"{o}}m, and Dybzinski]{franklin2012modeling}
+Oskar Franklin, Jacob Johansson, Roderick~C Dewar, Ulf Dieckmann, Ross~E
+  McMurtrie, {\AA}ke Br{\"{a}}nnstr{\"{o}}m, and Ray Dybzinski.
+\newblock {Modeling carbon allocation in trees: a search for principles}.
+\newblock \emph{Tree Physiology}, 32\penalty0 (6):\penalty0 648--666, 2012.
+
+\bibitem[Friedlingstein et~al.(1999)Friedlingstein, Joel, Field, and
+  Fung]{friedlingstein1999toward}
+Pierre Friedlingstein, G~Joel, C~B Field, and I~Y Fung.
+\newblock {Toward an allocation scheme for global terrestrial carbon models}.
+\newblock \emph{Global Change Biology}, 5\penalty0 (7):\penalty0 755--770,
+  1999.
+
+\bibitem[Genet et~al.(2010)Genet, Br{\'{e}}da, and Dufr{\^{e}}ne]{genet2010age}
+H~Genet, N~Br{\'{e}}da, and E~Dufr{\^{e}}ne.
+\newblock {Age-related variation in carbon allocation at tree and stand scales
+  in beech (\textit{Fagus sylvatica} L.) and sessile oak (\textit{Quercus
+  petraea} (Matt.) Liebl.) using a chronosequence approach}.
+\newblock \emph{Tree Physiology}, 30\penalty0 (2):\penalty0 177--192, 2010.
+
+\bibitem[Givnish(1988)]{givnish1988adaptation}
+Thomas~J Givnish.
+\newblock {Adaptation to sun and shade: a whole-plant perspective}.
+\newblock \emph{Functional Plant Biology}, 15\penalty0 (2):\penalty0 63--92,
+  1988.
+
+\bibitem[Gough et~al.(2008)Gough, Vogel, Schmid, Su, and
+  Curtis]{gough2008multi}
+C~M Gough, C~S Vogel, H~P Schmid, H-B Su, and P~S Curtis.
+\newblock {Multi-year convergence of biometric and meteorological estimates of
+  forest carbon storage}.
+\newblock \emph{Agricultural and Forest Meteorology}, 148\penalty0
+  (2):\penalty0 158--170, 2008.
+
+\bibitem[Grace(1997)]{grace1997allocation}
+John Grace.
+\newblock {Toward Models of Resource Allocation by Plants}.
+\newblock \emph{Plant Resource Allocation}, pages 279--291, 1997.
+
+\bibitem[Hanson et~al.(2011)Hanson, Sugden, and Alberts]{hanson2011making}
+Brooks Hanson, Andrew Sugden, and Bruce Alberts.
+\newblock {Making data maximally available}.
+\newblock \emph{Science}, 331\penalty0 (6018):\penalty0 649, 2011.
+
+\bibitem[Haouari et~al.(2013)Haouari, {Van Labeke}, Steppe, Mariem, Braham, and
+  Chaieb]{haouari2013fruit}
+Afef Haouari, Marie-Christine {Van Labeke}, Kathy Steppe, Fethi~Ben Mariem,
+  Mohamed Braham, and Mohamed Chaieb.
+\newblock {Fruit thinning affects photosynthetic activity, carbohydrate levels,
+  and shoot and fruit development of olive trees grown under semiarid
+  conditions}.
+\newblock \emph{Functional Plant Biology}, 40\penalty0 (11):\penalty0
+  1179--1186, 2013.
+
+\bibitem[H{\'{e}}roult et~al.(2013)H{\'{e}}roult, Lin, Bourne, Medlyn, and
+  Ellsworth]{heroult2013optimal}
+Arnaud H{\'{e}}roult, Yan-Shih Lin, Aimee Bourne, Belinda~E Medlyn, and David~S
+  Ellsworth.
+\newblock {Optimal stomatal conductance in relation to photosynthesis in
+  climatically contrasting Eucalyptus species under drought}.
+\newblock \emph{Plant, cell & environment}, 36\penalty0 (2):\penalty0 262--274,
+  2013.
+
+\bibitem[Hoch et~al.(2002)Hoch, Popp, and K{\"{o}}rner]{hoch2002altitudinal}
+G{\"{u}}nter Hoch, Marianne Popp, and Christian K{\"{o}}rner.
+\newblock {Altitudinal increase of mobile carbon pools in \textit{Pinus cembra}
+  suggests sink limitation of growth at the Swiss treeline}.
+\newblock \emph{Oikos}, 98\penalty0 (3):\penalty0 361--374, 2002.
+
+\bibitem[Hughes(2003)]{hughes2003climate}
+Lesley Hughes.
+\newblock {Climate change and Australia: trends, projections and impacts}.
+\newblock \emph{Austral Ecology}, 28\penalty0 (4):\penalty0 423--443, 2003.
+
+\bibitem[Hughes(2011)]{hughes2011web}
+Lesley Hughes.
+\newblock {Cumberland Plain Woodland in the Sydney Basin Bioregion - proposed
+  critically endangered ecological community listing}, 2011.
+\newblock URL
+  \url{http://www.environment.nsw.gov.au/determinations/cumberlandplainpd.htm}.
+
+\bibitem[Iglesias et~al.(2002)Iglesias, Lliso, Tadeo, and
+  Talon]{iglesias2002regulation}
+Domingo~J Iglesias, Ignacio Lliso, Francisco~R Tadeo, and Manuel Talon.
+\newblock {Regulation of photosynthesis through source: sink imbalance in
+  citrus is mediated by carbohydrate content in leaves}.
+\newblock \emph{Physiologia Plantarum}, 116\penalty0 (4):\penalty0 563--572,
+  2002.
+
+\bibitem[IPCC(2014)]{ipcc2014}
+IPCC.
+\newblock {Climate Change 2014: Synthesis Report. Contribution of Working
+  Groups I, II and III to the Fifth Assessment Report of the Intergovernmental
+  Panel on Climate Change}.
+\newblock page 151, 2014.
+
+\bibitem[IUFRO(2015)]{IUFRO2015}
+IUFRO.
+\newblock {International Union of Forestry Research Organizations}, 2015.
+\newblock ISSN 0012-9623.
+\newblock URL \url{http://www.euciufro2015.com/en/}.
+
+\bibitem[Iversen and Norby(2014)]{iversen2014terrestrial}
+Colleen Iversen and Richard Norby.
+\newblock {Terrestrial Plant Productivity and Carbon Allocation in a Changing
+  Climate}.
+\newblock In \emph{Global Environmental Change}, pages 297--316. Springer,
+  2014.
+
+\bibitem[James and Bell(2000)]{james2000leaf}
+Shelley~A James and David~T Bell.
+\newblock {Leaf orientation, light interception and stomatal conductance of
+  \textit{Eucalyptus globulus} ssp. globulus leaves}.
+\newblock \emph{Tree Physiology}, 20\penalty0 (12):\penalty0 815--823, 2000.
+
+\bibitem[Jifon and Syvertsen(2003)]{jifon2003moderate}
+John~L Jifon and James~P Syvertsen.
+\newblock {Moderate shade can increase net gas exchange and reduce
+  photoinhibition in citrus leaves}.
+\newblock \emph{Tree physiology}, 23\penalty0 (2):\penalty0 119--127, 2003.
+
+\bibitem[King(1997)]{king1997functional}
+David~A King.
+\newblock {The functional significance of leaf angle in Eucalyptus}.
+\newblock \emph{Australian Journal of Botany}, 45\penalty0 (4):\penalty0
+  619--639, 1997.
+
+\bibitem[Kitao et~al.(2007)Kitao, Lei, Koike, Kayama, Tobita, and
+  Maruyama]{kitao2007interaction}
+Mitsutoshi Kitao, Thomas~T Lei, Takayoshi Koike, Masazumi Kayama, Hiroyuki
+  Tobita, and Yutaka Maruyama.
+\newblock {Interaction of drought and elevated CO_2 concentration on
+  photosynthetic down-regulation and susceptibility to photoinhibition in
+  Japanese white birch seedlings grown with limited N availability}.
+\newblock \emph{Tree physiology}, 27\penalty0 (5):\penalty0 727--735, 2007.
+
+\bibitem[Klein and Hoch(2015)]{klein2015}
+Tamir Klein and G{\"{u}}nter Hoch.
+\newblock {Tree carbon allocation dynamics determined using a carbon mass
+  balance approach}.
+\newblock \emph{New Phytologist}, 205\penalty0 (1):\penalty0 147--159, 2015.
+\newblock ISSN 1469-8137.
+\newblock \doi{10.1111/nph.12993}.
+
+\bibitem[K{\"{o}}rner(2013)]{korner2013growth}
+C~K{\"{o}}rner.
+\newblock {Growth controls photosynthesis--mostly}.
+\newblock \emph{Nova Acta Leopoldina}, 114:\penalty0 273--283, 2013.
+
+\bibitem[K{\"{o}}rner(2006)]{korner2006plant}
+Christian K{\"{o}}rner.
+\newblock {Plant CO_2 responses: an issue of definition, time and resource
+  supply}.
+\newblock \emph{New phytologist}, 172\penalty0 (3):\penalty0 393--411, 2006.
+
+\bibitem[Kozlowski(1992)]{kozlowski1992carbohydrate}
+T~T Kozlowski.
+\newblock {Carbohydrate sources and sinks in woody plants}.
+\newblock \emph{The Botanical Review}, 58\penalty0 (2):\penalty0 107--222,
+  1992.
+
+\bibitem[Lacointe(2000)]{lacointe2000carbon}
+Andr{\'{e}} Lacointe.
+\newblock {Carbon allocation among tree organs: a review of basic processes and
+  representation in functional-structural tree models}.
+\newblock \emph{Annals of Forest Science}, 57\penalty0 (5):\penalty0 521--533,
+  2000.
+
+\bibitem[Lin et~al.(2015)Lin, Medlyn, Duursma, Prentice, Wang, Baig, Eamus,
+  de~Dios, Mitchell, Ellsworth, and Others]{lin2015optimal}
+Yan-Shih Lin, Belinda~E Medlyn, Remko~A Duursma, I~Colin Prentice, Han Wang,
+  Sofia Baig, Derek Eamus, Victor~Resco de~Dios, Patrick Mitchell, David~S
+  Ellsworth, and Others.
+\newblock {Optimal stomatal behaviour around the world}.
+\newblock \emph{Nature Climate Change}, 5:\penalty0 459--464, 2015.
+
+\bibitem[Linderson et~al.(2012)Linderson, Mikkelsen, Ibrom, Lindroth,
+  Ro-Poulsen, and Pilegaard]{linderson2012up}
+M-L Linderson, Teis~N{\o}rgaard Mikkelsen, Andreas Ibrom, Anders Lindroth,
+  Helge Ro-Poulsen, and Kim Pilegaard.
+\newblock {Up-scaling of water use efficiency from leaf to canopy as based on
+  leaf gas exchange relationships and the modeled in-canopy light
+  distribution}.
+\newblock \emph{Agricultural and Forest Meteorology}, 152:\penalty0 201--211,
+  2012.
+
+\bibitem[Litton et~al.(2007)Litton, Raich, and Ryan]{litton2007carbon}
+Creighton~M Litton, James~W Raich, and Michael~G Ryan.
+\newblock {Carbon allocation in forest ecosystems}.
+\newblock \emph{Global Change Biology}, 13\penalty0 (10):\penalty0 2089--2109,
+  2007.
+
+\bibitem[Lloyd et~al.(1992)Lloyd, Syvertsen, Kriedemann, and
+  Farquhar]{lloyd1992low}
+J~Lloyd, J~P Syvertsen, P~E Kriedemann, and G~D Farquhar.
+\newblock {Low conductances for CO_2 diffusion from stomata to the sites of
+  carboxylation in leaves of woody species}.
+\newblock \emph{Plant, Cell & Environment}, 15\penalty0 (8):\penalty0 873--899,
+  1992.
+
+\bibitem[Medlyn et~al.(2011)Medlyn, Duursma, Eamus, Ellsworth, Prentice,
+  Barton, Crous, de~Angelis, Freeman, and Wingate]{medlyn2011reconciling}
+Belinda~E Medlyn, Remko~A Duursma, Derek Eamus, David~S Ellsworth, I~Colin
+  Prentice, Craig V~M Barton, Kristine~Y Crous, Paolo de~Angelis, Michael
+  Freeman, and Lisa Wingate.
+\newblock {Reconciling the optimal and empirical approaches to modelling
+  stomatal conductance}.
+\newblock \emph{Global Change Biology}, 17\penalty0 (6):\penalty0 2134--2144,
+  2011.
+
+\bibitem[Monsi and Saeki(2005)]{monsi2005factor}
+Masami Monsi and Toshiro Saeki.
+\newblock {On the factor light in plant communities and its importance for
+  matter production}.
+\newblock \emph{Annals of Botany}, 95\penalty0 (3):\penalty0 549--567, 2005.
+
+\bibitem[M{\"{u}}ller et~al.(2000)M{\"{u}}ller, Schmid, and
+  Weiner]{muller2000effect}
+Ivo M{\"{u}}ller, Bernhard Schmid, and Jacob Weiner.
+\newblock {The effect of nutrient availability on biomass allocation patterns
+  in 27 species of herbaceous plants}.
+\newblock \emph{Perspectives in Plant Ecology, Evolution and Systematics},
+  3\penalty0 (2):\penalty0 115--127, 2000.
+
+\bibitem[Niinemets(2012)]{niinemets2012optimization}
+{\"{U}}lo Niinemets.
+\newblock {Optimization of foliage photosynthetic capacity in tree canopies:
+  towards identifying missing constraints}.
+\newblock \emph{Tree physiology}, 32\penalty0 (5):\penalty0 505--509, 2012.
+
+\bibitem[Niinemets and Anten(2009)]{niinemets2009packing}
+{\"{U}}lo Niinemets and Niels P~R Anten.
+\newblock {Packing the photosynthetic machinery: from leaf to canopy}.
+\newblock In \emph{Photosynthesis in silico}, pages 363--399. Springer, 2009.
+
+\bibitem[Palacio et~al.(2014)Palacio, Hoch, Sala, K{\"{o}}rner, and
+  Millard]{palacio2014does}
+Sara Palacio, G{\"{u}}nter Hoch, Anna Sala, Christian K{\"{o}}rner, and Pete
+  Millard.
+\newblock {Does carbon storage limit tree growth?}
+\newblock \emph{New Phytologist}, 201\penalty0 (4):\penalty0 1096--1100, 2014.
+
+\bibitem[Palmroth et~al.(2006)Palmroth, Oren, McCarthy, Johnsen, Finzi, Butnor,
+  Ryan, and Schlesinger]{palmroth2006aboveground}
+Sari Palmroth, Ram Oren, Heather~R McCarthy, Kurt~H Johnsen, Adrien~C Finzi,
+  John~R Butnor, Michael~G Ryan, and William~H Schlesinger.
+\newblock {Aboveground sink strength in forests controls the allocation of
+  carbon below ground and its [CO2]-induced enhancement}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 103\penalty0
+  (51):\penalty0 19362--19367, 2006.
+
+\bibitem[Paul and Foyer(2001)]{paul2001sink}
+Matthew~J Paul and Christine~H Foyer.
+\newblock {Sink regulation of photosynthesis}.
+\newblock \emph{Journal of experimental botany}, 52\penalty0 (360):\penalty0
+  1383--1400, 2001.
+
+\bibitem[Pearcy and Way(2012)]{pearcy2012two}
+Robert~W Pearcy and Danielle~A Way.
+\newblock {Two decades of sunfleck research: looking back to move forward}.
+\newblock \emph{Tree physiology}, 32\penalty0 (9):\penalty0 1059--1061, 2012.
+
+\bibitem[Peltoniemi et~al.(2012)Peltoniemi, Duursma, and
+  Medlyn]{peltoniemi2012co}
+Mikko~S Peltoniemi, Remko~A Duursma, and Belinda~E Medlyn.
+\newblock {Co-optimal distribution of leaf nitrogen and hydraulic conductance
+  in plant canopies}.
+\newblock \emph{Tree physiology}, 32:\penalty0 510--519, 2012.
+
+\bibitem[Peng(2011)]{peng2011reproducible}
+Roger~D Peng.
+\newblock {Reproducible research in computational science}.
+\newblock \emph{Science (New York, Ny)}, 334\penalty0 (6060):\penalty0 1226,
+  2011.
+
+\bibitem[Piel et~al.(2002)Piel, Frak, {Le Roux}, and Genty]{piel2002effect}
+Cl{\'{e}}ment Piel, Ela Frak, Xavier {Le Roux}, and Bernard Genty.
+\newblock {Effect of local irradiance on CO_2 transfer conductance of mesophyll
+  in walnut}.
+\newblock \emph{Journal of Experimental Botany}, 53\penalty0 (379):\penalty0
+  2423--2430, 2002.
+
+\bibitem[Poorter et~al.(2012)Poorter, Niklas, Reich, Oleksyn, Poot, and
+  Mommer]{poorter2012biomass}
+Hendrik Poorter, Karl~J Niklas, Peter~B Reich, Jacek Oleksyn, Pieter Poot, and
+  Liesje Mommer.
+\newblock {Biomass allocation to leaves, stems and roots: meta-analyses of
+  interspecific variation and environmental control}.
+\newblock \emph{New Phytologist}, 193\penalty0 (1):\penalty0 30--50, 2012.
+
+\bibitem[Poorter et~al.(2015)Poorter, Jagodzinski, Ruiz-Peinado, Kuyah, Luo,
+  Oleksyn, Usoltsev, Buckley, Reich, and Sack]{poorter2015does}
+Hendrik Poorter, Andrzej~M Jagodzinski, Ricardo Ruiz-Peinado, Shem Kuyah,
+  Yunjian Luo, Jacek Oleksyn, Vladimir~A Usoltsev, Thomas~N Buckley, Peter~B
+  Reich, and Lawren Sack.
+\newblock {How does biomass distribution change with size and differ among
+  species? An analysis for 1200 plant species from five continents}.
+\newblock \emph{New Phytologist}, 208\penalty0 (3):\penalty0 736--749, 2015.
+
+\bibitem[Prentice et~al.(2014)Prentice, Dong, Gleason, Maire, and
+  Wright]{prentice2014balancing}
+I~Colin Prentice, Ning Dong, Sean~M Gleason, Vincent Maire, and Ian~J Wright.
+\newblock {Balancing the costs of carbon gain and water transport: testing a
+  new theoretical framework for plant functional ecology}.
+\newblock \emph{Ecology letters}, 17\penalty0 (1):\penalty0 82--91, 2014.
+
+\bibitem[Pryor and Johnson(1981)]{pryor1981eucalyptus}
+L~D Pryor and L~A~S Johnson.
+\newblock {\textit{Eucalyptus}, the universal Australian}.
+\newblock \emph{Ecological biogeography of Australia. The Hague, Dr. W. Junk bv
+  Publishers}, pages 499--536, 1981.
+
+\bibitem[Reich et~al.(2002)Reich, Weisel, Eshel, and Kafkafi]{reich2002root}
+Peter~B Reich, Y~Weisel, A~Eshel, and U~Kafkafi.
+\newblock {Root-shoot relations: optimality in acclimation and adaptation or
+  the ‘Emperor’s New Clothes’}.
+\newblock \emph{Plant roots: the hidden half}, pages 205--220, 2002.
+
+\bibitem[Rocha et~al.(2006)Rocha, Goulden, Dunn, and Wofsy]{rocha2006linking}
+Adrian~V Rocha, Michael~L Goulden, Allison~L Dunn, and Steven~C Wofsy.
+\newblock {On linking interannual tree ring variability with observations of
+  whole-forest CO_2 flux}.
+\newblock \emph{Global Change Biology}, 12\penalty0 (8):\penalty0 1378--1389,
+  2006.
+
+\bibitem[Sage(1994)]{sage1994acclimation}
+Rowan~F Sage.
+\newblock {Acclimation of photosynthesis to increasing atmospheric CO_2: the
+  gas exchange perspective}.
+\newblock \emph{Photosynthesis research}, 39\penalty0 (3):\penalty0 351--368,
+  1994.
+
+\bibitem[Sala et~al.(2012)Sala, Woodruff, and Meinzer]{sala2012carbon}
+Anna Sala, David~R Woodruff, and Frederick~C Meinzer.
+\newblock {Carbon dynamics in trees: feast or famine?}
+\newblock \emph{Tree Physiology}, 32\penalty0 (6):\penalty0 764--775, 2012.
+
+\bibitem[Sellin and Lubenets(2010)]{sellin2010variation}
+Arne Sellin and Kristina Lubenets.
+\newblock {Variation of transpiration within a canopy of silver birch: effect
+  of canopy position and daily versus nightly water loss}.
+\newblock \emph{Ecohydrology}, 3\penalty0 (4):\penalty0 467--477, 2010.
+
+\bibitem[Sellin et~al.(2008)Sellin, {\~{O}}unapuu, and
+  Kupper]{sellin2008effects}
+Arne Sellin, Eele {\~{O}}unapuu, and Priit Kupper.
+\newblock {Effects of light intensity and duration on leaf hydraulic
+  conductance and distribution of resistance in shoots of silver birch
+  (\textit{Betula pendula})}.
+\newblock \emph{Physiologia Plantarum}, 134\penalty0 (3):\penalty0 412--420,
+  2008.
+
+\bibitem[Shipley and Meziane(2002)]{shipley2002balanced}
+B~Shipley and D~Meziane.
+\newblock {The balanced-growth hypothesis and the allometry of leaf and root
+  biomass allocation}.
+\newblock \emph{Functional Ecology}, 16\penalty0 (3):\penalty0 326--331, 2002.
+
+\bibitem[Smith and Stitt(2007)]{smith2007coordination}
+Alison~M Smith and Mark Stitt.
+\newblock {Coordination of carbon supply and plant growth}.
+\newblock \emph{Plant, cell & environment}, 30\penalty0 (9):\penalty0
+  1126--1149, 2007.
+
+\bibitem[SOFR(2013)]{ASOFR2013}
+SOFR.
+\newblock {Australia's State of the Forests Report}.
+\newblock Technical report, Department of Agriculture and Water Resources,
+  Canberra, 2013.
+
+\bibitem[Stanturf et~al.(2013)Stanturf, Vance, Fox, and
+  Kirst]{stanturf2013eucalyptus}
+John~A Stanturf, Eric~D Vance, Thomas~R Fox, and Matias Kirst.
+\newblock {\textit{Eucalyptus} beyond its native range: Environmental issues in
+  exotic bioenergy plantations}.
+\newblock \emph{Int. J. For. Res}, 2013:\penalty0 1--5, 2013.
+
+\bibitem[Sweet and Wareing(1966)]{sweet1966role}
+G~B Sweet and P~F Wareing.
+\newblock {Role of plant growth in regulating photosynthesis}.
+\newblock \emph{Nature}, 210:\penalty0 77--79, 1966.
+
+\bibitem[Tausz et~al.(2005)Tausz, Warren, and Adams]{tausz2005dynamic}
+Michael Tausz, Charles~R Warren, and Mark~A Adams.
+\newblock {Dynamic light use and protection from excess light in upper canopy
+  and coppice leaves of \textit{Nothofagus cunninghamii} in an old growth, cool
+  temperate rainforest in Victoria, Australia}.
+\newblock \emph{New Phytologist}, 165\penalty0 (1):\penalty0 143--156, 2005.
+
+\bibitem[Thornley(1972)]{thornley1972model}
+J~H~M Thornley.
+\newblock {A model to describe the partitioning of photosynthate during
+  vegetative plant growth}.
+\newblock \emph{Annals of Botany}, 36\penalty0 (2):\penalty0 419--430, 1972.
+
+\bibitem[Tissue et~al.(2006)Tissue, Barbour, Hunt, Turnbull, Griffin, Walcroft,
+  and Whitehead]{tissue2006spatial}
+David~T Tissue, Margaret~M Barbour, John~E Hunt, Matthew~H Turnbull, Kevin~L
+  Griffin, Adrian~S Walcroft, and David Whitehead.
+\newblock {Spatial and temporal scaling of intercellular CO_2 concentration in
+  a temperate rain forest dominated by \textit{Dacrydium cupressinum} in New
+  Zealand}.
+\newblock \emph{Plant, Cell & Environment}, 29\penalty0 (4):\penalty0 497--510,
+  2006.
+
+\bibitem[Warren et~al.(2003)Warren, Ethier, Livingston, Grant, Turpin,
+  Harrison, and Black]{warren2003transfer}
+C~R Warren, G~J Ethier, N~J Livingston, N~J Grant, D~H Turpin, D~L Harrison,
+  and T~A Black.
+\newblock {Transfer conductance in second growth Douglas-fir
+  (\textit{Pseudotsuga menziesii} (Mirb.) Franco) canopies}.
+\newblock \emph{Plant, Cell & Environment}, 26\penalty0 (8):\penalty0
+  1215--1227, 2003.
+
+\bibitem[Warren et~al.(2007)Warren, L{\"{o}}w, Matyssek, and
+  Tausz]{warren2007internal}
+C~R Warren, M~L{\"{o}}w, R~Matyssek, and MICHAEL Tausz.
+\newblock {Internal conductance to CO_2 transfer of adult \textit{Fagus
+  sylvatica}: variation between sun and shade leaves and due to free-air ozone
+  fumigation}.
+\newblock \emph{Environmental and Experimental Botany}, 59\penalty0
+  (2):\penalty0 130--138, 2007.
+
+\bibitem[Warren et~al.(2012)Warren, Iversen, Garten, Norby, Childs, Brice,
+  Evans, Gu, Thornton, and Weston]{warren2012timing}
+J~M Warren, C~M Iversen, C~T Garten, R~J Norby, J~Childs, D~Brice, R~M Evans,
+  L~Gu, P~Thornton, and D~J Weston.
+\newblock {Timing and magnitude of C partitioning through a young loblolly pine
+  (\textit{Pinus taeda} L.) stand using ^{13}C labeling and shade treatments}.
+\newblock \emph{Tree physiology}, 32\penalty0 (6):\penalty0 799--813, 2012.
+
+\bibitem[Wright et~al.(2003)Wright, Reich, and Westoby]{wright2003least}
+Ian~J Wright, Peter~B Reich, and Mark Westoby.
+\newblock {Least-cost input mixtures of water and nitrogen for photosynthesis}.
+\newblock \emph{The American Naturalist}, 161\penalty0 (1):\penalty0 98--111,
+  2003.
+
+\bibitem[Zens and Webb(2002)]{zens2002sizing}
+M~Scot Zens and Campbell~O Webb.
+\newblock {Sizing up the shape of life}.
+\newblock \emph{Science}, 295\penalty0 (5559):\penalty0 1475--1476, 2002.
 
 \end{thebibliography}

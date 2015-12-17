@@ -5,16 +5,22 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{framed}
-\usepackage{textcomp}
+%\usepackage{textcomp}
+
 % for permil
 \usepackage{wasysym}
+
+\pagestyle{empty}
+
 
 % avoid ugly indentation of paragraphs
 \usepackage{parskip}
 \usepackage{graphicx}
 
 % open sans font
-\usepackage[default,osfigures,scale=0.95]{opensans}
+%\usepackage[default,osfigures,scale=0.95]{opensans}
+\usepackage{newtxtext}
+\usepackage{newtxmath}
 
 % subfolder with the figures (within manuscript/)
 \graphicspath{ {./figures/} }
@@ -52,8 +58,8 @@
 \usepackage{rotating} 
 
 %allows alignment of caption to the left
-% \usepackage{caption} 
-% \captionsetup[table]{singlelinecheck=false}
+\usepackage{caption}
+\captionsetup[table]{singlelinecheck=false}
 
 %allows not italic greek letters
 \usepackage{textgreek}
@@ -68,8 +74,6 @@
 
 %--------------------------------------------------------------------------------------------%
 \begin{document}
-\SweaveOpts{concordance=TRUE}
-
 
 <<preload, echo=FALSE>>=
 library(knitr)
@@ -519,6 +523,7 @@ Science is driven by data, yet it is a challenge to ensure that reported experim
 \clearpage
 %--------------------------------------------------------------------------------------------%
 
+
 % Load data for tables chapter 2
 <<echo=FALSE, message=FALSE, warning=FALSE>>=
 library(xtable)
@@ -538,15 +543,21 @@ colnames(pve_tab2) <- c("Root~Nitrogen~(\\%)",
                         "FRLD~(m~dm\\textsuperscript{-3})")
 
 
-pve_tab3 <- read.csv("data/pve_table2.csv")
+pve_tab3 <- read.csv("data/phystable.csv")
 colnames(pve_tab3) <- c("Volume~(L)",
-                        "\\textit{A}\\textsubscript{max}~(\\textmugreek}mol~m\\textsuperscript{-2}~s\\textsuperscript{-1})",
-                        "\\textit{R}\\textsubscript{dark}~(\\textmugreek}mol~m\\textsuperscript{-2}~s\\textsuperscript{-1})",
+                        "\\textit{A}\\textsubscript{max}~({\\textmugreek}mol~m\\textsuperscript{-2}~s\\textsuperscript{-1})",
+                        "\\textit{R}\\textsubscript{dark}~({\\textmugreek}mol~m\\textsuperscript{-2}~s\\textsuperscript{-1})",
                         "\\textit{J}\\textsubscript{max}",
                         "\\textit{Vc}\\textsubscript{max}",
                         "\\textit{g}\\textsubscript{s}~(mol~m\\textsuperscript{-1}~s\\textsuperscript{-1})",
                         "\\textit{g}\\textsubscript{1}")
 
+
+pve_modtab<- read.csv("data/pve_modeltable.csv")
+pve_modtab[1] <- c("Leaf area\\textsubscript{i}", "Leaf mass\\textsubscript{i}","Stem mass\\textsubscript{i}",
+                   "Root mass\\textsubscript{i}", "\\epsilon\\textsubscript{c}", 
+                   "R\\textsubscript{coarse}~\\textsubscript{root}","R\\textsubscript{fine}~\\textsubscript{root}",
+                   "R\\textsubscript{stem}", "C\\textsubscript{day}","\\Lambda") 
 
 
 @
@@ -557,41 +568,51 @@ colnames(pve_tab3) <- c("Volume~(L)",
 \subsection*{MATERIALS AND METHODS}
 \subsection*{RESULTS}
 
-<<results=verbatim, echo=FALSE,message=FALSE, warning=FALSE>>=
-  datatab1 <- xtable(pve_tab1, label="table:Table1")
 
-  print(datatab1, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
-        floating.environment='sidewaystable', caption.placement="top",
-         hline.after = getOption("xtable.hline.after", c(-1,0,7,nrow(datatab1))))
+%pvetable1
+ <<results='asis'>>=
+ pvetab1 <- xtable(pve_tab1, label="table:Table 2.1",caption="Responses of plant and leaf characteristics of \\textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean($\\pm$1 standard error) for each treatment. Seedling mass and leaf {\\textdelta}\\textsuperscript{13}C values are from final harvest. Values of leaf starch, sugars, nitrogen and SLA represent overall means across measurement campaigns (n=6). Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings.")
 
+ print(pvetab1, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
+       floating.environment='sidewaystable',caption.placement="top",
+        hline.after = getOption("xtable.hline.after", c(-1,0,7,nrow(pvetab1))))
 @
 
 
-%' %' %pvetable2
-%' <<results='asis'>>=
-%' phystab <- xtable(pve_tab2, label="table:Table2",caption="Responses of root characteristics of \\textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean (\\pm~1 standard error) for each treatment. All values are from the final harvest. Values for FRLD were only calculated for seedlings in containers as free seedlings had potentially unlimited soil volume to exploit. Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings, except for FRLD which represents only differences between seedlings in containers.")
-%' 
-%' print(pve_tab2, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
-%'       floating.environment='sidewaystable',caption.placement="top",
-%'        hline.after = getOption("xtable.hline.after", c(-1,0,7,nrow(datatab))))
-%' @
-%' 
-%' 
-%' %pvetable3
-%' <<results='asis'>>=
-%' phystab <- xtable(pve_tab3, label="table:Table2",caption="Responses of leaf level gas exchange parameters of \\textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean (\\pm~1 standard error) for each treatment. \\textit{A}\\textsubscript{max}, \\textit{R}\\textsubscript{dark} and \\textit{g}\\textsubscript{s} are each measured at 25$\\degree$C. Values of \\textit{A}\\textsubscript{max}, \\textit{g}\\textsubscript{s} and \\textit{g}\\textsubscript{1} represent overall means across measurement campaigns (n=6). \\textit{R}\\textsubscript{dark}, \\textit{J}\\textsubscript{max} and \\textit{Vc}\\textsubscript{max} values are means of two measurement campaigns at beginning and end of gas exchange measurements. Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings.")
-%' 
-%' print(pve_tab3, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
-%'       floating.environment='sidewaystable',caption.placement="top",
-%'        hline.after = getOption("xtable.hline.after", c(-1,0,7,nrow(datatab))))
-%' @
-%' 
-%' 
-% , caption="Responses of plant and leaf characterisitics of \\textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean (\\pm~1 standard error) for each treatment. Seedling mass and leaf \\textdelta\\textsuperscript{13}C values are from final harvest. Values of leaf starch, sugars, nitrogen and SLA represent overall means across measurement campaigns (n=6). Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings."
+
+%pvetable2
+ <<results='asis'>>=
+ roottab <- xtable(pve_tab2, label="table:Table 2.2",caption="Responses of root characteristics of \\textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean ($\\pm$1 standard error) for each treatment. All values are from the final harvest. Values for FRLD were only calculated for seedlings in containers as free seedlings had potentially unlimited soil volume to exploit. Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings, except for FRLD which represents only differences between seedlings in containers.")
+
+ print(roottab, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
+       floating.environment='sidewaystable',caption.placement="top",
+        hline.after = getOption("xtable.hline.after", c(-1,0,7,nrow(roottab))))
+@
+
+
+%pvetable3
+ <<results='asis'>>=
+ phystab <- xtable(pve_tab3, label="table:Table 2.3",caption="Responses of leaf level gas exchange parameters of \\textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean ($\\pm$1 standard error) for each treatment. \\textit{A}\\textsubscript{max}, \\textit{R}\\textsubscript{dark} and \\textit{g}\\textsubscript{s} are each measured at 25$\\degree$C. Values of \\textit{A}\\textsubscript{max}, \\textit{g}\\textsubscript{s} and \\textit{g}\\textsubscript{1} represent overall means across measurement campaigns (n=6). \\textit{R}\\textsubscript{dark}, \\textit{J}\\textsubscript{max} and \\textit{Vc}\\textsubscript{max} values are means of two measurement campaigns at beginning and end of gas exchange measurements. Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings.")
+
+ print(phystab, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
+       floating.environment='sidewaystable',caption.placement="top",
+        hline.after = getOption("xtable.hline.after", c(-1,0,7,nrow(phystab))))
+ @
 
 
 \subsection*{DISCUSSION}
 \subsection*{SUPPORTING INFORMATION}
+
+
+%modtable
+ <<results='asis'>>=
+ modtab <- xtable(pve_modtab, label="table:Table 2.S1",caption="Seedling growth model default parameters.")
+
+ print(modtab, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
+       floating.environment='sidewaystable',caption.placement="top",
+        hline.after = getOption("xtable.hline.after", c(-1,0,7,nrow(modtab))))
+ @
+
 
    
 \addcontentsline{toc}{section}{CHAPTER 2 BELOWGROUND SINK LIMITATION ALTERS GROWTH AND CARBON BALANCE OF EUCALYPTUS SEEDLINGS}
@@ -604,11 +625,58 @@ colnames(pve_tab3) <- c("Volume~(L)",
 \clearpage
 %--------------------------------------------------------------------------------------------%
 
+% Load data for tables chapter 3
+<<echo=FALSE, message=FALSE, warning=FALSE>>=
+##read table ready dataframes
+
+resourcetab <- read.csv("data/wtc3_resource_table.csv", stringsAsFactors = FALSE)
+pval <- c(0.785, 0.001, 0.028, 0.002, 0.001, 0.3486, 0.6385, 0.973)
+resourcetab2 <- rbind(resourcetab, c("P value","", as.character(pval)))
+colnames(resourcetab2) <- c("Leaf", "Temperature", "LMA", "N\\textsubscript{a}", "Vc\\textsubscript{max}", 
+          "J\\textsubscript{max}","K","WP\\textsubscript{pre}","WP\\textsubscript{mid}", 
+          "{\\textdelta}\\textsuperscript{13}C")
+
+
+getab <- read.csv("data/wtc3_ge_table.csv", stringsAsFactors = FALSE)
+pval2 <- c(0.001,	0.001,	0.001,	0.001,	0.001,	0.005,	0.001,	0.001)
+getab2 <- rbind(getab, c("P value","","", as.character(pval2)))
+colnames(getab2) <- c("Leaf", "Light","Temperature", "A", "g\\textsubscript{s}", "g\\textsubscript{m}", "ITE","E","VPD","C\\textsubscript{i}", "C\\textsubscript{c}")
+
+
+@
+
+
+
 \section*{CHAPTER 3 \\ \mbox{ }\\ Rapid response of mesophyll conductance to light availability allows shade leaves to take advantage of sunflecks}
 \subsection*{ABSTRACT}
 \subsection*{INTRODUCTION}
 \subsection*{MATERIALS AND METHODS}
 \subsection*{RESULTS}
+
+
+%wtc1tab
+ <<results='asis'>>=
+ wtc3tab1 <- xtable(resourcetab2, label="table:Table 3.1",caption="\\textit{Eucalyptus tereticornis} leaf morphological and physiological traits between full sun and shade leaves under ambient and elevated temperature treatments. Leaf mass per area, N\textsubscript{a}, {\\textdelta}\\textsuperscript{13}C, $\\Psi\\textsubscript{pd}$, $\\Psi\\textsubscript{l}$ and K\textsubscript{l} values represent treatment mean ($\\pm$~1~standard error) across measurement campaigns (n=6). Values of Vc\\textsubscript{max} and J\\textsubscript{max} are treatment mean ($\\pm$ 1 standard error) from AC\\textsubscript{i} curves measured in each chamber at saturating light. Units of LMA and Leaf N\\textsubscript{area} are g~m\\textsuperscript{2}, K\\textsubscript{l} is mmol~m\\textsuperscript{-2}~s\\textsuperscript{-1} MPa, WP is MPA and {\\textdelta}\\textsuperscript{13}C is \\permil. Different letters represent significant differences between leaf type and temperature treatments. The P value represents the overall effect between each unique combination of leaf type and temperature treatment for each trait.")
+
+ print(wtc3tab1, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
+       floating.environment='sidewaystable',caption.placement="top",
+        hline.after = getOption("xtable.hline.after", c(-1,0,4,nrow(wtc3tab1))))
+ @
+
+
+
+%wtc1tab
+ <<results='asis'>>=
+ wtc3tab2 <- xtable(getab2, label="table:Table 3.2",caption="Responses of \\textit{Eucalyptus tereticornis} leaf gas exchange parameters for sun and shade leaves under ambient and elevated temperature treatments. Each value reflects the mean ($\\pm$~1~standard error) for each treatment across gas exchange campaigns (n=6). Units for A and E are {\\textmugreek}mol~m\\textsuperscript{-2}~s\\textsuperscript{-1}, for g\\textsubscript{s} and g\\textsubscript{m} are mol~m\\textsuperscript{-2}~s\\textsuperscript{-1} and for VPD are kPa. Different letters represent significant differences between leaf type, light environment and temperature treatments. The P value represents the overall effect between each unique combination of leaf type, light environment and temperature treatment for each parameter.")
+
+ print(wtc3tab2, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
+       floating.environment='sidewaystable',caption.placement="top",
+        hline.after = getOption("xtable.hline.after", c(-1,0,6,nrow(wtc3tab2))))
+ @
+
+
+
+
 \subsection*{DISCUSSION}
 \subsection*{SUPPORTING INFORMATION}
 
@@ -623,11 +691,57 @@ colnames(pve_tab3) <- c("Volume~(L)",
 \clearpage
 %--------------------------------------------------------------------------------------------%
 
+% Load data for tables chapter 4
+<<echo=FALSE, message=FALSE, warning=FALSE>>=
+wtc1_table <- read.csv("data/wtc1_data_table.csv", stringsAsFactors = FALSE)
+
+Pinter <- read.csv("data/wtc1_p_sigs/P_interactions.csv")
+Pinter <- round(Pinter, 3)
+
+Pco2 <- read.csv("data/wtc1_p_sigs/P_co2.csv")
+Pco2 <- round(Pco2, 3)
+
+Ph2o <- read.csv("data/wtc1_p_sigs/P_h20.csv")
+Ph2o <- round(Ph2o, 3)
+
+###sla P values
+Pinter_sla <- read.csv("data/wtc1_p_sigs/sla/P_interactions_sla.csv")
+Pinter_sla <- round(Pinter_sla, 3)
+
+Pco2_sla <- read.csv("data/wtc1_p_sigs/sla/P_co2_sla.csv")
+Pco2_sla <- round(Pco2_sla, 3)
+
+Ph2o_sla <- read.csv("data/wtc1_p_sigs/sla/P_h20_sla.csv")
+Ph2o_sla <- round(Ph2o_sla, 3)
+
+###Add together
+Pinter_2 <- rbind(Pinter, Pinter_sla)
+Pco2_2 <- rbind(Pco2, Pco2_sla)
+Ph2o_2 <- rbind(Ph2o, Ph2o_sla)
+
+wtc1_table2 <- rbind(wtc1_table, c("CO~2~ effect (P)",  Pco2_2$x))
+wtc1_table3 <- rbind(wtc1_table2, c("Drought effect (P)",  Ph2o_2$x))
+wtc1_table4 <- rbind(wtc1_table3, c("CO~2~ * Drought (P)",  Pinter_2$x))
+
+@
+
+
 \section*{CHAPTER 4 \\ \mbox{ }\\ Elevated atmospheric CO\textsubscript{2} and drought alter carbon allocation above but not belowground in \textit{Eucalyptus saligna}}
 \subsection*{ABSTRACT}
 \subsection*{INTRODUCTION}
 \subsection*{MATERIALS AND METHODS}
 \subsection*{RESULTS}
+
+%wtc1tab
+ <<results='asis'>>=
+ wtc1tab <- xtable(wtc1_table4, label="table:Table 4.1",caption="Final harvest C mass of above and belowground tissues, cumulative aboveground tree C uptake (F\\textsubscript{c,T}) and specific leaf area (SLA). Each value represents the mean ($\\pm$~1 standard error) for each treatment combination. Units for C mass and F\\textsubscript{c,T} are g~C, while SLA are cm\\textsuperscript{2}~g\\textsuperscript{-1}. For each variable, different letters represent significant differences between treatments from the overall model which includes CO\\textsubscript{s} * drought interactions. P values represent overall differences of CO\\textsubscript{s} or drought main effects and the CO\\textsubscript{s} * drought interaction.")
+
+ print(wtc1tab, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
+       floating.environment='sidewaystable',caption.placement="top",
+        hline.after = getOption("xtable.hline.after", c(-1,0,4,nrow(wtc1tab))))
+ @
+
+
 \subsection*{DISCUSSION}
 \subsection*{SUPPORTING INFORMATION}
 
