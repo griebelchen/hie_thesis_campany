@@ -169,7 +169,7 @@ material, either in full or in part, for a degree at this or any other instituti
 **Figure 4.7**. Treatment means &pm; 1 standard error of cumulative aboveground net C flux, TBCA, and the residual belowground C flux ($\text{F}_{c,r}$). Values of cumulative aboveground net C flux were measured over the final eleven months of the experiment. Values for TBCA are the residual between the cumulative C flux and total C mass aboveground estimated from allometric surveys over the same time period. Values for $\text{F}_{c,r}$ were calculated as the residual between TBCA and root C mass predicted on the last date of the eleven month period. 
 
 \
-**Figure 4.8**. Total belowground C allocation as a function of cumulative aboveground net C flux across the final eleven months of the experiment. Carbon mass aboveground was estimated from allometric surveys, interpolated on a daily time scale and then subtracted from the aboveground net C flux to quantify TBCA. Individual lines represent treatment means, with color and line type distinguishing treatment combinations. The dotted line represents a theoretical investment of 50 % of aboveground net C flux towards TBCA.
+**Figure 4.8**. Total belowground C allocation as a function of cumulative aboveground net C flux across the final eleven months of the experiment. Carbon mass aboveground was estimated from allometric surveys, interpolated on a daily time scale and then subtracted from the aboveground net C flux to quantify TBCA. Individual lines represent treatment means, with color and line type distinguishing treatment combinations.
 
 \
 **Figure 4.S1**.
@@ -252,7 +252,7 @@ PPFD  Photosynthetic photon flux density
 \
 Q~10~ Rate of change in respiration due to 10 &deg;C increase in temperature
 \
-R Leaf dark respiration rates
+R Leaf dark respiration rate
 \
 RMF Root mass fraction
 \
@@ -272,13 +272,13 @@ Vc~max~ Maximum rate of rubisco carboxylation
 \
 VPD Vapour pressure deficit
 \
-VPDP Standard Vienna Pee Dee Belemnite
+VPDB Standard Vienna Pee Dee Belemnite
 \
 WUE Water-use efficiency
 \
 WTC Whole-tree chambers
 \
-$\delta$  Isotope discrimination
+$\delta$^13^C   Carbon isotope ratios expressed relative to standard Vienna Pee Dee Belemnite
 \
 $\Delta$ Carbon isotope discrimination during C3 photosynthesis 
 \
@@ -290,7 +290,7 @@ $\sigma$~s~ Self shading parameter
 
 #Abstract 
 
-Plants must utilize external resources including light, CO~2~, water and mineral nutrients to support photosynthetic carbon (C) gain.  This photoassimilate is then allocated within the plant as the essential C resource for growth, maintenance and storage. Theory and observations suggest that C allocation and leaf physiology are optimized to maintain functional balance for external resource capture and to maximize C gain. However, the impacts of a changing climate may disrupt the proposed balance of C allocation between above and belowground pools. Variation in resource distribution and leaf physiology within tree canopies is also not fully understood, thus all canopy leaves may not follow theories of leaf optimal behavior. These unanswered questions regarding C uptake and fate of assimilated C inhibit our ability to precisely test the coordination between canopy photosynthesis and growth. To address these broad ecological questions, this PhD research utilized a diverse set of experiments which manipulated resource availability and climate factors on *Eucalyptus* tree species. My goal was to measure aspects of resource allocation and C uptake across different scales, from leaf to whole tree, to improve physiological understanding of the processes which define tree growth and the sensitivity of these processes to changing environments.
+Plants must utilize external resources including light, CO~2~, water and mineral nutrients to support photosynthetic carbon (C) gain.  This photoassimilate is then allocated within the plant as the essential C resource for growth, maintenance and storage. Theory and observations suggest that C allocation and leaf physiology are optimized to maintain functional balance for external resource capture and to maximize C gain. However, the impacts of a changing climate may disrupt the proposed balance of C allocation between above and belowground pools. Variation in resource distribution and leaf physiology within tree canopies is also not fully understood, thus all canopy leaves may not follow theories of leaf optimal behavior. This lack of understanding regarding C uptake and the fate of assimilated C inhibits our ability to precisely test the coordination between canopy photosynthesis and growth. To address these broad ecological questions, this PhD research utilized a diverse set of experiments which manipulated resource availability and climate factors on *Eucalyptus* tree species. My goal was to measure aspects of resource allocation and C uptake across different scales, from leaf to whole tree, to improve physiological understanding of the processes which define tree growth and the sensitivity of these processes to changing environments.
 
 \
 First, I determined whether manipulations of soil volume would limit growth in *Eucalyptus tereticornis* seedlings by disrupting the balance between source and sink activity. Seedlings were grown in a large range of container sizes and planted flush to the soil alongside naturally planted seedlings ('free').  Aboveground growth of seedlings in containers was negatively affected compared to free seedlings soon after the experiment started. Despite large reductions in growth across soil volume treatments, relative partitioning of mass to leaves, stems and roots was similar for all seedlings after 120 days. Leaf photosynthetic capacity decreased in containers compared to free seedlings, and was correlated to both leaf nitrogen (N) content and starch accumulation. Although belowground sink limitation resulted in a reduction of net leaf photosynthesis (*A~n~*), a mass balance model concluded that these reductions were not large enough to explain observed growth responses. As *A~n~* and growth were not tightly coordinated, the model predicted excess photosynthetic C not attributed to biomass in potted seedlings. Quantifying the fate of this excess C will be essential in evaluating feed-backs between sink strength and leaf C uptake in future studies.
