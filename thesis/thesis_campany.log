@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.8)  17 DEC 2015 17:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.8)  18 DEC 2015 11:00
 entering extended mode
 **thesis_campany.tex
 (C:\Users\90919620\github_repos\hie_thesis_campany\thesis\thesis_campany.tex
@@ -517,66 +517,66 @@ les
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
-LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 12
-6.
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 13
+1.
 
 (C:\Users\90919620\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\t1ntxtlf.fd
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 126.
+(Font)              scaled to size 10.0pt on input line 131.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
 (C:\Users\90919620\github_repos\hie_thesis_campany\thesis\thesis_campany.aux)
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 126.
-LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 12
-6.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 131.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 13
+1.
 
 (C:\Users\90919620\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\omlntxmi.fd
 File: omlntxmi.fd 2012/03/22 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 126.
-LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 12
-6.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 131.
+LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 13
+1.
 
 (C:\Users\90919620\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\omsntxsy.fd
 File: omsntxsy.fd 2012/11/14 Fontinst v1.933 font definitions for OMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 126.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 126
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 131.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 131
 .
 
 (C:\Users\90919620\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 126.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 131.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 131.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 126.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 126.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 131.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 131.
 
 
 (C:\Users\90919620\AppData\Roaming\MiKTeX\2.9\tex\latex\cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    ... okay on input line 131.
 
 (C:\Users\90919620\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -596,15 +596,15 @@ LaTeX Font Info:    ... okay on input line 126.
 \c@mv@boldtabular=\count133
 \symgns@font=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/ntxtlf/m/n --> TS1/ntxtlf/bx/n on input line 126.
-Package gensymb Info: Math companion symbols declared on input line 126.
-LaTeX Info: Redefining \degree on input line 126.
-LaTeX Info: Redefining \celsius on input line 126.
+(Font)                  TS1/ntxtlf/m/n --> TS1/ntxtlf/bx/n on input line 131.
+Package gensymb Info: Math companion symbols declared on input line 131.
+LaTeX Info: Redefining \degree on input line 131.
+LaTeX Info: Redefining \celsius on input line 131.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 126.
-LaTeX Info: Redefining \ohm on input line 126.
-Package gensymb Info: Using \textohm for \ohm on input line 126.
-Package gensymb Info: Using \textmu for \micro on input line 126.
+erthousand on input line 131.
+LaTeX Info: Redefining \ohm on input line 131.
+Package gensymb Info: Using \textohm for \ohm on input line 131.
+Package gensymb Info: Using \textmu for \micro on input line 131.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -643,25 +643,25 @@ Package gensymb Info: Using \textmu for \micro on input line 126.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 137.
+(Font)              scaled to size 20.74pt on input line 142.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 138.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 143.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 138.
+(Font)              scaled to size 20.74pt on input line 143.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 142.
+(Font)              scaled to size 14.4pt on input line 147.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 147.
+(Font)              scaled to size 17.28pt on input line 152.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 148.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 153.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 148.
+(Font)              scaled to size 17.28pt on input line 153.
 <WSU_HIE_Logo2.jpg, id=1, 5928.1475pt x 3970.835pt>
 File: WSU_HIE_Logo2.jpg Graphic file (type jpg)
  <use WSU_HIE_Logo2.jpg>
-Package pdftex.def Info: WSU_HIE_Logo2.jpg used on input line 157.
+Package pdftex.def Info: WSU_HIE_Logo2.jpg used on input line 162.
 (pdftex.def)             Requested size: 170.71393pt x 114.3333pt.
 
 [1
@@ -669,10 +669,10 @@ Package pdftex.def Info: WSU_HIE_Logo2.jpg used on input line 157.
 {C:/Users/90919620/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users
 /90919620/github_repos/hie_thesis_campany/thesis/WSU_HIE_Logo2.jpg>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 165.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 170.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 165.
+(Font)              scaled to size 14.4pt on input line 170.
  [1]
 [2
 
@@ -755,181 +755,190 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 195.
-LaTeX Font Info:    Try loading font information for LGR+ntxtlf on input line 1
-95.
-LaTeX Font Info:    No file LGRntxtlf.fd. on input line 195.
+(Font)              scaled to size 10.0pt on input line 200.
+LaTeX Font Info:    Try loading font information for LGR+ntxtlf on input line 2
+00.
+LaTeX Font Info:    No file LGRntxtlf.fd. on input line 200.
 
 
 LaTeX Font Warning: Font shape `LGR/ntxtlf/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 195.
+(Font)              using `LGR/cmr/m/n' instead on input line 200.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 195.
+(Font)              scaled to size 7.3pt on input line 200.
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--214
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--214
+Underfull \hbox (badness 10000) in paragraph at lines 200--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--214
+Underfull \hbox (badness 10000) in paragraph at lines 200--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--214
+Underfull \hbox (badness 10000) in paragraph at lines 200--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--214
+Underfull \hbox (badness 10000) in paragraph at lines 200--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--214
+Underfull \hbox (badness 10000) in paragraph at lines 200--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--219
 
  []
 
 [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+
+Package natbib Warning: Citation `evans1986carbon' on page vi undefined on inpu
+t line 261.
+
+
+Package natbib Warning: Citation `barton2012effects' on page vi undefined on in
+put line 285.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--304
+Underfull \hbox (badness 10000) in paragraph at lines 225--309
 
  []
 
@@ -937,266 +946,266 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--304
 
 ] [7] [8]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 7.3pt on input line 310.
+(Font)              scaled to size 7.3pt on input line 315.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 334.
+(Font)              scaled to size 5.5pt on input line 339.
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--467
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--472
 
  []
 
@@ -1206,755 +1215,898 @@ Underfull \hbox (badness 10000) in paragraph at lines 310--467
 
 ] [12]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 491.
+(Font)              scaled to size 12.0pt on input line 496.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 491.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 496.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 491.
- [13
+(Font)              scaled to size 12.0pt on input line 496.
 
-] [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 534--550
+
+Package natbib Warning: Citation `grace1997allocation' on page xiii undefined o
+n input line 499.
+
+
+Package natbib Warning: Citation `korner2006plant' on page xiii undefined on in
+put line 499.
+
+
+Package natbib Warning: Citation `fourcaud2008plant' on page xiii undefined on 
+input line 499.
+
+
+Package natbib Warning: Citation `friedlingstein1999toward' on page xiii undefi
+ned on input line 499.
+
+
+Package natbib Warning: Citation `franklin2012modeling' on page xiii undefined 
+on input line 499.
+
+
+Package natbib Warning: Citation `de2014does' on page xiii undefined on input l
+ine 499.
+
+
+Package natbib Warning: Citation `bloom1985resource' on page xiii undefined on 
+input line 502.
+
+
+Package natbib Warning: Citation `bazzaz2000reproductive' on page xiii undefine
+d on input line 502.
+
+
+Package natbib Warning: Citation `shipley2002balanced' on page xiii undefined o
+n input line 502.
+
+
+Package natbib Warning: Citation `monsi2005factor' on page xiii undefined on in
+put line 502.
+
+
+Package natbib Warning: Citation `davidson1969effect' on page xiii undefined on
+ input line 505.
+
+
+Package natbib Warning: Citation `cannell1985attributes' on page xiii undefined
+ on input line 505.
+
+
+Package natbib Warning: Citation `shipley2002balanced' on page xiii undefined o
+n input line 505.
+
+
+Package natbib Warning: Citation `muller2000effect' on page xiii undefined on i
+nput line 505.
+
+
+Package natbib Warning: Citation `zens2002sizing' on page xiii undefined on inp
+ut line 505.
+
+
+Package natbib Warning: Citation `reich2002root' on page xiii undefined on inpu
+t line 505.
+
+
+Package natbib Warning: Citation `monsi2005factor' on page xiii undefined on in
+put line 508.
+
+
+Package natbib Warning: Citation `field1986photosynthesis' on page xiii undefin
+ed on input line 508.
+
+
+Package natbib Warning: Citation `farquhar1982stomatal' on page xiii undefined 
+on input line 508.
+
+
+Package natbib Warning: Citation `sellin2008effects' on page xiii undefined on 
+input line 508.
+
+
+Package natbib Warning: Citation `niinemets2012optimization' on page xiii undef
+ined on input line 508.
+
+
+Package natbib Warning: Citation `niinemets2012optimization' on page xiii undef
+ined on input line 508.
+
+
+Package natbib Warning: Citation `peltoniemi2012co' on page xiii undefined on i
+nput line 508.
+
+[13
+
+]
+
+Package natbib Warning: Citation `litton2007carbon' on page xiv undefined on in
+put line 511.
+
+
+Package natbib Warning: Citation `fatichi2014moving' on page xiv undefined on i
+nput line 511.
+
+
+Package natbib Warning: Citation `paul2001sink' on page xiv undefined on input 
+line 511.
+
+
+Package natbib Warning: Citation `kozlowski1992carbohydrate' on page xiv undefi
+ned on input line 514.
+
+
+Package natbib Warning: Citation `lacointe2000carbon' on page xiv undefined on 
+input line 514.
+
+
+Package natbib Warning: Citation `klein2015' on page xiv undefined on input lin
+e 514.
+
+
+Package natbib Warning: Citation `boland2006forest' on page xiv undefined on in
+put line 517.
+
+
+Package natbib Warning: Citation `ASOFR2013' on page xiv undefined on input lin
+e 517.
+
+
+Package natbib Warning: Citation `pryor1981eucalyptus' on page xiv undefined on
+ input line 517.
+
+
+Package natbib Warning: Citation `byrne2013adaptation' on page xiv undefined on
+ input line 517.
+
+
+Package natbib Warning: Citation `IUFRO2015' on page xiv undefined on input lin
+e 517.
+
+
+Package natbib Warning: Citation `friedlingstein1999toward' on page xiv undefin
+ed on input line 522.
+
+
+Package natbib Warning: Citation `poorter2012biomass' on page xiv undefined on 
+input line 522.
+
+
+Package natbib Warning: Citation `litton2007carbon' on page xiv undefined on in
+put line 522.
+
+
+Package natbib Warning: Citation `poorter2015does' on page xiv undefined on inp
+ut line 522.
+
+
+Package natbib Warning: Citation `reich2002root' on page xiv undefined on input
+ line 522.
+
+
+Package natbib Warning: Citation `muller2000effect' on page xiv undefined on in
+put line 522.
+
+
+Package natbib Warning: Citation `poorter2015does' on page xiv undefined on inp
+ut line 522.
+
+
+Package natbib Warning: Citation `shipley2002balanced' on page xiv undefined on
+ input line 522.
+
+[14]
+
+Package natbib Warning: Citation `friedlingstein1999toward' on page xv undefine
+d on input line 524.
+
+
+Package natbib Warning: Citation `franklin2012modeling' on page xv undefined on
+ input line 524.
+
+
+Package natbib Warning: Citation `iversen2014terrestrial' on page xv undefined 
+on input line 524.
+
+
+Package natbib Warning: Citation `litton2007carbon' on page xv undefined on inp
+ut line 524.
+
+
+Package natbib Warning: Citation `warren2012timing' on page xv undefined on inp
+ut line 524.
+
+
+Package natbib Warning: Citation `sweet1966role' on page xv undefined on input 
+line 527.
+
+
+Package natbib Warning: Citation `korner2013growth' on page xv undefined on inp
+ut line 527.
+
+
+Package natbib Warning: Citation `rocha2006linking' on page xv undefined on inp
+ut line 527.
+
+
+Package natbib Warning: Citation `litton2007carbon' on page xv undefined on inp
+ut line 527.
+
+
+Package natbib Warning: Citation `gough2008multi' on page xv undefined on input
+ line 527.
+
+
+Package natbib Warning: Citation `peltoniemi2012co' on page xv undefined on inp
+ut line 530.
+
+
+Package natbib Warning: Citation `niinemets2012optimization' on page xv undefin
+ed on input line 530.
+
+
+Package natbib Warning: Citation `peltoniemi2012co' on page xv undefined on inp
+ut line 530.
+
+
+Package natbib Warning: Citation `thornley1972model' on page xv undefined on in
+put line 532.
+
+
+Package natbib Warning: Citation `peltoniemi2012co' on page xv undefined on inp
+ut line 532.
+
+
+Package natbib Warning: Citation `jifon2003moderate' on page xv undefined on in
+put line 532.
+
+
+Package natbib Warning: Citation `tissue2006spatial' on page xv undefined on in
+put line 532.
+
+
+Package natbib Warning: Citation `sellin2010variation' on page xv undefined on 
+input line 532.
+
+
+Package natbib Warning: Citation `lloyd1992low' on page xv undefined on input l
+ine 532.
+
+
+Package natbib Warning: Citation `warren2003transfer' on page xv undefined on i
+nput line 532.
+
+
+Package natbib Warning: Citation `piel2002effect' on page xv undefined on input
+ line 532.
+
+
+Package natbib Warning: Citation `warren2007internal' on page xv undefined on i
+nput line 532.
+
+[15]
+
+Package natbib Warning: Citation `hughes2011web' on page xvi undefined on input
+ line 537.
+
+
+Package natbib Warning: Citation `stanturf2013eucalyptus' on page xvi undefined
+ on input line 537.
+
+
+Package natbib Warning: Citation `hughes2003climate' on page xvi undefined on i
+nput line 537.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 539--555
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 534--550
+Underfull \hbox (badness 10000) in paragraph at lines 539--555
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 534--550
+Underfull \hbox (badness 10000) in paragraph at lines 539--555
 
  []
 
-[16] [17] [1]
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 678
+[16]
+
+Package natbib Warning: Citation `hanson2011making' on page xvii undefined on i
+nput line 567.
+
+
+Package natbib Warning: Citation `peng2011reproducible' on page xvii undefined 
+on input line 567.
+
+[17] [1] <./pdfs/allometry.pdf, id=70, 483.8075pt x 690.58pt>
+File: ./pdfs/allometry.pdf Graphic file (type pdf)
+
+<use ./pdfs/allometry.pdf>
+Package pdftex.def Info: ./pdfs/allometry.pdf used on input line 591.
+(pdftex.def)             Requested size: 422.52577pt x 603.12851pt.
+
+
+LaTeX Warning: Float too large for page by 10.79819pt on input line 594.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/airvars.pdf, id=71, 505.89pt x 504.88625pt>
+File: ./pdfs/airvars.pdf Graphic file (type pdf)
+ <use ./pdfs/airvars.pdf>
+Package pdftex.def Info: ./pdfs/airvars.pdf used on input line 599.
+(pdftex.def)             Requested size: 422.52577pt x 421.6979pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/massfractions.pdf, id=72, 474.77374pt x 690.58pt>
+File: ./pdfs/massfractions.pdf Graphic file (type pdf)
+
+<use ./pdfs/massfractions.pdf>
+Package pdftex.def Info: ./pdfs/massfractions.pdf used on input line 607.
+(pdftex.def)             Requested size: 422.52577pt x 614.60373pt.
+
+
+LaTeX Warning: Float too large for page by 22.2734pt on input line 610.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/Asat.pdf, id=73, 505.89pt x 360.34625pt>
+File: ./pdfs/Asat.pdf Graphic file (type pdf)
+ <use ./pdfs/Asat.pdf>
+Package pdftex.def Info: ./pdfs/Asat.pdf used on input line 615.
+(pdftex.def)             Requested size: 422.52577pt x 300.97327pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/A_leafchem.pdf, id=74, 722.7pt x 505.89pt>
+File: ./pdfs/A_leafchem.pdf Graphic file (type pdf)
+ <use ./pdfs/A_leafchem.pdf>
+Package pdftex.def Info: ./pdfs/A_leafchem.pdf used on input line 623.
+(pdftex.def)             Requested size: 422.52577pt x 295.77077pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/massmodel_totalC.pdf, id=75, 505.89pt x 578.16pt>
+File: ./pdfs/massmodel_totalC.pdf Graphic file (type pdf)
+
+<use ./pdfs/massmodel_totalC.pdf>
+Package pdftex.def Info: ./pdfs/massmodel_totalC.pdf used on input line 631.
+(pdftex.def)             Requested size: 422.52577pt x 482.89862pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 732
 .
-
 (C:\Users\90919620\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 678.
+(Font)              scaled to size 10.0pt on input line 732.
+
+<./pdfs/massmodel_resp.pdf, id=76, 483.8075pt x 690.58pt>
+File: ./pdfs/massmodel_resp.pdf Graphic file (type pdf)
+
+<use ./pdfs/massmodel_resp.pdf>
+Package pdftex.def Info: ./pdfs/massmodel_resp.pdf used on input line 751.
+(pdftex.def)             Requested size: 422.52577pt x 603.12851pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2
 
-] [3] [4] [5] [6]
-Overfull \hbox (10.08989pt too wide) in paragraph at lines 749--763
+] [3 <C:/Users/90919620/github_repos/hie_thesis_campany/thesis/pdfs/allometry.p
+df>] [4 <C:/Users/90919620/github_repos/hie_thesis_campany/thesis/pdfs/airvars.
+pdf>] [5 <C:/Users/90919620/github_repos/hie_thesis_campany/thesis/pdfs/massfra
+ctions.pdf>] [6 <C:/Users/90919620/github_repos/hie_thesis_campany/thesis/pdfs/
+Asat.pdf>] [7 <C:/Users/90919620/github_repos/hie_thesis_campany/thesis/pdfs/A_
+leafchem.pdf>] [8 <C:/Users/90919620/github_repos/hie_thesis_campany/thesis/pdf
+s/massmodel_totalC.pdf>] [9] [10] [11] [12] [13 <C:/Users/90919620/github_repos
+/hie_thesis_campany/thesis/pdfs/massmodel_resp.pdf>]
+<./pdfs/ppfd2.pdf, id=174, 505.89pt x 504.88625pt>
+File: ./pdfs/ppfd2.pdf Graphic file (type pdf)
+ <use ./pdfs/ppfd2.pdf>
+Package pdftex.def Info: ./pdfs/ppfd2.pdf used on input line 780.
+(pdftex.def)             Requested size: 422.52577pt x 421.6979pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/aci_nitrovcmax.pdf, id=175, 552.0625pt x 690.58pt>
+File: ./pdfs/aci_nitrovcmax.pdf Graphic file (type pdf)
+
+<use ./pdfs/aci_nitrovcmax.pdf>
+Package pdftex.def Info: ./pdfs/aci_nitrovcmax.pdf used on input line 812.
+(pdftex.def)             Requested size: 422.52577pt x 528.56595pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (10.08989pt too wide) in paragraph at lines 824--838
  [][] 
  []
 
-[7
+<./pdfs/Agmgs.pdf, id=176, 575.14874pt x 690.58pt>
+File: ./pdfs/Agmgs.pdf Graphic file (type pdf)
+ <use ./pdfs/Agmgs.pdf>
+Package pdftex.def Info: ./pdfs/Agmgs.pdf used on input line 845.
+(pdftex.def)             Requested size: 422.52577pt x 507.34364pt.
 
-] [8] [9]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/physiology_bar.pdf, id=177, 866.23625pt x 433.62pt>
+File: ./pdfs/physiology_bar.pdf Graphic file (type pdf)
+
+<use ./pdfs/physiology_bar.pdf>
+Package pdftex.def Info: ./pdfs/physiology_bar.pdf used on input line 853.
+(pdftex.def)             Requested size: 422.52577pt x 211.50964pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/ITE_13c.pdf, id=178, 505.89pt x 504.88625pt>
+File: ./pdfs/ITE_13c.pdf Graphic file (type pdf)
+ <use ./pdfs/ITE_13c.pdf>
+Package pdftex.def Info: ./pdfs/ITE_13c.pdf used on input line 861.
+(pdftex.def)             Requested size: 422.52577pt x 421.6979pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/delta_cica.pdf, id=179, 578.16pt x 433.62pt>
+File: ./pdfs/delta_cica.pdf Graphic file (type pdf)
+
+<use ./pdfs/delta_cica.pdf>
+Package pdftex.def Info: ./pdfs/delta_cica.pdf used on input line 869.
+(pdftex.def)             Requested size: 422.52577pt x 316.89064pt.
+
+
+Package natbib Warning: Citation `evans1986carbon' on page 14 undefined on inpu
+t line 870.
+
+
+Package natbib Warning: Citation `evans1986carbon' on page 14 undefined on inpu
+t line 870.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/cicc_bar.pdf, id=180, 866.23625pt x 433.62pt>
+File: ./pdfs/cicc_bar.pdf Graphic file (type pdf)
+
+<use ./pdfs/cicc_bar.pdf>
+Package pdftex.def Info: ./pdfs/cicc_bar.pdf used on input line 877.
+(pdftex.def)             Requested size: 422.52577pt x 211.50964pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/airvars_wtc3.pdf, id=181, 483.8075pt x 690.58pt>
+File: ./pdfs/airvars_wtc3.pdf Graphic file (type pdf)
+
+<use ./pdfs/airvars_wtc3.pdf>
+Package pdftex.def Info: ./pdfs/airvars_wtc3.pdf used on input line 888.
+(pdftex.def)             Requested size: 422.52577pt x 603.12851pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/Acc_model.pdf, id=182, 578.16pt x 433.62pt>
+File: ./pdfs/Acc_model.pdf Graphic file (type pdf)
+ <use ./pdfs/Acc_model.pdf>
+Package pdftex.def Info: ./pdfs/Acc_model.pdf used on input line 896.
+(pdftex.def)             Requested size: 422.52577pt x 316.89064pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/gasex_temp3.pdf, id=183, 483.8075pt x 690.58pt>
+File: ./pdfs/gasex_temp3.pdf Graphic file (type pdf)
+
+<use ./pdfs/gasex_temp3.pdf>
+Package pdftex.def Info: ./pdfs/gasex_temp3.pdf used on input line 904.
+(pdftex.def)             Requested size: 422.52577pt x 603.12851pt.
+
+
+LaTeX Warning: Float too large for page by 22.79819pt on input line 907.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/gasex_temp4.pdf, id=184, 483.8075pt x 690.58pt>
+File: ./pdfs/gasex_temp4.pdf Graphic file (type pdf)
+
+<use ./pdfs/gasex_temp4.pdf>
+Package pdftex.def Info: ./pdfs/gasex_temp4.pdf used on input line 912.
+(pdftex.def)             Requested size: 422.52577pt x 603.12851pt.
+
+
+LaTeX Warning: Float too large for page by 22.79819pt on input line 915.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14
+
+] [15 <C:/Users/90919620/github_repos/hie_thesis_campany/thesis/pdfs/ppfd2.pdf>
+] [16] [17 <C:/Users/90919620/github_repos/hie_thesis_campany/thesis/pdfs/aci_n
+itrovcmax.pdf>] [18] [19 <C:/Users/90919620/github_repos/hie_thesis_campany/the
+sis/pdfs/Agmgs.pdf>] [20 <C:/Users/90919620/github_repos/hie_thesis_campany/the
+sis/pdfs/physiology_bar.pdf>] [21 <C:/Users/90919620/github_repos/hie_thesis_ca
+mpany/thesis/pdfs/ITE_13c.pdf>] [22 <C:/Users/90919620/github_repos/hie_thesis_
+campany/thesis/pdfs/delta_cica.pdf> <C:/Users/90919620/github_repos/hie_thesis_
+campany/thesis/pdfs/cicc_bar.pdf>] [23 <C:/Users/90919620/github_repos/hie_thes
+is_campany/thesis/pdfs/airvars_wtc3.pdf>] [24 <C:/Users/90919620/github_repos/h
+ie_thesis_campany/thesis/pdfs/Acc_model.pdf>] [25 <C:/Users/90919620/github_rep
+os/hie_thesis_campany/thesis/pdfs/gasex_temp3.pdf>] [26 <C:/Users/90919620/gith
+ub_repos/hie_thesis_campany/thesis/pdfs/gasex_temp4.pdf>]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 787.
+(Font)              scaled to size 14.4pt on input line 936.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.5pt on input line 787.
+(Font)              scaled to size 10.5pt on input line 936.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.9pt on input line 787.
+(Font)              scaled to size 7.9pt on input line 936.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 787.
+(Font)              size <10.95> substituted on input line 936.
 
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 787.
+(Font)              scaled to size 14.4pt on input line 936.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.5pt on input line 787.
+(Font)              scaled to size 10.5pt on input line 936.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.9pt on input line 787.
+(Font)              scaled to size 7.9pt on input line 936.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.5> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 787.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 936.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.5pt on input line 787.
+(Font)              scaled to size 10.5pt on input line 936.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 787
+(Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 936
 .
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 14.4pt on input line 787.
+(Font)              scaled to size 14.4pt on input line 936.
+<./pdfs/conceptfig_wtc1.pdf, id=333, 722.7pt x 542.025pt>
+File: ./pdfs/conceptfig_wtc1.pdf Graphic file (type pdf)
+
+<use ./pdfs/conceptfig_wtc1.pdf>
+Package pdftex.def Info: ./pdfs/conceptfig_wtc1.pdf used on input line 945.
+(pdftex.def)             Requested size: 422.52577pt x 316.89725pt.
+
+<./pdfs/flux_treecarbon3.pdf, id=334, 505.89pt x 504.88625pt>
+File: ./pdfs/flux_treecarbon3.pdf Graphic file (type pdf)
+
+<use ./pdfs/flux_treecarbon3.pdf>
+Package pdftex.def Info: ./pdfs/flux_treecarbon3.pdf used on input line 956.
+(pdftex.def)             Requested size: 422.52577pt x 421.6979pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/leafarea.pdf, id=335, 505.89pt x 504.88625pt>
+File: ./pdfs/leafarea.pdf Graphic file (type pdf)
+
+<use ./pdfs/leafarea.pdf>
+Package pdftex.def Info: ./pdfs/leafarea.pdf used on input line 964.
+(pdftex.def)             Requested size: 422.52577pt x 421.6979pt.
+
+
+Package natbib Warning: Citation `barton2012effects' on page 27 undefined on in
+put line 965.
+
+
+Package natbib Warning: Citation `barton2012effects' on page 27 undefined on in
+put line 965.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/flux_leafarea_co2.pdf, id=336, 505.89pt x 504.88625pt>
+File: ./pdfs/flux_leafarea_co2.pdf Graphic file (type pdf)
+
+<use ./pdfs/flux_leafarea_co2.pdf>
+Package pdftex.def Info: ./pdfs/flux_leafarea_co2.pdf used on input line 972.
+(pdftex.def)             Requested size: 422.52577pt x 421.6979pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/allocfractions.pdf, id=337, 483.8075pt x 690.58pt>
+File: ./pdfs/allocfractions.pdf Graphic file (type pdf)
+
+<use ./pdfs/allocfractions.pdf>
+Package pdftex.def Info: ./pdfs/allocfractions.pdf used on input line 980.
+(pdftex.def)             Requested size: 422.52577pt x 603.12851pt.
+
+
+LaTeX Warning: Float too large for page by 22.79819pt on input line 983.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/treecarbon_daily2.pdf, id=338, 483.8075pt x 690.58pt>
+File: ./pdfs/treecarbon_daily2.pdf Graphic file (type pdf)
+
+<use ./pdfs/treecarbon_daily2.pdf>
+Package pdftex.def Info: ./pdfs/treecarbon_daily2.pdf used on input line 988.
+(pdftex.def)             Requested size: 422.52577pt x 603.12851pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/belowground_flux_plots2.pdf, id=339, 505.89pt x 504.88625pt>
+File: ./pdfs/belowground_flux_plots2.pdf Graphic file (type pdf)
+
+<use ./pdfs/belowground_flux_plots2.pdf>
+Package pdftex.def Info: ./pdfs/belowground_flux_plots2.pdf used on input line 
+996.
+(pdftex.def)             Requested size: 422.52577pt x 421.6979pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/tbca_cflux.pdf, id=340, 505.89pt x 504.88625pt>
+File: ./pdfs/tbca_cflux.pdf Graphic file (type pdf)
+
+<use ./pdfs/tbca_cflux.pdf>
+Package pdftex.def Info: ./pdfs/tbca_cflux.pdf used on input line 1004.
+(pdftex.def)             Requested size: 422.52577pt x 421.6979pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/rootshoot.pdf, id=341, 505.89pt x 504.88625pt>
+File: ./pdfs/rootshoot.pdf Graphic file (type pdf)
+
+<use ./pdfs/rootshoot.pdf>
+Package pdftex.def Info: ./pdfs/rootshoot.pdf used on input line 1041.
+(pdftex.def)             Requested size: 422.52577pt x 421.6979pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./pdfs/treecarbon_daily_chambers2.pdf, id=342, 502.87875pt x 690.58pt>
+File: ./pdfs/treecarbon_daily_chambers2.pdf Graphic file (type pdf)
+
+<use ./pdfs/treecarbon_daily_chambers2.pdf>
+Package pdftex.def Info: ./pdfs/treecarbon_daily_chambers2.pdf used on input li
+ne 1049.
+(pdftex.def)             Requested size: 422.52577pt x 580.23076pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [1
 
-] [2] [3
+] [2 <C:/Users/90919620/github_repos/hie_thesis_campany/thesis/pdfs/conceptfig_
+wtc1.pdf>] [3 <C:/Users/90919620/github_repos/hie_thesis_campany/thesis/pdfs/fl
+ux_treecarbon3.pdf>] [4 <C:/Users/90919620/github_repos/hie_thesis_campany/thes
+is/pdfs/leafarea.pdf>] [5 <C:/Users/90919620/github_repos/hie_thesis_campany/th
+esis/pdfs/flux_leafarea_co2.pdf>] [6 <C:/Users/90919620/github_repos/hie_thesis
+_campany/thesis/pdfs/allocfractions.pdf>] [7 <C:/Users/90919620/github_repos/hi
+e_thesis_campany/thesis/pdfs/treecarbon_daily2.pdf>] [8 <C:/Users/90919620/gith
+ub_repos/hie_thesis_campany/thesis/pdfs/belowground_flux_plots2.pdf>]
+[9 <C:/Users/90919620/github_repos/hie_thesis_campany/thesis/pdfs/tbca_cflux.pd
+f>] [10] [11 <C:/Users/90919620/github_repos/hie_thesis_campany/thesis/pdfs/roo
+tshoot.pdf>] [12 <C:/Users/90919620/github_repos/hie_thesis_campany/thesis/pdfs
+/treecarbon_daily_chambers2.pdf>]
 
-] [4]
-
-Package natbib Warning: Citation `urban2007girdling;' on page 5 undefined on in
-put line 853.
-
-
-Package natbib Warning: Citation `cgivnish1988adaptation' on page 5 undefined o
-n input line 859.
-
-[5] [6] [7] [8
-
-] [9
-
-]
-(C:\Users\90919620\github_repos\hie_thesis_campany\thesis\thesis_campany.bbl
-! Missing $ inserted.
-<inserted text> 
-                $
-l.13 ...lock {Effects of elevated atmospheric [CO_
-                                                  2] on instantaneous
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.15   saligna}}
-                .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.18 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.18 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+Package natbib Warning: Citation `bazzaz2000reproductive' on page 13 undefined 
+on input line 1068.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--18
-[]\T1/ntxtlf/m/n/10 Craig V M Bar-ton, Remko A Du-ursma, Be-linda E Med-lyn, Da
-vid S Ellsworth,
- []
+Package natbib Warning: Citation `chapin1987plant' on page 13 undefined on inpu
+t line 1068.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--18
-\T1/ntxtlf/m/n/10 Derek Ea-mus, David T Tis-sue, Mark A Adams, Jann Con-roy, Kr
-is-
- []
+Package natbib Warning: Citation `givnish1988adaptation' on page 13 undefined o
+n input line 1068.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--18
-\T1/ntxtlf/m/n/10 tine Y Crous, Mar-ion Liber-loo, and Oth-ers.  Ef-fects of el
--e-vated at-mo-spheric
- []
+Package natbib Warning: Citation `litton2007carbon' on page 13 undefined on inp
+ut line 1073.
 
 
-Overfull \hbox (84.17188pt too wide) in paragraph at lines 10--18
-\T1/ntxtlf/m/n/10 [CO$[]\OT1/ntxtlf/m/n/10 ]\OML/ntxmi/m/it/10 oninstantaneoust
-ranspirationefficiencyatleafandcanopyscalesin[]: []; \OT1/ntxtlf/m/n/10 18$
- []
+Package natbib Warning: Citation `franklin2012modeling' on page 13 undefined on
+ input line 1073.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.94   free-air CO_
-                   2 enrichment sites}.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! Extra }, or forgotten $.
-l.94   free-air CO_2 enrichment sites}
-                                      .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+Package natbib Warning: Citation `poorter2015does' on page 13 undefined on inpu
+t line 1075.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.96 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.96 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.123   exchange to investigate CO_
-                                   2 diffusion in leaves of higher plants}.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.123 ...O_2 diffusion in leaves of higher plants}
-                                                  .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.126 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.126 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[10
+[13
 
 ]
-! Misplaced alignment tab character &.
-<argument> Plant, cell &
-                         environment
-l.229 \newblock \emph{Plant, cell & environment}
-                                                , 36\penalty0 (2):\penalty0 ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 244--249
-[]\T1/ntxtlf/m/n/10 Lesley Hughes.  Cum-ber-land Plain Wood-land in the Syd-ney
- Basin Biore-gion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 244--249
-\T1/ntxtlf/m/n/10 - pro-posed crit-i-cally en-dan-gered eco-log-i-cal com-mu-ni
-ty list-ing, 2011.  URL
- []
-
-[11]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.300 ... {Interaction of drought and elevated CO_
-                                                  2 concentration on
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.302 ...dlings grown with limited N availability}
-                                                  .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.304 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.304 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (129.13135pt too wide) in paragraph at lines 298--304
-$\OML/ntxmi/m/it/10 regulationandsusceptibilitytophotoinhibitioninJapanesewhite
-birchseedlingsgrownwithlimitedNavailability: []; \OT1/ntxtlf/m/n/10 27$
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.320 \newblock {Plant CO_
-                          2 responses: an issue of definition, time and reso...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.321   supply}
-               .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.323 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.323 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (14.99622pt too wide) in paragraph at lines 319--323
-[]\T1/ntxtlf/m/n/10 Christian Körner.  Plant CO$[]\OML/ntxmi/m/it/10 responses 
-\OT1/ntxtlf/m/n/10 : \OML/ntxmi/m/it/10 anissueofdefinition; timeandresourcesup
-ply: []; \OT1/ntxtlf/m/n/10 172$
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.364 \newblock {Low conductances for CO_
-                                         2 diffusion from stomata to the sit...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.365   carboxylation in leaves of woody species}
-                                                 .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Misplaced alignment tab character &.
-<argument> \em Plant, Cell &
-                             Environment
-l.366 \newblock \emph{Plant, Cell & Environment}
-                                                , 15\penalty0 (8):\penalty0 ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \em Plant, Cell &
-                                                Environment
-l.366 \newblock \emph{Plant, Cell & Environment}
-                                                , 15\penalty0 (8):\penalty0 ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \em Plant, Cell &
-                                                Environment
-l.366 \newblock \emph{Plant, Cell & Environment}
-                                                , 15\penalty0 (8):\penalty0 ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \em Plant, Cell &
-                                                Environment
-l.366 \newblock \emph{Plant, Cell & Environment}
-                                                , 15\penalty0 (8):\penalty0 ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.368 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.368 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 2512) in paragraph at lines 363--368
-[]\T1/ntxtlf/m/n/10 J Lloyd, J P Syvert-sen, P E Kriede-mann, and G D Far-quhar
-.  Low con-duc-tances for
- []
-
-
-Overfull \hbox (41.8918pt too wide) in paragraph at lines 363--368
-\T1/ntxtlf/m/n/10 CO$[]\OML/ntxmi/m/it/10 diffusionfromstomatatothesitesofcarbo
-xylationinleavesofwoodyspecies: []; \OT1/ntxtlf/m/n/10 15$
- []
-
-[12]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.446 \newblock {Effect of local irradiance on CO_
-                                                  2 transfer conductance of ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.447   in walnut}
-                  .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.450 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.450 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.490   whole-forest CO_
-                        2 flux}.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.490   whole-forest CO_2 flux}
-                               .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.493 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.493 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.496 ...tosynthesis to increasing atmospheric CO_
-                                                  2: the
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.497   gas exchange perspective}
-                                 .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.500 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.500 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--500
-[]\T1/ntxtlf/m/n/10 Rowan F Sage.  Ac-cli-ma-tion of pho-to-syn-the-sis to in-c
-reas-ing at-mo-spheric CO$[] \OT1/ntxtlf/m/n/10 :$
- []
-
-[13]
-! Misplaced alignment tab character &.
-<argument> Plant, cell &
-                         environment
-l.530 \newblock \emph{Plant, cell & environment}
-                                                , 30\penalty0 (9):\penalty0
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.568 ...and temporal scaling of intercellular CO_
-                                                  2 concentration in
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.570   Zealand}
-                .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Misplaced alignment tab character &.
-<argument> \em Plant, Cell &
-                             Environment
-l.571 \newblock \emph{Plant, Cell & Environment}
-                                                , 29\penalty0 (4):\penalty0 ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \em Plant, Cell &
-                                                Environment
-l.571 \newblock \emph{Plant, Cell & Environment}
-                                                , 29\penalty0 (4):\penalty0 ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \em Plant, Cell &
-                                                Environment
-l.571 \newblock \emph{Plant, Cell & Environment}
-                                                , 29\penalty0 (4):\penalty0 ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> \firstchoice@false \em Plant, Cell &
-                                                Environment
-l.571 \newblock \emph{Plant, Cell & Environment}
-                                                , 29\penalty0 (4):\penalty0 ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.573 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.573 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 1629) in paragraph at lines 566--573
-[]\T1/ntxtlf/m/n/10 David T Tis-sue, Mar-garet M Bar-bour, John E Hunt, Matthew
- H Turn-bull, Kevin L Grif-
- []
-
-
-Overfull \hbox (100.63188pt too wide) in paragraph at lines 566--573
-\T1/ntxtlf/m/n/10 CO$[]\OML/ntxmi/m/it/10 concentrationinatemperaterainforestdo
-minatedby[]inNewZealand: []; \OT1/ntxtlf/m/n/10 29$
- []
-
-! Misplaced alignment tab character &.
-<argument> Plant, Cell &
-                         Environment
-l.580 \newblock \emph{Plant, Cell & Environment}
-                                                , 26\penalty0 (8):\penalty0
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.586 \newblock {Internal conductance to CO_
-                                            2 transfer of adult \textit{Fagus
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.588   fumigation}
-                   .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.591 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.591 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 6842) in paragraph at lines 585--591
-[]\T1/ntxtlf/m/n/10 C R War-ren, M Löw, R Matyssek, and MICHAEL Tausz.  In-ter-
-nal con-duc-tance
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.597   (\textit{Pinus taeda} L.) stand using ^
-                                               {13}C labeling and shade trea...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.597 ...ing ^{13}C labeling and shade treatments}
-                                                  .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.599 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.599 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-)
+
+Package natbib Warning: Citation `sala2012carbon' on page 14 undefined on input
+ line 1079.
+
+
+Package natbib Warning: Citation `dietze2014nonstructural' on page 14 undefined
+ on input line 1079.
+
+
+Package natbib Warning: Citation `palmroth2006aboveground' on page 14 undefined
+ on input line 1081.
+
+
+Package natbib Warning: Citation `iversen2014terrestrial' on page 14 undefined 
+on input line 1081.
+
+
+Package natbib Warning: Citation `shipley2002balanced' on page 14 undefined on 
+input line 1081.
+
+
+Package natbib Warning: Citation `poorter2012biomass' on page 14 undefined on i
+nput line 1081.
+
+
+Package natbib Warning: Citation `smith2007coordination' on page 14 undefined o
+n input line 1085.
+
+
+Package natbib Warning: Citation `kozlowski1992carbohydrate' on page 14 undefin
+ed on input line 1085.
+
+
+Package natbib Warning: Citation `sage1994acclimation' on page 14 undefined on 
+input line 1085.
+
+
+Package natbib Warning: Citation `kitao2007interaction' on page 14 undefined on
+ input line 1085.
+
+
+Package natbib Warning: Citation `chapin1990ecology' on page 14 undefined on in
+put line 1085.
+
+
+Package natbib Warning: Citation `hoch2002altitudinal' on page 14 undefined on 
+input line 1087.
+
+
+Package natbib Warning: Citation `iglesias2002regulation' on page 14 undefined 
+on input line 1087.
+
+
+Package natbib Warning: Citation `equiza2006photosynthetic' on page 14 undefine
+d on input line 1087.
+
+
+Package natbib Warning: Citation `urban2007girdling;' on page 14 undefined on i
+nput line 1087.
+
+
+Package natbib Warning: Citation `haouari2013fruit' on page 14 undefined on inp
+ut line 1087.
+
+[14]
+
+Package natbib Warning: Citation `palacio2014does' on page 15 undefined on inpu
+t line 1089.
+
+
+Package natbib Warning: Citation `genet2010age' on page 15 undefined on input l
+ine 1089.
+
+
+Package natbib Warning: Citation `niinemets2009packing' on page 15 undefined on
+ input line 1093.
+
+
+Package natbib Warning: Citation `de1997simple' on page 15 undefined on input l
+ine 1093.
+
+
+Package natbib Warning: Citation `linderson2012up' on page 15 undefined on inpu
+t line 1093.
+
+
+Package natbib Warning: Citation `dai2004two' on page 15 undefined on input lin
+e 1093.
+
+
+Package natbib Warning: Citation `peltoniemi2012co' on page 15 undefined on inp
+ut line 1093.
+
+
+Package natbib Warning: Citation `niinemets2012optimization' on page 15 undefin
+ed on input line 1093.
+
+
+Package natbib Warning: Citation `cgivnish1988adaptation' on page 15 undefined 
+on input line 1093.
+
+
+Package natbib Warning: Citation `cowan1977stomatal' on page 15 undefined on in
+put line 1093.
+
+
+Package natbib Warning: Citation `medlyn2011reconciling' on page 15 undefined o
+n input line 1093.
+
+
+Package natbib Warning: Citation `peltoniemi2012co' on page 15 undefined on inp
+ut line 1093.
+
+
+Package natbib Warning: Citation `wright2003least' on page 15 undefined on inpu
+t line 1093.
+
+
+Package natbib Warning: Citation `heroult2013optimal' on page 15 undefined on i
+nput line 1093.
+
+
+Package natbib Warning: Citation `prentice2014balancing' on page 15 undefined o
+n input line 1093.
+
+
+Package natbib Warning: Citation `lin2015optimal' on page 15 undefined on input
+ line 1093.
+
+
+Package natbib Warning: Citation `wright2003least' on page 15 undefined on inpu
+t line 1095.
+
+[15]
+
+Package natbib Warning: Citation `peltoniemi2012co' on page 16 undefined on inp
+ut line 1097.
+
+
+Package natbib Warning: Citation `pearcy2012two' on page 16 undefined on input 
+line 1097.
+
+
+Package natbib Warning: Citation `tausz2005dynamic' on page 16 undefined on inp
+ut line 1097.
+
+
+Package natbib Warning: Citation `field1983allocating' on page 16 undefined on 
+input line 1102.
+
+
+Package natbib Warning: Citation `cowan1981coping' on page 16 undefined on inpu
+t line 1105.
+
+
+Package natbib Warning: Citation `king1997functional' on page 16 undefined on i
+nput line 1105.
+
+
+Package natbib Warning: Citation `james2000leaf' on page 16 undefined on input 
+line 1105.
+
+
+Package natbib Warning: Citation `falster2003leaf' on page 16 undefined on inpu
+t line 1105.
+
+[16]
+
+Package natbib Warning: Citation `ipcc2014' on page 17 undefined on input line 
+1107.
+
+[17] [18
+
+]
 
 Package natbib Warning: There were undefined citations.
 
-[14]
+[19
+
+]
 (C:\Users\90919620\github_repos\hie_thesis_campany\thesis\thesis_campany.aux)
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1965,34 +2117,30 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 8961 strings out of 493921
- 134264 string characters out of 3147273
- 198663 words of memory out of 3000000
- 12044 multiletter control sequences out of 15000+200000
- 113228 words of font info for 168 fonts, out of 3000000 for 9000
+ 8951 strings out of 493921
+ 133250 string characters out of 3147273
+ 193808 words of memory out of 3000000
+ 12008 multiletter control sequences out of 15000+200000
+ 110443 words of font info for 167 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  53i,14n,92p,2188b,496s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Users/909196
-20/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{C:/Users/9
-0919620/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C:/Users
-/90919620/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<C:/U
-sers/90919620/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cbgreek/grmn1000.pf
-b><C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/tex-gyre/qtm
-b.pfb><C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/tex-gyre
-/qtmbi.pfb><C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/tex
--gyre/qtmr.pfb><C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/type1/public
-/tex-gyre/qtmri.pfb><C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
-ublic/newtx/rntxmi.pfb><C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/type
-1/public/txfonts/rtxmi.pfb><C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/
-type1/public/txfonts/t1xtt.pfb><C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fo
-nts/type1/public/txfonts/txmia.pfb><C:/Users/90919620/AppData/Roaming/MiKTeX/2.
-9/fonts/type1/public/txfonts/txsy.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
-.pfb><C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/wasy/wasy
-10.pfb>
-Output written on thesis_campany.pdf (40 pages, 3858340 bytes).
+{C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/newtx/ntx-ot1-t
+lf.enc}{C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/tex-gyre/q
+-ts1.enc}{C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/newtx/nt
+x-ec-tlf.enc}<C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/c
+bgreek/grmn1000.pfb><C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
+ublic/tex-gyre/qtmb.pfb><C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/fonts/typ
+e1/public/tex-gyre/qtmbi.pfb><C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/font
+s/type1/public/tex-gyre/qtmr.pfb><C:/Users/90919620/AppData/Roaming/MiKTeX/2.9/
+fonts/type1/public/tex-gyre/qtmri.pfb><C:/Users/90919620/AppData/Roaming/MiKTeX
+/2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/90919620/AppData/Roaming/Mi
+KTeX/2.9/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/90919620/AppData/Roamin
+g/MiKTeX/2.9/fonts/type1/public/txfonts/txmia.pfb><C:/Users/90919620/AppData/Ro
+aming/MiKTeX/2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Users/90919620/AppData
+/Roaming/MiKTeX/2.9/fonts/type1/public/wasy/wasy10.pfb>
+Output written on thesis_campany.pdf (62 pages, 4398753 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
+ 514 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

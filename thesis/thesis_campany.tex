@@ -121,6 +121,11 @@
 %set page numering to roman and then change once chapters start  
 \pagenumbering{roman}  
 
+% subfolder with the figures (within manuscript/)
+\graphicspath{ {./pdfs/} }
+
+
+
 %--------------------------------------------------------------------------------------------%
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \begin{document}
@@ -268,7 +273,7 @@
 \textbf{Figure 3.S3}. Response of A (a), g\textsubscript{m} (b) and C\textsubscript{i}-C\textsubscript{c} to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Weak negative relationships with g\textsubscript{m} and increasing leaf temperature were detected with sun and shade leaves under their local light environment (R\textsuperscript{2}~=~0.16 and 0.08, respectively). 
 \\
 \\
-\textbf{Figure 3.S4}. Response of VPD (a), g~s~ (b) and C~a~-C~i~ to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Leaf VPD inside the gas exchange cuvette was positively correlated with increasing leaf temperature for sun leaves and shade leaves at low and high light (R\textsuperscript{2}~=~0.73, 0.58 and 0.72, respectively).
+\textbf{Figure 3.S4}. Response of VPD (a), g\textsubscript{s} (b) and C\textsubscript{a}-C\textsubscript{i} to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Leaf VPD inside the gas exchange cuvette was positively correlated with increasing leaf temperature for sun leaves and shade leaves at low and high light (R\textsuperscript{2}~=~0.73, 0.58 and 0.72, respectively).
 \\
 \\
 \textbf{Figure 4.1}. Conceptual diagram depicting the major components of C flow among plant components including; uptake via photosynthesis, allocation to component tissues, tissue respiration and root exudation. Net aboveground C uptake (F\textsubscript{c,T}), shown in the shaded box, represents the flux of C measured within each WTC. With the WTC experimental design, total belowground C allocation (TBCA) is measured as the residual between F\textsubscript{c,T} and total aboveground C mass. 
@@ -292,7 +297,7 @@
 \textbf{Figure 4.7}. Treatment means $\pm$~1 standard error of cumulative aboveground net C flux, TBCA, and the residual belowground C flux (F\textsubscript{c,r}). Values of cumulative aboveground net C flux were measured over the final eleven months of the experiment. Values for TBCA are the residual between the cumulative C flux and total C mass aboveground estimated from allometric surveys over the same time period. Values for F\textsubscript{c,r} were calculated as the residual between TBCA and root C mass predicted on the last date of the eleven month period. 
 \\
 \\
-\textbf{Figure 4.8}. Total belowground C allocation as a function of cumulative aboveground net C flux across the final eleven months of the experiment. Carbon mass aboveground was estimated from allometric surveys, interpolated on a daily time scale and then subtracted from the aboveground net C flux to quantify TBCA. Individual lines represent treatment means, with color and line type distinguishing treatment combinations. The dotted line represents a theoretical investment of 50~\% of aboveground net C flux towards TBCA.
+\textbf{Figure 4.8}. Total belowground C allocation as a function of cumulative aboveground net C flux across the final eleven months of the experiment. Carbon mass aboveground was estimated from allometric surveys, interpolated on a daily time scale and then subtracted from the aboveground net C flux to quantify TBCA. Individual lines represent treatment means, with color and line type distinguishing treatment combinations.
 \\
 \\
 \textbf{Figure 4.S1}.
@@ -580,10 +585,59 @@ Science is driven by data, yet it is a challenge to ensure that reported experim
 \subsection*{MATERIALS AND METHODS}
 \subsection*{RESULTS}
 
+%figure 2.1
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{allometry.pdf}
+    \caption{Responses of plant and leaf characteristics of \textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean(standard error) for each treatment. Seedling mass and leaf {\textdelta}\textsuperscript{13}C values are from final harvest. Values of leaf starch, sugars, nitrogen and SLA represent overall means across measurement campaigns (n=6). Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings.}
+    \label{fig:figure 2.1}
+\end{figure}
+
+%figure 2.2
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{airvars.pdf}
+    \caption{Daily maximum and minimum temperature (a), total daily PPFD (b), and daily maximum vapour pressure deficit (c) across the experiment duration in 2013.}
+    \label{fig:figure 2.2}
+\end{figure}
+
+%figure 2.3
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{massfractions.pdf}
+    \caption{Soil volume treatment means of biomass partitioning to leaves, stems, and roots at harvest (a), bi-variate relationships between mass allocation to leaves and stems + roots (b) and leaf mass as a function of fine root biomass with $\pm$~standard error (c). For (b) lines represent standardized major axis fitting of the log-transformed allometric relationships of leaf mass fraction by treatment. For (c) the dashed line is the 1:1 relationship and the solid line represents the significant log-log model fit (R\textsuperscript{2} = 0.82) with equation: log(x) = 0.983(log(y)) - 0.036.}
+    \label{fig:figure 2.3}
+\end{figure}
+
+%figure 2.4
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{Asat.pdf}
+    \caption{Soil volume treatment means $\pm$~standard error, across all measurement campaigns (n = 6), of light saturated rates of photosynthesis at 25~$\degree$C. Different letters represent significant differences between treatments.}
+    \label{fig:figure 2.4}
+\end{figure}
+
+%figure 2.5
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{A_leafchem.pdf}
+    \caption{Photosynthetic capacity, on a leaf mass basis, as a function of accumulation of leaf starch (a) and leaf nitrogen content without TNC (b). Colors represent bins levels (n = 5) of both leaf starch and nitrogen grouped from low to high.  Lines represents predictions, for each bin level, from the linear mixed effects model equation of A\textsubscript{mass} as a function of starch and nitrogen. The marginal R\textsuperscript{2} (fixed effects only) was 0.37 and the conditional R\textsuperscript{2} (fixed and random effects) was 0.48 for the complete model.}
+    \label{fig:figure 2.5}
+\end{figure}
+
+%figure 2.6
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{massmodel_totalC.pdf}
+    \caption{Total carbon mass for harvested and modeled seedlings versus predicted total carbon gain after 120 days (a) and  reductions in final seedling carbon mass, both modeled and observed, as a function of the reduction in leaf photosynthesis across treatments (b). For (a) the dashed 1:1 identifies the difference between net total leaf carbon gain and gross seedling production. For (b) both seedling carbon mass and daily carbon assimilation were first scaled to the free seedling control.}
+    \label{fig:figure 2.6}
+\end{figure}
+
+
 
 %pvetable1
 % latex table generated in R 3.2.3 by xtable 1.8-0 package
-% Thu Dec 17 17:19:10 2015
+% Fri Dec 18 10:59:58 2015
 \begin{sidewaystable}[ht]
 \centering
 \caption{Responses of plant and leaf characteristics of \textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean($\pm$1 standard error) for each treatment. Seedling mass and leaf {\textdelta}\textsuperscript{13}C values are from final harvest. Values of leaf starch, sugars, nitrogen and SLA represent overall means across measurement campaigns (n=6). Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings.} 
@@ -610,7 +664,7 @@ Volume Effect (P value) & 0.001 & 0.001 & 0.029 & 0.125 & 0.001 & 0.372 \\
 
 %pvetable2
 % latex table generated in R 3.2.3 by xtable 1.8-0 package
-% Thu Dec 17 17:19:10 2015
+% Fri Dec 18 10:59:59 2015
 \begin{sidewaystable}[ht]
 \centering
 \caption{Responses of root characteristics of \textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean ($\pm$1 standard error) for each treatment. All values are from the final harvest. Values for FRLD were only calculated for seedlings in containers as free seedlings had potentially unlimited soil volume to exploit. Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings, except for FRLD which represents only differences between seedlings in containers.} 
@@ -636,7 +690,7 @@ Volume Effect (P value) & 0.017 & 0.009 & 0.001 \\
 
 %pvetable3
 % latex table generated in R 3.2.3 by xtable 1.8-0 package
-% Thu Dec 17 17:19:10 2015
+% Fri Dec 18 10:59:59 2015
 \begin{sidewaystable}[ht]
 \centering
 \caption{Responses of leaf level gas exchange parameters of \textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean ($\pm$1 standard error) for each treatment. \textit{A}\textsubscript{max}, \textit{R}\textsubscript{dark} and \textit{g}\textsubscript{s} are each measured at 25$\degree$C. Values of \textit{A}\textsubscript{max}, \textit{g}\textsubscript{s} and \textit{g}\textsubscript{1} represent overall means across measurement campaigns (n=6). \textit{R}\textsubscript{dark}, \textit{J}\textsubscript{max} and \textit{Vc}\textsubscript{max} values are means of two measurement campaigns at beginning and end of gas exchange measurements. Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings.} 
@@ -666,7 +720,7 @@ Volume Effect (P value) & 0.001 & 0.269 & 0.004 & 0.005 & 0.007 & 0.001 \\
 
 %modtable
 % latex table generated in R 3.2.3 by xtable 1.8-0 package
-% Thu Dec 17 17:19:10 2015
+% Fri Dec 18 10:59:59 2015
 \begin{sidewaystable}[ht]
 \centering
 \caption{Seedling growth model default parameters.} 
@@ -691,6 +745,13 @@ R$\backslash$textsubscript\{stem\} & stem respiration & 0.00187 & g C g stem\ver
 \end{sidewaystable}
 
 
+%figure 2.S1
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{massmodel_resp.pdf}
+    \caption{Sensitivity testing of seedling growth model to different carbon allocation strategies including; constraints of leaf mass fraction to treatment specific final harvest values (a) and increases in respiration of non-leaf tissue components by 50~\% (b). Open and filled symbols represent default model and harvest values, while shaded symbols represent model sensitivity to each scenario by soil volume treatment. Both seedling carbon mass and daily carbon assimilation were first scaled to the free seedling control.}
+    \label{fig:figure 2.S1}
+\end{figure}
 
    
 \addcontentsline{toc}{section}{CHAPTER 2 BELOWGROUND SINK LIMITATION ALTERS GROWTH AND CARBON BALANCE OF EUCALYPTUS SEEDLINGS}
@@ -707,17 +768,24 @@ R$\backslash$textsubscript\{stem\} & stem respiration & 0.00187 & g C g stem\ver
 
 
 
-
 \section*{CHAPTER 3 \\ \mbox{ }\\ Rapid response of mesophyll conductance to light availability allows shade leaves to take advantage of sunflecks}
 \subsection*{ABSTRACT}
 \subsection*{INTRODUCTION}
 \subsection*{MATERIALS AND METHODS}
 \subsection*{RESULTS}
 
+%figure 3.1
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{ppfd2.pdf}
+    \caption{Bars represent the local light environment for sun and shade leaves during six gas exchange campaigns from October 2013 to April 2014. Means $\pm$~1 standard error represent integrated PPFD, measured with a ceptometer, at the canopy height of each selected leaf. Each date represents the starting date for each measurement campaign. Points represent the mean ($\pm$~1 standard error) daily maximum air temperature during each campaign period.}
+    \label{fig:figure 3.1}
+\end{figure}
+
 
 %wtc1tab
 % latex table generated in R 3.2.3 by xtable 1.8-0 package
-% Thu Dec 17 17:19:10 2015
+% Fri Dec 18 10:59:59 2015
 \begin{sidewaystable}[ht]
 \centering
 \caption{\textit{Eucalyptus tereticornis} leaf morphological and physiological traits between full sun and shade leaves under ambient and elevated temperature treatments. Leaf mass per area, N	extsubscript{a}, {\textdelta}\textsuperscript{13}C, $\Psi\textsubscript{pd}$, $\Psi\textsubscript{l}$ and K	extsubscript{l} values represent treatment mean ($\pm$~1~standard error) across measurement campaigns (n=6). Values of Vc\textsubscript{max} and J\textsubscript{max} are treatment mean ($\pm$ 1 standard error) from AC\textsubscript{i} curves measured in each chamber at saturating light. Units of LMA and Leaf N\textsubscript{area} are g~m\textsuperscript{2}, K\textsubscript{l} is mmol~m\textsuperscript{-2}~s\textsuperscript{-1} MPa, WP is MPA and {\textdelta}\textsuperscript{13}C is \permil. Different letters represent significant differences between leaf type and temperature treatments. The P value represents the overall effect between each unique combination of leaf type and temperature treatment for each trait.} 
@@ -738,10 +806,17 @@ P value &  & 0.785 & 0.001 & 0.028 & 0.002 & 0.001 & 0.3486 & 0.6385 & 0.973 \\
 
 
 
+%figure 3.2
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{aci_nitrovcmax.pdf}
+    \caption{(a) AC\textsubscript{i} curves for sun and shade leaves at elevated (ET) and ambient (AT) temperature treatments. AC\textsubscript{i} curves were measured once on all trees, in February 2014, at 25~$\degree$C and at saturating light (1800~{\textmugreek}mol~m\textsuperscript{-1}~s\textsuperscript{-1}). (b) The relationship between Vc\textsubscript{max} and mean leaf N\textsubscript{a} for each chamber, including sun leaves and shade leaves at low light. (c) The relationship between A\textsubscript{n} and leaf N\textsubscript{a} for sun and shade leaves measured under their ambient light and temperature conditions. For (b,c) the dashed line represents the significant linear model fit for all leaves, with a marginal and conditional R\textsuperscript{2} of 0.28 and 0.35 for (b) and 0.24 and 0.33 for (c).}
+    \label{fig:figure 3.2}
+\end{figure}
 
 %wtc1tab
 % latex table generated in R 3.2.3 by xtable 1.8-0 package
-% Thu Dec 17 17:19:10 2015
+% Fri Dec 18 10:59:59 2015
 \begin{sidewaystable}[ht]
 \centering
 \caption{Responses of \textit{Eucalyptus tereticornis} leaf gas exchange parameters for sun and shade leaves under ambient and elevated temperature treatments. Each value reflects the mean ($\pm$~1~standard error) for each treatment across gas exchange campaigns (n=6). Units for A and E are {\textmugreek}mol~m\textsuperscript{-2}~s\textsuperscript{-1}, for g\textsubscript{s} and g\textsubscript{m} are mol~m\textsuperscript{-2}~s\textsuperscript{-1} and for VPD are kPa. Different letters represent significant differences between leaf type, light environment and temperature treatments. The P value represents the overall effect between each unique combination of leaf type, light environment and temperature treatment for each parameter.} 
@@ -764,10 +839,84 @@ P value &  &  & 0.001 & 0.001 & 0.001 & 0.001 & 0.001 & 0.005 & 0.001 & 0.001 \\
 
 
 
+%figure 3.3
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{Agmgs.pdf}
+    \caption{The response of A to g\textsubscript{s} (a) and g\textsubscript{m} (b) for sun leaves measured at high light and shade leaves measured at both low and high light under their respective elevated and ambient temperature treatments. Lines represent either smoothed regressions from a generalized additive model fit (a) or linear model fits (b). Grey areas are 95\% confidence intervals from the mean.}
+    \label{fig:figure 3.3}
+\end{figure}
 
+%figure 3.4
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{physiology_bar.pdf}
+    \caption{The mean $\pm$~1 standard error of g\textsubscript{s} (a), g~\textsubscript{m} (b) and A\textsubscript{n} (c) of sun leaves and shade leaves at both low and high light pooled across six measurement dates.}
+    \label{fig:figure 3.4}
+\end{figure}
+
+%figure 3.5
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{ITE_13c.pdf}
+    \caption{(a) Response of instantaneous transpiration efficiency (ITE) to VPD for sun leaves and shade leaves at both low and high light with elevated and ambient temperature treatments. (b) The relationship between leaf {\textdelta}\textsuperscript{13}C and leaf N\textsubscript{a} for sun leaves at high light and shade leaves at low light. For (a) VPD is the leaf to air pressure difference inside the gas exchange cuvette and lines represent predictions from the optimal ITE model with a g\textsubscript{1} value for each leaf type and treatment. For (b) the dashed line represents the significant linear model fit for all leaves with a marginal and conditional R\textsuperscript{2}~=~ of 0.41 and 0.45, respectively.}
+    \label{fig:figure 3.5}
+\end{figure}
+
+%figure 3.6
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{delta_cica.pdf}
+    \caption{Relationship between the observed discrimination of \textsuperscript{13}CO\textsubscript{2} measured during photosynthesis and measured C\textsubscript{i}/C\textsubscript{a} for sun leaves measured at high light and shade leaves measured at both low and high light. The solid line represents the theoretical line for C3 plants from \citet{evans1986carbon}.}
+    \label{fig:figure 3.6}
+\end{figure}
+
+%figure 3.7
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{cicc_bar.pdf}
+    \caption{The mean $\pm$~1 standard error of intercellular CO\textsubscript{2} concentration (a), CO\textsubscript{2} concentration in the chloroplasts (b) and CO\textsubscript{2} drawdown from substomatal cavities to sites of carboxylation of sun leaves and shade leaves at both low and high light.}
+    \label{fig:figure 3.7}
+\end{figure}
 
 \subsection*{DISCUSSION}
 \subsection*{SUPPORTING INFORMATION}
+
+%figure 3.S1
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{airvars_wtc3.pdf}
+    \caption{Daily maximum and minimum temperature (a) and total daily PPFD (b) for each chamber across the experiment duration.}
+    \label{fig:figure 3.S1}
+\end{figure}
+
+%figure 3.S2
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{Acc_model.pdf}
+    \caption{Photosynthetic CO\textsubscript{2} response (AC\textsubscript{c}) curves for sun and shade leaves at elevated and ambient temperature treatments. C\textsubscript{c} values were predicted with g\textsubscript{m}, thus curves represent chloroplastic photosynthetic parameters at 25~$\degree$C and saturating light (1800~{\textmugreek}mol~m\textsuperscript{-1}~s\textsuperscript{-1}). }
+    \label{fig:figure 3.S2}
+\end{figure}
+
+%figure 3.S3
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{gasex_temp3.pdf}
+    \caption{Response of A (a), g\textsubscript{m} (b) and C\textsubscript{i}-C\textsubscript{c} to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Weak negative relationships with g\textsubscript{m} and increasing leaf temperature were detected with sun and shade leaves under their local light environment (R\textsuperscript{2}~=~0.16 and 0.08, respectively). }
+    \label{fig:figure 3.S3}
+\end{figure}
+
+%figure 3.S4
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{gasex_temp4.pdf}
+    \caption{Response of VPD (a), g\textsubscript{s} (b) and C\textsubscript{a}-C\textsubscript{i} to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Leaf VPD inside the gas exchange cuvette was positively correlated with increasing leaf temperature for sun leaves and shade leaves at low and high light (R\textsuperscript{2}~=~0.73, 0.58 and 0.72, respectively).}
+    \label{fig:figure 3.S4}
+\end{figure}
+
+
+
+ 
 
    
 \addcontentsline{toc}{section}{CHAPTER 3 RAPID RESPONSE OF MESOPHYLL CONDUCTANCE TO LIGHT AVAILABILITY ALLOWS SHADE LEAVES TO TAKE ADVANTAGE OF SUNFLECKS}
@@ -788,11 +937,79 @@ P value &  &  & 0.001 & 0.001 & 0.001 & 0.001 & 0.001 & 0.005 & 0.001 & 0.001 \\
 \subsection*{ABSTRACT}
 \subsection*{INTRODUCTION}
 \subsection*{MATERIALS AND METHODS}
+
+
+%figure 4.1
+\begin{figure}[p!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{conceptfig_wtc1.pdf}
+    \caption{Conceptual diagram depicting the major components of C flow among plant components including; uptake via photosynthesis, allocation to component tissues, tissue respiration and root exudation. Net aboveground C uptake (F\textsubscript{c,T}), shown in the shaded box, represents the flux of C measured within each WTC. With the WTC experimental design, total belowground C allocation (TBCA) is measured as the residual between F\textsubscript{c,T} and total aboveground C mass. }
+    \label{fig:figure 4.1}
+\end{figure}
+
 \subsection*{RESULTS}
+
+
+%figure 4.2
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{flux_treecarbon3.pdf}
+    \caption{Whole tree C mass as a function of cumulative aboveground C flux for each WTC tree. Values of cumulative aboveground net C flux were measured over the final eleven months of the experiment. Whole tree C mass represents the sum of bole, branch, leaf and root C mass from allometric estimates over the same time period. The dotted line is the 1:1 relationship and the solid line represents the significant overall linear model fit from the equation y = 0.56x + 878.2 (R\textsuperscript{2}~=~0.86).}
+    \label{fig:figure 4.2}
+\end{figure}
+
+%figure 4.3
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{leafarea.pdf}
+    \caption{Estimated canopy leaf area for each WTC tree over the final eleven months of the experiment (April 2008 to March 2009). Estimates are based on height growth, litterfall rates and two leaf area estimates following \citet{barton2012effects}. Color and line type distinguish the treatment combination for each WTC.}
+    \label{fig:figure 4.3}
+\end{figure}
+
+%figure 4.4
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{flux_leafarea_co2.pdf}
+    \caption{Treatment means of cumulative aboveground C flux as a function of mean daily canopy leaf area over the final eleven months of the experiment. The solid line represents the significant overall linear model fit (R\textsuperscript{2}~=~0.77) from the equation: y = 611.9x + 2791.2. Separate 95\% confidence intervals are shown for linear regression between F\textsubscript{c,T} and mean leaf area for aC\textsubscript{a} and eC\textsubscript{a} treatments.}
+    \label{fig:figure 4.4}
+\end{figure}
+
+%figure 4.5
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{allocfractions.pdf}
+    \caption{Treatment means of C mass fractions of leaves (a), stems (branches+boles) (c) and roots (e) as a function of tree size, via whole tree C mass. Treatment means of C allocation to leaves (b) and stems (d) as a function of cumulative aboveground net C flux. Root C allocation could not be estimated as root turnover was not known. Values for C mass fractions are calculated from final harvest biomass totals. Values for C allocation are estimated from cumulative total aboveground net C flux over the final eleven months of the experiment. Solid lines represent overall linear model fit for leaf, stem and root mass fractions (R\textsuperscript{2} = 0.53,~0.26~and~0.01, respectively), as well as leaf and stem C allocation (R\textsuperscript{2}= 0.39, 0.01, respectively).}
+    \label{fig:figure 4.5}
+\end{figure}
+
+%figure 4.6
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{treecarbon_daily2.pdf}
+    \caption{Cumulative aboveground net C flux and additive C allocation to individual tree components from 15 April 2008 to 16 March 2009. Each panel represents mean values for each treatment combination (n=3). Both aboveground net C flux and tissue C allocation where set to 0 on 15 April 2008 in order to track the allocation of C in daily time steps. Root C mass, predicted from the logarithmic relationship between above and belowground mass partitioning of pre-planting seedlings and harvested trees, is shown on the last date.}
+    \label{fig:figure 4.6}
+\end{figure}
+
+%figure 4.7
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{belowground_flux_plots2.pdf}
+    \caption{Treatment means $\pm$~1 standard error of cumulative aboveground net C flux, TBCA, and the residual belowground C flux (F\textsubscript{c,r}). Values of cumulative aboveground net C flux were measured over the final eleven months of the experiment. Values for TBCA are the residual between the cumulative C flux and total C mass aboveground estimated from allometric surveys over the same time period. Values for F\textsubscript{c,r} were calculated as the residual between TBCA and root C mass predicted on the last date of the eleven month period.}
+    \label{fig:figure 4.7}
+\end{figure}
+
+%figure 4.8
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{tbca_cflux.pdf}
+    \caption{Total belowground C allocation as a function of cumulative aboveground net C flux across the final eleven months of the experiment. Carbon mass aboveground was estimated from allometric surveys, interpolated on a daily time scale and then subtracted from the aboveground net C flux to quantify TBCA. Individual lines represent treatment means, with color and line type distinguishing treatment combinations.}
+    \label{fig:figure 4.8}
+\end{figure}
+
 
 %wtc1tab
 % latex table generated in R 3.2.3 by xtable 1.8-0 package
-% Thu Dec 17 17:19:10 2015
+% Fri Dec 18 10:59:59 2015
 \begin{sidewaystable}[ht]
 \centering
 \caption{Final harvest C mass of above and belowground tissues, cumulative aboveground tree C uptake (F\textsubscript{c,T}) and specific leaf area (SLA). Each value represents the mean ($\pm$~1 standard error) for each treatment combination. Units for C mass and F\textsubscript{c,T} are g~C, while SLA are cm\textsuperscript{2}~g\textsuperscript{-1}. For each variable, different letters represent significant differences between treatments from the overall model which includes CO\textsubscript{s} * drought interactions. P values represent overall differences of CO\textsubscript{s} or drought main effects and the CO\textsubscript{s} * drought interaction.} 
@@ -818,6 +1035,23 @@ CO\~{}2\~{} effect (P) & 0.005 & 0.086 & 0.122 & 0.417 & 0.091 & 0.044 & 0.053 \
 \subsection*{DISCUSSION}
 \subsection*{SUPPORTING INFORMATION}
 
+%figure 4.S1
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{rootshoot.pdf}
+    \caption{Root mass as a function of shoot mass in \textit{Eucalyptus saligna} for potted seedlings harvested before planting of WTC trees (n=17) and WTC trees harvested after 2 years (n=12). Potted seedlings were grown in 25 l pots inside each WTC, while chamber [CO\textsubscript{2}] treatments conditions were maintained. The solid line represents the significant log-log model fit (R\textsuperscript{2} = 0.98) from the equation: log(x) = 0.77(log(y)) + 0.43.}
+    \label{fig:figure 4.S1}
+\end{figure}
+
+%figure 4.S2
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{treecarbon_daily_chambers2.pdf}
+    \caption{Cumulative aboveground net C flux and additive C allocation of individual tree components from 2008-4-15 and 2009-3-16. Panels represent each individual WTC. Both aboveground net C flux and tissue C allocation where set to 0 on 2008-4-15 in order to track the allocation of C in daily time steps. Total root C mass, predicted from the log relationship between above and belowground mass partitioning of pre-planting seedlings and harvested trees, is shown on the last date.}
+    \label{fig:figure 4.S2}
+\end{figure}
+
+
 \pagenumbering{arabic}
 \setcounter{page}{1}     
 \addcontentsline{toc}{section}{CHAPTER 1 ELEVATED ATMOSPHERIC CO\textsubscript{2} AND DROUGHT ALTER CARBON ALLOCATION ABOVE BUT NOT BELOWGROUND IN \textit{EUCALYPTUS SALIGNA}}
@@ -836,7 +1070,7 @@ It has long been recognized that resources limit plant growth in different envir
 The research presented in this thesis was designed to investigate resource allocation in trees at individual tissue and whole plant scales in \textit{Eucalyptus}. I sought to address theories of plant functional balance by testing biomass partitioning in seedlings and trees undergoing various environmental manipulations. As observed biomass production may not necessarily reveal shifts in plant functional responses to environmental change, I evaluated the sensitivity of the allocation of photosynthate above and belowground across different temporal scales. Using mass balance approaches I then tested the coordination between growth and \textit{A\textsubscript{n}}, using leaf gas exchange parameters in seedlings and measurements of net canopy C gain in trees. To help bridge the knowledge gap between leaf and canopy C gain I investigated the distribution of N and H~\textsubscript{2}O as a function of light availability within canopies and the effect this has on individual leaf physiology. By utilizing novel experimental approaches, evidence from this work improves our understanding of functional processes that determine the net C uptake of trees and then how this assimilated C is used to fuel growth. The contribution of this body of work provides fundamental evidence underlying resource allocation in ecologically and commercially important \textit{Eucalyptus} tree species.
 
 \subsubsection*{Where does the carbon go?}
-This thesis question arises from large uncertainties that remain regarding fundamental processes which affect terrestrial C cycling.  The question “Where does the carbon go?” arises from the need to track the fate of C from canopy \textit{A\textsubscript{n}} to determine the contribution of forests ecosystems to C cycling \citep{litton2007carbon}. Currently, empirical data on C allocation are critical to the further development of forest models and subsequent predictions of global C balance under climate change \citep{franklin2012modeling}. Growth responses during early phases of tree establishment (seedlings or young trees) to changes in soil resource availability or climate change factors will likely depend on shifts in the plant C budget to balance growth, respiration and storage. Consequently, understanding environmentally driven shifts in C allocation in young *Eucalyptus* trees will be crucial to manage their fitness in fragile native ecosystems and their productivity in terms of timber production and quality in forestry systems.
+This thesis question arises from large uncertainties that remain regarding fundamental processes which affect terrestrial C cycling.  The question \enquote{Where does the carbon go?} arises from the need to track the fate of C from canopy \textit{A\textsubscript{n}} to determine the contribution of forests ecosystems to C cycling \citep{litton2007carbon}. Currently, empirical data on C allocation are critical to the further development of forest models and subsequent predictions of global C balance under climate change \citep{franklin2012modeling}. Growth responses during early phases of tree establishment (seedlings or young trees) to changes in soil resource availability or climate change factors will likely depend on shifts in the plant C budget to balance growth, respiration and storage. Consequently, understanding environmentally driven shifts in C allocation in young *Eucalyptus* trees will be crucial to manage their fitness in fragile native ecosystems and their productivity in terms of timber production and quality in forestry systems.
 
 First, I examined patterns in biomass partitioning of \textit{E.tereticornis} seedlings with belowground resource limitation (Chapter 1) and with \textit{E.saligna} trees exposed to eC\textsubscript{a} and drought treatments (Chapter 2). Across these studies, partitioning of biomass largely followed allometric trajectories related to plant size, nearly independent of treatment manipulation. Partitioning to roots, leaves and stems in \textit{E.tereticornis} seedlings was conserved across a ten-fold variation in seedling biomass with and without soil volume restriction. During this early growth stage, these results infer that growth inhibition from reduced belowground sink strength did not elicit a functional partitioning response. With much larger 2 year old \textit{E.saligna} trees, grown in WTCs, differences in partitioning to stem biomass were detected between aC\textsubscript{a} and eC\textsubscript{a} treatments. These patterns were also attributed to size dependent relationships associated with ontogeny \citep[see]{poorter2015does}, rather than a direct functional response to eC\textsubscript{a}.
 
@@ -886,8 +1120,8 @@ Second, aspects of leaf physiology and C allocation in these \textit{Eucalyptus}
 
 \addcontentsline{toc}{section}{REFERENCES}
 %--------------------------------------------------------------------------------------------%
- \clearpage
- \bibliography{references}
+% \clearpage
+% \bibliography{references}
 
 
 

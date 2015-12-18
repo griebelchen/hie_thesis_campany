@@ -72,6 +72,11 @@
 %set page numering to roman and then change once chapters start  
 \pagenumbering{roman}  
 
+% subfolder with the figures (within manuscript/)
+\graphicspath{ {./pdfs/} }
+
+
+
 %--------------------------------------------------------------------------------------------%
 \begin{document}
 
@@ -221,7 +226,7 @@ opts_chunk$set(echo=FALSE)
 \textbf{Figure 3.S3}. Response of A (a), g\textsubscript{m} (b) and C\textsubscript{i}-C\textsubscript{c} to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Weak negative relationships with g\textsubscript{m} and increasing leaf temperature were detected with sun and shade leaves under their local light environment (R\textsuperscript{2}~=~0.16 and 0.08, respectively). 
 \\
 \\
-\textbf{Figure 3.S4}. Response of VPD (a), g~s~ (b) and C~a~-C~i~ to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Leaf VPD inside the gas exchange cuvette was positively correlated with increasing leaf temperature for sun leaves and shade leaves at low and high light (R\textsuperscript{2}~=~0.73, 0.58 and 0.72, respectively).
+\textbf{Figure 3.S4}. Response of VPD (a), g\textsubscript{s} (b) and C\textsubscript{a}-C\textsubscript{i} to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Leaf VPD inside the gas exchange cuvette was positively correlated with increasing leaf temperature for sun leaves and shade leaves at low and high light (R\textsuperscript{2}~=~0.73, 0.58 and 0.72, respectively).
 \\
 \\
 \textbf{Figure 4.1}. Conceptual diagram depicting the major components of C flow among plant components including; uptake via photosynthesis, allocation to component tissues, tissue respiration and root exudation. Net aboveground C uptake (F\textsubscript{c,T}), shown in the shaded box, represents the flux of C measured within each WTC. With the WTC experimental design, total belowground C allocation (TBCA) is measured as the residual between F\textsubscript{c,T} and total aboveground C mass. 
@@ -245,7 +250,7 @@ opts_chunk$set(echo=FALSE)
 \textbf{Figure 4.7}. Treatment means $\pm$~1 standard error of cumulative aboveground net C flux, TBCA, and the residual belowground C flux (F\textsubscript{c,r}). Values of cumulative aboveground net C flux were measured over the final eleven months of the experiment. Values for TBCA are the residual between the cumulative C flux and total C mass aboveground estimated from allometric surveys over the same time period. Values for F\textsubscript{c,r} were calculated as the residual between TBCA and root C mass predicted on the last date of the eleven month period. 
 \\
 \\
-\textbf{Figure 4.8}. Total belowground C allocation as a function of cumulative aboveground net C flux across the final eleven months of the experiment. Carbon mass aboveground was estimated from allometric surveys, interpolated on a daily time scale and then subtracted from the aboveground net C flux to quantify TBCA. Individual lines represent treatment means, with color and line type distinguishing treatment combinations. The dotted line represents a theoretical investment of 50~\% of aboveground net C flux towards TBCA.
+\textbf{Figure 4.8}. Total belowground C allocation as a function of cumulative aboveground net C flux across the final eleven months of the experiment. Carbon mass aboveground was estimated from allometric surveys, interpolated on a daily time scale and then subtracted from the aboveground net C flux to quantify TBCA. Individual lines represent treatment means, with color and line type distinguishing treatment combinations.
 \\
 \\
 \textbf{Figure 4.S1}.
@@ -365,7 +370,7 @@ PPFD  Photosynthetic photon flux density
 Q\textsubscript{10} Rate of change in respiration due to 10~$\degree$C increase in temperature
 \\
 \\
-R Leaf dark respiration rates
+R Leaf dark respiration rate
 \\
 \\
 RMF Root mass fraction
@@ -395,7 +400,7 @@ Vc\textsubscript{max} Maximum rate of rubisco carboxylation
 VPD Vapour pressure deficit
 \\
 \\
-VPDP Standard Vienna Pee Dee Belemnite
+VPDB Standard Vienna Pee Dee Belemnite
 \\
 \\
 WUE Water-use efficiency
@@ -404,7 +409,7 @@ WUE Water-use efficiency
 WTC Whole-tree chambers
 \\
 \\
-{\textdelta}  Isotope discrimination
+{\textdelta}\textsuperscript{13}C  Carbon isotope ratios expressed relative to standard Vienna Pee Dee Belemnite
 \\
 \\
 $\Delta$ Carbon isotope discrimination during C3 photosynthesis 
@@ -423,7 +428,7 @@ $\sigma$\textsubscript{s} Self shading parameter
 %--------------------------------------------------------------------------------------------%
 \section*{ABSTRACT}
 
-Plants must utilize external resources including light, CO\textsubscript{2}, water and mineral nutrients to support photosynthetic carbon (C) gain.  This photoassimilate is then allocated within the plant as the essential C resource for growth, maintenance and storage. Theory and observations suggest that C allocation and leaf physiology are optimized to maintain functional balance for external resource capture and to maximize C gain. However, the impacts of a changing climate may disrupt the proposed balance of C allocation between above and belowground pools. Variation in resource distribution and leaf physiology within tree canopies is also not fully understood, thus all canopy leaves may not follow theories of leaf optimal behavior. These unanswered questions regarding C uptake and fate of assimilated C inhibit our ability to precisely test the coordination between canopy photosynthesis and growth. To address these broad ecological questions, this PhD research utilized a diverse set of experiments which manipulated resource availability and climate factors on \textit{Eucalyptus} tree species. My goal was to measure aspects of resource allocation and C uptake across different scales, from leaf to whole tree, to improve physiological understanding of the processes which define tree growth and the sensitivity of these processes to changing environments.
+Plants must utilize external resources including light, CO\textsubscript{2}, water and mineral nutrients to support photosynthetic carbon (C) gain.  This photoassimilate is then allocated within the plant as the essential C resource for growth, maintenance and storage. Theory and observations suggest that C allocation and leaf physiology are optimized to maintain functional balance for external resource capture and to maximize C gain. However, the impacts of a changing climate may disrupt the proposed balance of C allocation between above and belowground pools. Variation in resource distribution and leaf physiology within tree canopies is also not fully understood, thus all canopy leaves may not follow theories of leaf optimal behavior. This lack of understanding regarding C uptake and the fate of assimilated C inhibits our ability to precisely test the coordination between canopy photosynthesis and growth. To address these broad ecological questions, this PhD research utilized a diverse set of experiments which manipulated resource availability and climate factors on \textit{Eucalyptus} tree species. My goal was to measure aspects of resource allocation and C uptake across different scales, from leaf to whole tree, to improve physiological understanding of the processes which define tree growth and the sensitivity of these processes to changing environments.
 
 \
 First, I determined whether manipulations of soil volume would limit growth in \textit{Eucalyptus tereticornis} seedlings by disrupting the balance between source and sink activity. Seedlings were grown in a large range of container sizes and planted flush to the soil alongside naturally planted seedlings ('free'). Aboveground growth of seedlings in containers was negatively affected compared to free seedlings soon after the experiment started. Despite large reductions in growth across soil volume treatments, relative partitioning of mass to leaves, stems and roots was similar for all seedlings after 120 days. Leaf photosynthetic capacity decreased in containers compared to free seedlings, and was correlated to both leaf nitrogen (N) content and starch accumulation. Although belowground sink limitation resulted in a reduction of net leaf photosynthesis (\textit{A\textsubscript{n}}), a mass balance model concluded that these reductions were not large enough to explain observed growth responses. As \textit{A\textsubscript{n}} and growth were not tightly coordinated, the model predicted excess photosynthetic C not attributed to biomass in potted seedlings. Quantifying the fate of this excess C will be essential in evaluating feed-backs between sink strength and leaf C uptake in future studies.
@@ -444,7 +449,7 @@ In conclusion, this PhD research addressed diverse questions regarding resource 
 \subsection*{OVERVIEW}
 
 \subsubsection*{Resource allocation in plants}
-Plants need to extract resources including light, CO\textsubscript{2}, water and mineral nutrients to support growth and reproduction. To accomplish this requires energy, appropriate tissues for uptake and a transport system to deliver resources to their required destination \citep{grace1997allocation}. The uptake of nutrients from roots is necessary for leaf growth. Leaves then fix the C, via net photosynthesis (\textit{A\textsubscript{n}}), required for growth of the entire plant. This assimilated C from source leaves, in the form of simple sugars, is in itself an essential C resource that must be allocated to the growth and maintenance of tissues or is diverted to a storage pool of carbohydrates. As a result, growth is driven by several simultaneous processes, including \textit{A\textsubscript{n}}, C investment among organs, resource acquisition and metabolic costs \citep{korner2006plant, fourcaud2008plant}. Gaining an understanding of the sensitivity of these processes to environmental change is crucial for predicting future terrestrial C cycling \citep{friedlingstein1999toward}, as there is currently little consensus on how C allocation should be modeled \citep{franklin2012modeling, de2014does}.
+Plants need to extract resources including light, CO\textsubscript{2}, water and mineral nutrients to support growth and reproduction. To accomplish this requires an energy supply, appropriate tissues for uptake and a transport system to deliver resources to their required destination \citep{grace1997allocation}. The uptake of nutrients from roots is necessary for leaf growth. Leaves then fix the C, via net photosynthesis (\textit{A\textsubscript{n}}), required for growth of the entire plant. This assimilated C from source leaves, in the form of simple sugars, is in itself an essential C resource that must be allocated to the growth and maintenance of tissues or is diverted to a storage pool of carbohydrates. As a result, growth is driven by several simultaneous processes, including \textit{A\textsubscript{n}}, C investment among organs, resource acquisition and metabolic costs \citep{korner2006plant, fourcaud2008plant}. Gaining an understanding of the sensitivity of these processes to environmental change is crucial for predicting future terrestrial C cycling \citep{friedlingstein1999toward}, as there is currently little consensus on how C allocation should be modeled \citep{franklin2012modeling, de2014does}.
 
 \subsubsection*{Resource allocation theory}
 Theoretically, growth under resource limitation will be maximized when investment into the acquisition of any single resource from the environment leads to an equivalent increase in growth \citep{bloom1985resource}. The two critical assumptions of allocation theory are that the resource in question is in fixed supply and that allocation among competing functions is mutually exclusive \citep{bazzaz2000reproductive}. Thus, trade-offs between different tissue C sinks will exist as resources are invested within the plant. Allocation of newly acquired resources to different tissues will then affect subsequent rates of capture of CO\textsubscript{2} and soil resources \citep{shipley2002balanced}. In resource saturated environments plants should maximize growth by allocating resources to support leaf growth to increase C acquisition \citep{monsi2005factor}. Resource availability, however, is rarely saturated in natural ecosystems. As a result, shifts in allocation of external resources and assimilated C to different tissue or ecosystem components can occur.
@@ -459,7 +464,7 @@ Incident PPFD declines exponentially with cumulative leaf area index from the to
 Carbon allocation represents the fraction of net primary productivity distributed to different tissue components above and belowground. In trees, C allocation encompasses investment into tissue biomass production as well as fluxes including respiration, exudation and turnover rates \citep{litton2007carbon}. The fate of this assimilated C is regulated by the delicate balance between leaf C uptake (source) and the C sink strength of the different biomass pools. For example, the sensitivity of C source and sink activities to water and nutrient availability could lead to an imbalance between C supply and C used for tissue growth and respiration \citep{fatichi2014moving}. Additionally, imbalances between source and sink activity can lead to investment into carbohydrates synthesis as a transient C storage sink \citep{paul2001sink}.
 
 \
-As woody plants have competing tissue carbohydrate sinks, growth should principally depend on the allocation of leaf C assimilate among different sink organs \citep{kozlowski1992carbohydrate, lacointe2000carbon}. In response to changing environmental conditions, however, trees may adaptively shift tissue C allocation to balance growth, storage and C loss. Due to conservation of mass, it is theoretically possible to track the fates of this assimilate from leaf C uptake to their eventual destination in above and belowground pools. Although mass balance approaches can be used to quantitatively asses tree C allocation, few studies so far have been able to provide direct empirical measurements of C allocation among component pools \citep{klein2015}.
+As woody plants have competing tissue carbohydrate sinks, growth should principally depend on the allocation of leaf C assimilate among different sink organs \citep{kozlowski1992carbohydrate, lacointe2000carbon}. In response to changing environmental conditions, however, trees may adaptively shift tissue C allocation to balance growth, storage and C loss. Due to conservation of mass, it is conceivably possible to track photosynthates from leaf C uptake to their eventual destination in above and belowground pools. Although mass balance approaches can be used to quantitatively asses tree C allocation, few studies so far have been able to provide direct empirical measurements of C allocation among component pools \citep{klein2015}.
 
 \subsubsection*{\textit{Eucalyptus} tree species as model for research}
 Research on \textit{Eucalyptus} trees is ecologically important for Australia as it is the most dominant tree genus \citep{boland2006forest}. \textit{Eucalyptus} forests are the continent’s most common forest type, covering about three-quarters of Australia\textquotesingle s native forests (92 million hectares) and occurring in all but the continent\textquotesingle s driest regions \citep{ASOFR2013}. \textit{Eucalyptus} tree species are also economically important globally as they are commonly cultivated in plantations due to fast growth. Despite the fact that only a few \textit{Eucalyptus} species have natural ranges outside continental Australia \citep{pryor1981eucalyptus}, \textit{Eucalyptus} trees are grown in plantations in over 90 countries citep{booth2013eucalypt}. This is because \textit{Eucalyptus} species have been shown to exhibit both adaptive plasticity and genetic specialization to spatial variation in climate \citep{byrne2013adaptation}. Currently, the global plantation area of eucalypts totals nearly 20 million hectares, accounting for around 15~\% of the world\textquotesingle s total plantation forests \citep{IUFRO2015}. Consequently, this iconic Australian tree species is an excellent model to investigate strategies of resource allocation in trees facing global climate change.
@@ -467,12 +472,12 @@ Research on \textit{Eucalyptus} trees is ecologically important for Australia as
 \subsection*{CURRENT KNOWLEDGE GAPS}
 
 \subsubsection*{Resource allocation in trees}
-The distribution of assimilated C is a primary determinant of plant growth \citep{friedlingstein1999toward}, yet our knowledge of the mechanisms by which allocation is regulated is poor \citep{poorter2012biomass}. A key issue with drawing generalized conclusions about the plasticity of C allocation in trees is with the inconsistency in terminology used to define C allocation to specific tissue or ecosystem components \citep{litton2007carbon}. Biomass partitioning should not be confused with the allocation of newly fixed photosynthates to different organs, as the measured biomass at any time point represent the cumulative result of dynamic C allocation over time \citep{poorter2015does}. This dynamic C allocation includes not only tree parts such as leaves, stems and roots but also respiration, exudation, turnover and transient C storage pools. As C allocation integrates all of these processes, it is extremely difficult using current methods to assess C allocation in whole trees. Disentangling the effects of resource supply on plant C allocation patterns is often assessed across “snapshots” in time, which should be done with caution \citep{reich2002root}. This is because of plants have developmental shifts in biomass partitioning, independent of resource supply, as they age \citep{muller2000effect, poorter2015does}. Additionally, supplies of light and soil resources fluctuate continuously, making equilibrium with C allocation at any “snapshot” highly unlikely \citep{shipley2002balanced}.
+The distribution of assimilated C is a primary determinant of plant growth \citep{friedlingstein1999toward}, yet our knowledge of the mechanisms by which allocation is regulated is poor \citep{poorter2012biomass}. A key issue with drawing generalized conclusions about the plasticity of C allocation in trees is with the inconsistency in terminology used to define C allocation to specific tissue or ecosystem components \citep{litton2007carbon}. Biomass partitioning, as the relative distribution of biomass between different tissue components, should not be confused with the allocation of newly fixed photosynthates to different organs. This is because the measured biomass at any time point represents the cumulative result of dynamic C allocation over time \citep{poorter2015does}. This dynamic C allocation includes not only tree parts such as leaves, stems and roots but also respiration, exudation, turnover and transient C storage pools. As C allocation integrates all of these processes, it is extremely difficult using current methods to assess C allocation in whole trees. Disentangling the effects of resource supply on plant C allocation patterns is often assessed across “snapshots” in time, which should be done with caution \citep{reich2002root}. This is because of plants have developmental shifts in biomass partitioning, independent of resource supply, as they age \citep{muller2000effect, poorter2015does}. Additionally, supplies of light and soil resources fluctuate continuously, making equilibrium with C allocation at any “snapshot” highly unlikely \citep{shipley2002balanced}.
 
 As accurately measuring tree C allocation remains a difficult task, especially belowground, drawing conclusions that are applicable to whole plants or ecosystems remains a challenge. Currently, the representation of C allocation lags behind photosynthesis (\textit{A\textsubscript{n}}) in process-based forest models \citep{friedlingstein1999toward, franklin2012modeling, iversen2014terrestrial} and our understanding of how global change impacts C allocation is incomplete \citep{litton2007carbon, warren2012timing}. This knowledge gap of C allocation patterns in trees is of major concern due to the potential for forest ecosystems to sequester C in a changing climate. This deficiency requires more empirical data to derive basic principles that drive patterns of tree C allocation in changing environments. However, this will require novel experiments and approaches to better quantify shifts in C allocation above and belowground in future studies. 
 
 \subsubsection*{Coupling of photosynthesis and tree growth}
-On short timescales, \textit{A\textsubscript{n}} and respiratory losses may not correlate with growth because of tissue C storage pools. On longer timescales, however, they determine net plant C balance and must correlate to growth. This had led to the long standing debate over how strongly plant growth is controlled by either source or sink activity \citep{sweet1966role, korner2013growth}. Studies manipulating either source activity (CO\textsubscript{2} fumigation or defoliation) or sink activity (fruit removal, girdling or low growth temperatures) have not reached consensus when addressing this debate. This uncertainty arises from the difficulty in measuring the balance between C uptake and the fate of assimilated C among pools with long (biomass) or short (carbohydrate storage, respiration, exudation) retention times. When shifts in carbohydrate storage, tissue respiration or turnover rates occur, rates of C assimilation may not correlate with biomass production at a given time point \citep{rocha2006linking, litton2007carbon, gough2008multi}. To assess this balance will likely require integration of empirical and modelling approaches to assess leaf physiological and whole plant responses to manipulations of source-sink activity. To address this knowledge gap, new approaches are needed to test how interactions between source and sink activity affect the fate of assimilate C across different temporal scales. 
+On short timescales, \textit{A\textsubscript{n}} and total respiratory losses may not correlate with growth because of the dynamics of tissue C storage pools. On longer timescales, however, \textit{A\textsubscript{n}} and tissue respiration determine net plant C balance and must correlate to growth. This had led to the long standing debate over how strongly plant growth is controlled by either source or sink activity \citep{sweet1966role, korner2013growth}. Studies manipulating either source activity (CO\textsubscript{2} fumigation or defoliation) or sink activity (fruit removal, girdling or low growth temperatures) have not reached consensus when addressing this debate. This uncertainty arises from the difficulty in measuring the balance between C uptake and the fate of assimilated C among pools with long (biomass) or short (carbohydrate storage, respiration, exudation) retention times. When shifts in carbohydrate storage, tissue respiration or turnover rates occur, rates of C assimilation may not correlate with biomass production at a given time point \citep{rocha2006linking, litton2007carbon, gough2008multi}. To assess this balance will likely require integration of empirical and modelling approaches to assess leaf physiological and whole plant responses to manipulations of source-sink activity. To address this knowledge gap, new approaches are needed to test how interactions between source and sink activity affect the fate of assimilate C across different temporal scales. 
 
 \subsubsection*{Within canopy resource utilization}
 Due to the relationships between light, N and leaf photosynthetic capacity, it is commonly assumed that a limited availability of N should be distributed proportional to light availability within tree canopies. Observed canopy distribution of N is often less steep than optimal theory suggests, however, with shade leaves having more N than expected based on average light gradients [\citep{peltoniemi2012co}. Additionally, constraints on water distribution from the soil to the upper canopy may negatively impact the distribution of photosynthetic N to canopy light availability \citep{niinemets2012optimization, peltoniemi2012co}. Whether insufficient hydraulic supply results in the observed sub-optimal canopy N gradients has yet to be empirically tested. Assessing leaf C gain as a function of light availability is also made difficult by frequent light fluctuations within a canopy, via sunflecks. Sunflecks cause temporal variation in PPFD that is not taken into account when considering what is optimal for a plant in terms of distributing resources along a gradient of light availability.
@@ -484,7 +489,7 @@ The overall research goal is to evaluate how trees adjust their growth and physi
 
 This research focuses on two Australian tree species, \textit{Eucalyptus tereticornis} and \textit{Eucalyptus saligna}, which have important roles in both native forests ecosystems and as commercial plantation timber. \textit{Eucalyptus tereticornis} is part of the critically endangered Cumberland Plain ecological community and \textit{Eucalyptus saligna} is part of the critically endangered Blue Gum High Forest ecological community, with both communities having fragmented geographic distributions in the Sydney Basin bioregion \citep{hughes2011web}. Both of these species are part of the “big nine” \textit{Eucalyptus} species group which accounts for more than 90~\% of planted \textit{Eucalyptus} forests worldwide \citep{stanturf2013eucalyptus}. As a result, the core findings of this PhD research have both conservation and commercial applications in addressing the productivity of these two important tree species in the face of global climate change. For example, considerable uncertainty remains as to the magnitude of CO\textsubscript{2} fertilization on this continent as much of the vegetation is already under nutrient and/or water limitation \citep{hughes2003climate}. 
 
-This research was conducted using the state of the art Whole Tree Chamber experiment as well as a novel field-based seedlings container study at Western Sydney University. Using the two \textit{Eucalyptus} tree species, fundamental principles of common optimization theories were tested at several tree growth stages. Leaf based data were combined with tissue biomass production and canopy C fluxes to develop a better understanding of how resources are allocated to optimize whole tree growth. Empirical data were also integrated with a seedling growth model to test how resource limitation impacts the coordination between A and growth. Specifically, this thesis aimed to address current knowledge gaps by answering the following main questions:
+This research was conducted using the state of the art Whole Tree Chamber experiment as well as a novel field-based seedlings container study at Western Sydney University. Using the two \textit{Eucalyptus} tree species, fundamental principles of common optimization theories were tested at several tree growth stages. Leaf-level data were combined with tissue biomass production and canopy C fluxes to develop a better understanding of how resources are allocated to optimize whole tree growth. Empirical data were also integrated with a seedling growth model to test how resource limitation impacts the coordination between A and growth. Specifically, this thesis aimed to address current knowledge gaps by answering the following main questions:
 \\
 \\
 1.  \textbf{Where does the carbon go?} 
@@ -512,7 +517,7 @@ How does resource availability within \textit{Eucalyptus} tree canopies interact
 \textbf{Chapter 5} presents the synthesis and outlook of the major findings in my PhD research as they relate to each main thesis question. First, shifts in C allocation likely occurred as these two \textit{Eucalyptus} species were impacted by changing environments, even though biomass partitioning of harvested trees remained relatively conserved. Combined results from Chapters 2 \& 4 are used to discuss how observed responses of biomass partitioning and C allocation correspond to prevailing theory and how these mass balance approaches have improved our understanding of the investment of photosynthetic C in trees. Second, I show that coupling between total C gain and tree growth can be disrupted over shorter experimental time frames, while over longer time scales they are strongly correlated as a function of leaf area. Results from Chapter 2 use empirical data and modelling approaches to address the current debate over source and sink control over seedling growth, while Chapter 4 is used to discussed how unique measurements of net canopy photosynthesis correlate to tree productivity under future climate scenarios. Last, I show that sun and shade leaves exhibit different physiological behavior in order to utilize differential availability of external resources within \textit{Eucalyptus tereticornis} canopies. Results from Chapter 3 are used to show that shade leaf physiology is likely optimized differently from sun leaves in order to respond to sunflecks, which has important consequence for current theories regarding how resources are allocated to optimize canopy C gain.
 
 \subsubsection*{Reproducible Research}
-Science is driven by data, yet it is a challenge to ensure that reported experimental data are appropriately described, standardized, archived and openly available \citep{hanson2011making}. Reproducibility serves as a minimum standard for judging scientific claims when full independent replication of a study is not possible, which should include making available the data and the computer code used to analyze the data \citep{peng2011reproducible}. Not only does creating reproducible research increase the reliability and credibility of one\textquotesingle s findings, but it encourages the engagement of the scientific community to advance new research ideas. Every aspect of this PhD research attempts to adhere to these key principles of reproducibility. Raw data and code for each experimental chapter are located in an easily accessible online repository. This entire thesis is also compiled as a reproducible document, and is made available for open access. As a result, all necessary information required to reproduce this thesis, in its entirety, are located in repositories at https://github.com/CourtneyCampany.
+Science is driven by data, yet it is a challenge to ensure that reported experimental data are appropriately described, standardized, archived and openly available \citep{hanson2011making}. Reproducibility serves as a minimum standard for judging scientific claims when full independent replication of a study is not possible, which should include making available the data and the computer code used to analyze the data \citep{peng2011reproducible}. Not only does creating reproducible research increase the reliability and credibility of one\textquotesingle s findings, but it encourages the engagement of the scientific community to advance new research ideas. Every aspect of this PhD research attempts to adhere to these key principles of reproducibility. Raw data and code for each experimental chapter are located in an easily accessible online repository. This entire thesis is also compiled as a reproducible document, including R code \citep{RDevelopmentCoreTeam2011} to analyze data, generate text and create tables/figures, which are all made available for open access. As a result, all necessary information required to reproduce this thesis, in its entirety, are located in repositories at https://github.com/CourtneyCampany.
 
 \pagenumbering{arabic}
 \setcounter{page}{1}     
@@ -568,6 +573,55 @@ pve_modtab[1] <- c("Leaf area\\textsubscript{i}", "Leaf mass\\textsubscript{i}",
 \subsection*{MATERIALS AND METHODS}
 \subsection*{RESULTS}
 
+%figure 2.1
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{allometry.pdf}
+    \caption{Responses of plant and leaf characteristics of \textit{Eucalyptus tereticornis} seedlings to soil volume treatments. Each value reflects the mean(standard error) for each treatment. Seedling mass and leaf {\textdelta}\textsuperscript{13}C values are from final harvest. Values of leaf starch, sugars, nitrogen and SLA represent overall means across measurement campaigns (n=6). Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings.}
+    \label{fig:figure 2.1}
+\end{figure}
+
+%figure 2.2
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{airvars.pdf}
+    \caption{Daily maximum and minimum temperature (a), total daily PPFD (b), and daily maximum vapour pressure deficit (c) across the experiment duration in 2013.}
+    \label{fig:figure 2.2}
+\end{figure}
+
+%figure 2.3
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{massfractions.pdf}
+    \caption{Soil volume treatment means of biomass partitioning to leaves, stems, and roots at harvest (a), bi-variate relationships between mass allocation to leaves and stems + roots (b) and leaf mass as a function of fine root biomass with $\pm$~standard error (c). For (b) lines represent standardized major axis fitting of the log-transformed allometric relationships of leaf mass fraction by treatment. For (c) the dashed line is the 1:1 relationship and the solid line represents the significant log-log model fit (R\textsuperscript{2} = 0.82) with equation: log(x) = 0.983(log(y)) - 0.036.}
+    \label{fig:figure 2.3}
+\end{figure}
+
+%figure 2.4
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{Asat.pdf}
+    \caption{Soil volume treatment means $\pm$~standard error, across all measurement campaigns (n = 6), of light saturated rates of photosynthesis at 25~$\degree$C. Different letters represent significant differences between treatments.}
+    \label{fig:figure 2.4}
+\end{figure}
+
+%figure 2.5
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{A_leafchem.pdf}
+    \caption{Photosynthetic capacity, on a leaf mass basis, as a function of accumulation of leaf starch (a) and leaf nitrogen content without TNC (b). Colors represent bins levels (n = 5) of both leaf starch and nitrogen grouped from low to high.  Lines represents predictions, for each bin level, from the linear mixed effects model equation of A\textsubscript{mass} as a function of starch and nitrogen. The marginal R\textsuperscript{2} (fixed effects only) was 0.37 and the conditional R\textsuperscript{2} (fixed and random effects) was 0.48 for the complete model.}
+    \label{fig:figure 2.5}
+\end{figure}
+
+%figure 2.6
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{massmodel_totalC.pdf}
+    \caption{Total carbon mass for harvested and modeled seedlings versus predicted total carbon gain after 120 days (a) and  reductions in final seedling carbon mass, both modeled and observed, as a function of the reduction in leaf photosynthesis across treatments (b). For (a) the dashed 1:1 identifies the difference between net total leaf carbon gain and gross seedling production. For (b) both seedling carbon mass and daily carbon assimilation were first scaled to the free seedling control.}
+    \label{fig:figure 2.6}
+\end{figure}
+
+
 
 %pvetable1
  <<results='asis'>>=
@@ -613,6 +667,13 @@ pve_modtab[1] <- c("Leaf area\\textsubscript{i}", "Leaf mass\\textsubscript{i}",
         hline.after = getOption("xtable.hline.after", c(-1,0,7,nrow(modtab))))
  @
 
+%figure 2.S1
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{massmodel_resp.pdf}
+    \caption{Sensitivity testing of seedling growth model to different carbon allocation strategies including; constraints of leaf mass fraction to treatment specific final harvest values (a) and increases in respiration of non-leaf tissue components by 50~\% (b). Open and filled symbols represent default model and harvest values, while shaded symbols represent model sensitivity to each scenario by soil volume treatment. Both seedling carbon mass and daily carbon assimilation were first scaled to the free seedling control.}
+    \label{fig:figure 2.S1}
+\end{figure}
 
    
 \addcontentsline{toc}{section}{CHAPTER 2 BELOWGROUND SINK LIMITATION ALTERS GROWTH AND CARBON BALANCE OF EUCALYPTUS SEEDLINGS}
@@ -646,12 +707,19 @@ colnames(getab2) <- c("Leaf", "Light","Temperature", "A", "g\\textsubscript{s}",
 @
 
 
-
 \section*{CHAPTER 3 \\ \mbox{ }\\ Rapid response of mesophyll conductance to light availability allows shade leaves to take advantage of sunflecks}
 \subsection*{ABSTRACT}
 \subsection*{INTRODUCTION}
 \subsection*{MATERIALS AND METHODS}
 \subsection*{RESULTS}
+
+%figure 3.1
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{ppfd2.pdf}
+    \caption{Bars represent the local light environment for sun and shade leaves during six gas exchange campaigns from October 2013 to April 2014. Means $\pm$~1 standard error represent integrated PPFD, measured with a ceptometer, at the canopy height of each selected leaf. Each date represents the starting date for each measurement campaign. Points represent the mean ($\pm$~1 standard error) daily maximum air temperature during each campaign period.}
+    \label{fig:figure 3.1}
+\end{figure}
 
 
 %wtc1tab
@@ -664,6 +732,13 @@ colnames(getab2) <- c("Leaf", "Light","Temperature", "A", "g\\textsubscript{s}",
  @
 
 
+%figure 3.2
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{aci_nitrovcmax.pdf}
+    \caption{(a) AC\textsubscript{i} curves for sun and shade leaves at elevated (ET) and ambient (AT) temperature treatments. AC\textsubscript{i} curves were measured once on all trees, in February 2014, at 25~$\degree$C and at saturating light (1800~{\textmugreek}mol~m\textsuperscript{-1}~s\textsuperscript{-1}). (b) The relationship between Vc\textsubscript{max} and mean leaf N\textsubscript{a} for each chamber, including sun leaves and shade leaves at low light. (c) The relationship between A\textsubscript{n} and leaf N\textsubscript{a} for sun and shade leaves measured under their ambient light and temperature conditions. For (b,c) the dashed line represents the significant linear model fit for all leaves, with a marginal and conditional R\textsuperscript{2} of 0.28 and 0.35 for (b) and 0.24 and 0.33 for (c).}
+    \label{fig:figure 3.2}
+\end{figure}
 
 %wtc1tab
  <<results='asis'>>=
@@ -675,10 +750,84 @@ colnames(getab2) <- c("Leaf", "Light","Temperature", "A", "g\\textsubscript{s}",
  @
 
 
+%figure 3.3
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{Agmgs.pdf}
+    \caption{The response of A to g\textsubscript{s} (a) and g\textsubscript{m} (b) for sun leaves measured at high light and shade leaves measured at both low and high light under their respective elevated and ambient temperature treatments. Lines represent either smoothed regressions from a generalized additive model fit (a) or linear model fits (b). Grey areas are 95\% confidence intervals from the mean.}
+    \label{fig:figure 3.3}
+\end{figure}
 
+%figure 3.4
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{physiology_bar.pdf}
+    \caption{The mean $\pm$~1 standard error of g\textsubscript{s} (a), g~\textsubscript{m} (b) and A\textsubscript{n} (c) of sun leaves and shade leaves at both low and high light pooled across six measurement dates.}
+    \label{fig:figure 3.4}
+\end{figure}
+
+%figure 3.5
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{ITE_13c.pdf}
+    \caption{(a) Response of instantaneous transpiration efficiency (ITE) to VPD for sun leaves and shade leaves at both low and high light with elevated and ambient temperature treatments. (b) The relationship between leaf {\textdelta}\textsuperscript{13}C and leaf N\textsubscript{a} for sun leaves at high light and shade leaves at low light. For (a) VPD is the leaf to air pressure difference inside the gas exchange cuvette and lines represent predictions from the optimal ITE model with a g\textsubscript{1} value for each leaf type and treatment. For (b) the dashed line represents the significant linear model fit for all leaves with a marginal and conditional R\textsuperscript{2}~=~ of 0.41 and 0.45, respectively.}
+    \label{fig:figure 3.5}
+\end{figure}
+
+%figure 3.6
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{delta_cica.pdf}
+    \caption{Relationship between the observed discrimination of \textsuperscript{13}CO\textsubscript{2} measured during photosynthesis and measured C\textsubscript{i}/C\textsubscript{a} for sun leaves measured at high light and shade leaves measured at both low and high light. The solid line represents the theoretical line for C3 plants from \citet{evans1986carbon}.}
+    \label{fig:figure 3.6}
+\end{figure}
+
+%figure 3.7
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{cicc_bar.pdf}
+    \caption{The mean $\pm$~1 standard error of intercellular CO\textsubscript{2} concentration (a), CO\textsubscript{2} concentration in the chloroplasts (b) and CO\textsubscript{2} drawdown from substomatal cavities to sites of carboxylation of sun leaves and shade leaves at both low and high light.}
+    \label{fig:figure 3.7}
+\end{figure}
 
 \subsection*{DISCUSSION}
 \subsection*{SUPPORTING INFORMATION}
+
+%figure 3.S1
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{airvars_wtc3.pdf}
+    \caption{Daily maximum and minimum temperature (a) and total daily PPFD (b) for each chamber across the experiment duration.}
+    \label{fig:figure 3.S1}
+\end{figure}
+
+%figure 3.S2
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{Acc_model.pdf}
+    \caption{Photosynthetic CO\textsubscript{2} response (AC\textsubscript{c}) curves for sun and shade leaves at elevated and ambient temperature treatments. C\textsubscript{c} values were predicted with g\textsubscript{m}, thus curves represent chloroplastic photosynthetic parameters at 25~$\degree$C and saturating light (1800~{\textmugreek}mol~m\textsuperscript{-1}~s\textsuperscript{-1}). }
+    \label{fig:figure 3.S2}
+\end{figure}
+
+%figure 3.S3
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{gasex_temp3.pdf}
+    \caption{Response of A (a), g\textsubscript{m} (b) and C\textsubscript{i}-C\textsubscript{c} to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Weak negative relationships with g\textsubscript{m} and increasing leaf temperature were detected with sun and shade leaves under their local light environment (R\textsuperscript{2}~=~0.16 and 0.08, respectively). }
+    \label{fig:figure 3.S3}
+\end{figure}
+
+%figure 3.S4
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{gasex_temp4.pdf}
+    \caption{Response of VPD (a), g\textsubscript{s} (b) and C\textsubscript{a}-C\textsubscript{i} to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Leaf VPD inside the gas exchange cuvette was positively correlated with increasing leaf temperature for sun leaves and shade leaves at low and high light (R\textsuperscript{2}~=~0.73, 0.58 and 0.72, respectively).}
+    \label{fig:figure 3.S4}
+\end{figure}
+
+
+
+ 
 
    
 \addcontentsline{toc}{section}{CHAPTER 3 RAPID RESPONSE OF MESOPHYLL CONDUCTANCE TO LIGHT AVAILABILITY ALLOWS SHADE LEAVES TO TAKE ADVANTAGE OF SUNFLECKS}
@@ -730,7 +879,75 @@ wtc1_table4 <- rbind(wtc1_table3, c("CO~2~ * Drought (P)",  Pinter_2$x))
 \subsection*{ABSTRACT}
 \subsection*{INTRODUCTION}
 \subsection*{MATERIALS AND METHODS}
+
+
+%figure 4.1
+\begin{figure}[p!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{conceptfig_wtc1.pdf}
+    \caption{Conceptual diagram depicting the major components of C flow among plant components including; uptake via photosynthesis, allocation to component tissues, tissue respiration and root exudation. Net aboveground C uptake (F\textsubscript{c,T}), shown in the shaded box, represents the flux of C measured within each WTC. With the WTC experimental design, total belowground C allocation (TBCA) is measured as the residual between F\textsubscript{c,T} and total aboveground C mass. }
+    \label{fig:figure 4.1}
+\end{figure}
+
 \subsection*{RESULTS}
+
+
+%figure 4.2
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{flux_treecarbon3.pdf}
+    \caption{Whole tree C mass as a function of cumulative aboveground C flux for each WTC tree. Values of cumulative aboveground net C flux were measured over the final eleven months of the experiment. Whole tree C mass represents the sum of bole, branch, leaf and root C mass from allometric estimates over the same time period. The dotted line is the 1:1 relationship and the solid line represents the significant overall linear model fit from the equation y = 0.56x + 878.2 (R\textsuperscript{2}~=~0.86).}
+    \label{fig:figure 4.2}
+\end{figure}
+
+%figure 4.3
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{leafarea.pdf}
+    \caption{Estimated canopy leaf area for each WTC tree over the final eleven months of the experiment (April 2008 to March 2009). Estimates are based on height growth, litterfall rates and two leaf area estimates following \citet{barton2012effects}. Color and line type distinguish the treatment combination for each WTC.}
+    \label{fig:figure 4.3}
+\end{figure}
+
+%figure 4.4
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{flux_leafarea_co2.pdf}
+    \caption{Treatment means of cumulative aboveground C flux as a function of mean daily canopy leaf area over the final eleven months of the experiment. The solid line represents the significant overall linear model fit (R\textsuperscript{2}~=~0.77) from the equation: y = 611.9x + 2791.2. Separate 95\% confidence intervals are shown for linear regression between F\textsubscript{c,T} and mean leaf area for aC\textsubscript{a} and eC\textsubscript{a} treatments.}
+    \label{fig:figure 4.4}
+\end{figure}
+
+%figure 4.5
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{allocfractions.pdf}
+    \caption{Treatment means of C mass fractions of leaves (a), stems (branches+boles) (c) and roots (e) as a function of tree size, via whole tree C mass. Treatment means of C allocation to leaves (b) and stems (d) as a function of cumulative aboveground net C flux. Root C allocation could not be estimated as root turnover was not known. Values for C mass fractions are calculated from final harvest biomass totals. Values for C allocation are estimated from cumulative total aboveground net C flux over the final eleven months of the experiment. Solid lines represent overall linear model fit for leaf, stem and root mass fractions (R\textsuperscript{2} = 0.53,~0.26~and~0.01, respectively), as well as leaf and stem C allocation (R\textsuperscript{2}= 0.39, 0.01, respectively).}
+    \label{fig:figure 4.5}
+\end{figure}
+
+%figure 4.6
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{treecarbon_daily2.pdf}
+    \caption{Cumulative aboveground net C flux and additive C allocation to individual tree components from 15 April 2008 to 16 March 2009. Each panel represents mean values for each treatment combination (n=3). Both aboveground net C flux and tissue C allocation where set to 0 on 15 April 2008 in order to track the allocation of C in daily time steps. Root C mass, predicted from the logarithmic relationship between above and belowground mass partitioning of pre-planting seedlings and harvested trees, is shown on the last date.}
+    \label{fig:figure 4.6}
+\end{figure}
+
+%figure 4.7
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{belowground_flux_plots2.pdf}
+    \caption{Treatment means $\pm$~1 standard error of cumulative aboveground net C flux, TBCA, and the residual belowground C flux (F\textsubscript{c,r}). Values of cumulative aboveground net C flux were measured over the final eleven months of the experiment. Values for TBCA are the residual between the cumulative C flux and total C mass aboveground estimated from allometric surveys over the same time period. Values for F\textsubscript{c,r} were calculated as the residual between TBCA and root C mass predicted on the last date of the eleven month period.}
+    \label{fig:figure 4.7}
+\end{figure}
+
+%figure 4.8
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{tbca_cflux.pdf}
+    \caption{Total belowground C allocation as a function of cumulative aboveground net C flux across the final eleven months of the experiment. Carbon mass aboveground was estimated from allometric surveys, interpolated on a daily time scale and then subtracted from the aboveground net C flux to quantify TBCA. Individual lines represent treatment means, with color and line type distinguishing treatment combinations.}
+    \label{fig:figure 4.8}
+\end{figure}
+
 
 %wtc1tab
  <<results='asis'>>=
@@ -744,6 +961,23 @@ wtc1_table4 <- rbind(wtc1_table3, c("CO~2~ * Drought (P)",  Pinter_2$x))
 
 \subsection*{DISCUSSION}
 \subsection*{SUPPORTING INFORMATION}
+
+%figure 4.S1
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{rootshoot.pdf}
+    \caption{Root mass as a function of shoot mass in \textit{Eucalyptus saligna} for potted seedlings harvested before planting of WTC trees (n=17) and WTC trees harvested after 2 years (n=12). Potted seedlings were grown in 25 l pots inside each WTC, while chamber [CO\textsubscript{2}] treatments conditions were maintained. The solid line represents the significant log-log model fit (R\textsuperscript{2} = 0.98) from the equation: log(x) = 0.77(log(y)) + 0.43.}
+    \label{fig:figure 4.S1}
+\end{figure}
+
+%figure 4.S2
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.99\textwidth]{treecarbon_daily_chambers2.pdf}
+    \caption{Cumulative aboveground net C flux and additive C allocation of individual tree components from 2008-4-15 and 2009-3-16. Panels represent each individual WTC. Both aboveground net C flux and tissue C allocation where set to 0 on 2008-4-15 in order to track the allocation of C in daily time steps. Total root C mass, predicted from the log relationship between above and belowground mass partitioning of pre-planting seedlings and harvested trees, is shown on the last date.}
+    \label{fig:figure 4.S2}
+\end{figure}
+
 
 \pagenumbering{arabic}
 \setcounter{page}{1}     
@@ -763,7 +997,7 @@ It has long been recognized that resources limit plant growth in different envir
 The research presented in this thesis was designed to investigate resource allocation in trees at individual tissue and whole plant scales in \textit{Eucalyptus}. I sought to address theories of plant functional balance by testing biomass partitioning in seedlings and trees undergoing various environmental manipulations. As observed biomass production may not necessarily reveal shifts in plant functional responses to environmental change, I evaluated the sensitivity of the allocation of photosynthate above and belowground across different temporal scales. Using mass balance approaches I then tested the coordination between growth and \textit{A\textsubscript{n}}, using leaf gas exchange parameters in seedlings and measurements of net canopy C gain in trees. To help bridge the knowledge gap between leaf and canopy C gain I investigated the distribution of N and H~\textsubscript{2}O as a function of light availability within canopies and the effect this has on individual leaf physiology. By utilizing novel experimental approaches, evidence from this work improves our understanding of functional processes that determine the net C uptake of trees and then how this assimilated C is used to fuel growth. The contribution of this body of work provides fundamental evidence underlying resource allocation in ecologically and commercially important \textit{Eucalyptus} tree species.
 
 \subsubsection*{Where does the carbon go?}
-This thesis question arises from large uncertainties that remain regarding fundamental processes which affect terrestrial C cycling.  The question “Where does the carbon go?” arises from the need to track the fate of C from canopy \textit{A\textsubscript{n}} to determine the contribution of forests ecosystems to C cycling \citep{litton2007carbon}. Currently, empirical data on C allocation are critical to the further development of forest models and subsequent predictions of global C balance under climate change \citep{franklin2012modeling}. Growth responses during early phases of tree establishment (seedlings or young trees) to changes in soil resource availability or climate change factors will likely depend on shifts in the plant C budget to balance growth, respiration and storage. Consequently, understanding environmentally driven shifts in C allocation in young *Eucalyptus* trees will be crucial to manage their fitness in fragile native ecosystems and their productivity in terms of timber production and quality in forestry systems.
+This thesis question arises from large uncertainties that remain regarding fundamental processes which affect terrestrial C cycling.  The question \enquote{Where does the carbon go?} arises from the need to track the fate of C from canopy \textit{A\textsubscript{n}} to determine the contribution of forests ecosystems to C cycling \citep{litton2007carbon}. Currently, empirical data on C allocation are critical to the further development of forest models and subsequent predictions of global C balance under climate change \citep{franklin2012modeling}. Growth responses during early phases of tree establishment (seedlings or young trees) to changes in soil resource availability or climate change factors will likely depend on shifts in the plant C budget to balance growth, respiration and storage. Consequently, understanding environmentally driven shifts in C allocation in young *Eucalyptus* trees will be crucial to manage their fitness in fragile native ecosystems and their productivity in terms of timber production and quality in forestry systems.
 
 First, I examined patterns in biomass partitioning of \textit{E.tereticornis} seedlings with belowground resource limitation (Chapter 1) and with \textit{E.saligna} trees exposed to eC\textsubscript{a} and drought treatments (Chapter 2). Across these studies, partitioning of biomass largely followed allometric trajectories related to plant size, nearly independent of treatment manipulation. Partitioning to roots, leaves and stems in \textit{E.tereticornis} seedlings was conserved across a ten-fold variation in seedling biomass with and without soil volume restriction. During this early growth stage, these results infer that growth inhibition from reduced belowground sink strength did not elicit a functional partitioning response. With much larger 2 year old \textit{E.saligna} trees, grown in WTCs, differences in partitioning to stem biomass were detected between aC\textsubscript{a} and eC\textsubscript{a} treatments. These patterns were also attributed to size dependent relationships associated with ontogeny \citep[see]{poorter2015does}, rather than a direct functional response to eC\textsubscript{a}.
 
