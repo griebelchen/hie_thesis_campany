@@ -165,7 +165,7 @@ opts_chunk$set(echo=FALSE)
 \textbf{Table 3.1}. \textit{Eucalyptus tereticornis} leaf morphological and physiological traits between full sun and shade leaves under ambient and elevated temperature treatments. Leaf mass per area, N\textsubscript{a}, {\textdelta}\textsuperscript{13}C, $\Psi\textsubscript{pd}$, $\Psi\textsubscript{l}$ and K\textsubscript{l} values represent treatment mean ($\pm$~1~standard error) across measurement campaigns (n=6). Values of Vc\textsubscript{max} and J\textsubscript{max} are treatment mean ($\pm$ 1 standard error) from AC\textsubscript{i} curves measured in each chamber at saturating light. Units of LMA and Leaf N\textsubscript{area} are g~m\textsuperscript{2}, K\textsubscript{l} is mmol~m\textsuperscript{-2}~s\textsuperscript{-1} MPa, WP is MPA and {\textdelta}\textsuperscript{13}C is \permil. Different letters represent significant differences between leaf type and temperature treatments. The P value represents the overall effect between each unique combination of leaf type and temperature treatment for each trait.
 \\
 \\
-\textbf{Table 3.2}. Responses of \textit{Eucalyptus tereticornis} leaf gas exchange parameters for sun and shade leaves under ambient and elevated temperature treatments. Each value reflects the mean ($\pm$~1~standard error) for each treatment across gas exchange campaigns (n=6). Units for A and E are {\textmugreek}mol~m\textsuperscript{-2}~s\textsuperscript{-1}, for g\textsubscript{s} and g\textsubscript{m} are mol~m\textsuperscript{-2}~s\textsuperscript{-1} and for VPD are kPa. Different letters represent significant differences between leaf type, light environment and temperature treatments. The P value represents the overall effect between each unique combination of leaf type, light environment and temperature treatment for each parameter.
+\textbf{Table 3.2}. \textit{Eucalyptus tereticornis} leaf gas exchange parameters for sun and shade leaves under ambient and elevated temperature treatments. Each value reflects the mean ($\pm$~1~standard error) for each treatment across gas exchange campaigns (n=6). Units for A\textsubscript{n} and E are {\textmugreek}mol~m\textsuperscript{-2}~s\textsuperscript{-1}, for g\textsubscript{s} and g\textsubscript{m} are mol~m\textsuperscript{-2}~s\textsuperscript{-1} and for VPD are kPa. Different letters represent significant differences between leaf type, light environment and temperature treatments. The P value represents the overall effect between each unique combination of leaf type, light environment and temperature treatment for each parameter.
 \\
 \\
 \textbf{Table 4.1}. Final harvest C mass of above and belowground tissues, cumulative aboveground tree C uptake (F\textsubscript{c,T}) and specific leaf area (SLA). Each value represents the mean ($\pm$~1 standard error) for each treatment combination. Units for C mass and F\textsubscript{c,T} are g~C, while SLA are cm\textsuperscript{2}~g\textsuperscript{-1}. For each variable, different letters represent significant differences between treatments from the overall model which includes CO\textsubscript{s} * drought interactions. P values represent overall differences of CO\textsubscript{s} or drought main effects and the CO\textsubscript{s} * drought interaction.
@@ -202,28 +202,28 @@ opts_chunk$set(echo=FALSE)
 \textbf{Figure 3.2}. (a) AC\textsubscript{i} curves for sun and shade leaves at elevated (ET) and ambient (AT) temperature treatments. AC\textsubscript{i} curves were measured once on all trees, in February 2014, at 25~$\degree$C and at saturating light (1800~{\textmugreek}mol~m\textsuperscript{-1}~s\textsuperscript{-1}). (b) The relationship between Vc\textsubscript{max} and mean leaf N\textsubscript{a} for each chamber, including sun leaves and shade leaves at low light. (c) The relationship between A\textsubscript{n} and leaf N\textsubscript{a} for sun and shade leaves measured under their ambient light and temperature conditions. For (b,c) the dashed line represents the significant linear model fit for all leaves, with a marginal and conditional R\textsuperscript{2} of 0.28 and 0.35 for (b) and 0.24 and 0.33 for (c).
 \\
 \\
-\textbf{Figure 3.3}. The response of A to g\textsubscript{s} (a) and g\textsubscript{m} (b) for sun leaves measured at high light and shade leaves measured at both low and high light under their respective elevated and ambient temperature treatments. Lines represent either smoothed regressions from a generalized additive model fit (a) or linear model fits (b). Grey areas are 95\% confidence intervals from the mean.
+\textbf{Figure 3.3}. The response of A\textsubscript{n} to g\textsubscript{s} (a) and g\textsubscript{m} (b) for sun leaves measured at high light and shade leaves measured at both low and high light under their respective elevated and ambient temperature treatments. Lines represent either smoothed regressions from a generalized additive model fit (a) or linear model fits (b). Grey areas are 95\% confidence intervals for the mean.
 \\
 \\
 \textbf{Figure 3.4}. The mean $\pm$~1 standard error of g\textsubscript{s} (a), g~\textsubscript{m} (b) and A\textsubscript{n} (c) of sun leaves and shade leaves at both low and high light pooled across six measurement dates.
 \\
 \\
-\textbf{Figure 3.5}. (a) Response of instantaneous transpiration efficiency (ITE) to VPD for sun leaves and shade leaves at both low and high light with elevated and ambient temperature treatments. (b) The relationship between leaf {\textdelta}\textsuperscript{13}C and leaf N\textsubscript{a} for sun leaves at high light and shade leaves at low light. For (a) VPD is the leaf to air pressure difference inside the gas exchange cuvette and lines represent predictions from the optimal ITE model with a g\textsubscript{1} value for each leaf type and treatment. For (b) the dashed line represents the significant linear model fit for all leaves with a marginal and conditional R\textsuperscript{2}~=~ of 0.41 and 0.45, respectively.
+\textbf{Figure 3.5}. (a) Response of instantaneous transpiration efficiency (ITE) to VPD for sun leaves and shade leaves at both low and high light with elevated and ambient temperature treatments. (b) The relationship between leaf {\textdelta}\textsuperscript{13}C and leaf N\textsubscript{a} for sun leaves at high light and shade leaves at low light. For (a) VPD is the leaf to air pressure difference inside the gas exchange cuvette and lines represent predictions from the optimal ITE model with a g\textsubscript{1} value for each leaf type and treatment. For (b) the dashed line represents the significant linear model fit across all leaves with a marginal and conditional R\textsuperscript{2}~=~ of 0.41 and 0.45, respectively.
 \\
 \\
-\textbf{Figure 3.6}. Relationship between the observed discrimination of \textsuperscript{13}CO\textsubscript{2} measured during photosynthesis and measured C\textsubscript{i}/C\textsubscript{a} for sun leaves measured at high light and shade leaves measured at both low and high light. The solid line represents the theoretical line for C3 plants from \citet{evans1986carbon}.
+\textbf{Figure 3.6}. Relationship between the observed discrimination of \textsuperscript{13}CO\textsubscript{2} measured during photosynthesis (\Delta\textsubscript{0} and measured C\textsubscript{i}/C\textsubscript{a} for sun leaves measured at high light and shade leaves measured at both low and high light. The solid line represents the theoretical line for C3 plants from \citet{evans1986carbon}.
 \\
 \\
-\textbf{Figure 3.7}. The mean $\pm$~1 standard error of intercellular CO\textsubscript{2} concentration (a), CO\textsubscript{2} concentration in the chloroplasts (b) and CO\textsubscript{2} drawdown from substomatal cavities to sites of carboxylation of sun leaves and shade leaves at both low and high light.
+\textbf{Figure 3.7}. The mean $\pm$~1 standard error of (a) intercellular CO\textsubscript{2} concentration (C\textsubscript{i}), (b) CO\textsubscript{2} concentration in the chloroplasts (C\textsubscript{c}) and (c) CO\textsubscript{2} drawdown from substomatal cavities to sites of carboxylation of sun leaves and shade leaves at both low and high light (C\textsubscript{i}-C\textsubscript{c}).
 \\
 \\
-\textbf{Figure 3.S1}. Daily maximum and minimum temperature (a) and total daily PPFD (b) for each chamber across the experiment duration.
+\textbf{Figure 3.S1}. Daily maximum and minimum temperature (a), daily maximum VPD (b) and total daily PPFD (c) for each chamber across the experiment duration.
 \\
 \\
-\textbf{Figure 3.S2}. Photosynthetic CO\textsubscript{2} response (AC\textsubscript{c}) curves for sun and shade leaves at elevated and ambient temperature treatments. C\textsubscript{c} values were predicted with g\textsubscript{m}, thus curves represent chloroplastic photosynthetic parameters at 25~$\degree$C and saturating light (1800~{\textmugreek}mol~m\textsuperscript{-1}~s\textsuperscript{-1}). 
+\textbf{Figure 3.S2}. Photosynthetic CO\textsubscript{2} response (AC\textsubscript{c}) curves for sun and shade leaves at elevated and ambient temperature treatments. C\textsubscript{c} values were predicted with g\textsubscript{m} and curves represent chloroplastic photosynthetic parameters at 25~$\degree$C and saturating light (1800~{\textmugreek}mol~m\textsuperscript{-1}~s\textsuperscript{-1}). 
 \\
 \\
-\textbf{Figure 3.S3}. Response of A (a), g\textsubscript{m} (b) and C\textsubscript{i}-C\textsubscript{c} to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Weak negative relationships with g\textsubscript{m} and increasing leaf temperature were detected with sun and shade leaves under their local light environment (R\textsuperscript{2}~=~0.16 and 0.08, respectively). 
+\textbf{Figure 3.S3}. Response of A\textsubscript{n} (a), g\textsubscript{m} (b) and C\textsubscript{i}-C\textsubscript{c} to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Weak negative relationships with g\textsubscript{m} and increasing leaf temperature were detected with sun and shade leaves under their local light environment (R\textsuperscript{2}~=~0.16 and 0.08, respectively). 
 \\
 \\
 \textbf{Figure 3.S4}. Response of VPD (a), g\textsubscript{s} (b) and C\textsubscript{a}-C\textsubscript{i} to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Leaf VPD inside the gas exchange cuvette was positively correlated with increasing leaf temperature for sun leaves and shade leaves at low and high light (R\textsuperscript{2}~=~0.73, 0.58 and 0.72, respectively).
@@ -742,7 +742,7 @@ colnames(getab2) <- c("Leaf", "Light","Temperature", "A", "g\\textsubscript{s}",
 
 %wtc1tab
  <<results='asis'>>=
- wtc3tab2 <- xtable(getab2, label="table:Table 3.2",caption="Responses of \\textit{Eucalyptus tereticornis} leaf gas exchange parameters for sun and shade leaves under ambient and elevated temperature treatments. Each value reflects the mean ($\\pm$~1~standard error) for each treatment across gas exchange campaigns (n=6). Units for A and E are {\\textmugreek}mol~m\\textsuperscript{-2}~s\\textsuperscript{-1}, for g\\textsubscript{s} and g\\textsubscript{m} are mol~m\\textsuperscript{-2}~s\\textsuperscript{-1} and for VPD are kPa. Different letters represent significant differences between leaf type, light environment and temperature treatments. The P value represents the overall effect between each unique combination of leaf type, light environment and temperature treatment for each parameter.")
+ wtc3tab2 <- xtable(getab2, label="table:Table 3.2",caption="\\textit{Eucalyptus tereticornis} leaf gas exchange parameters for sun and shade leaves under ambient and elevated temperature treatments. Each value reflects the mean ($\\pm$~1~standard error) for each treatment across gas exchange campaigns (n=6). Units for A\\textsubscript{n} and E are {\\textmugreek}mol~m\\textsuperscript{-2}~s\\textsuperscript{-1}, for g\\textsubscript{s} and g\\textsubscript{m} are mol~m\\textsuperscript{-2}~s\\textsuperscript{-1} and for VPD are kPa. Different letters represent significant differences between leaf type, light environment and temperature treatments. The P value represents the overall effect between each unique combination of leaf type, light environment and temperature treatment for each parameter.")
 
  print(wtc3tab2, include.rownames=FALSE,sanitize.colnames.function=function(x){x},
        floating.environment='sidewaystable',caption.placement="top",
@@ -754,7 +754,7 @@ colnames(getab2) <- c("Leaf", "Light","Temperature", "A", "g\\textsubscript{s}",
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.99\textwidth]{Agmgs.pdf}
-    \caption{The response of A to g\textsubscript{s} (a) and g\textsubscript{m} (b) for sun leaves measured at high light and shade leaves measured at both low and high light under their respective elevated and ambient temperature treatments. Lines represent either smoothed regressions from a generalized additive model fit (a) or linear model fits (b). Grey areas are 95\% confidence intervals from the mean.}
+    \caption{The response of A\textsubscript{n} to g\textsubscript{s} (a) and g\textsubscript{m} (b) for sun leaves measured at high light and shade leaves measured at both low and high light under their respective elevated and ambient temperature treatments. Lines represent either smoothed regressions from a generalized additive model fit (a) or linear model fits (b). Grey areas are 95\% confidence intervals for the mean.}
     \label{fig:figure 3.3}
 \end{figure}
 
@@ -770,7 +770,7 @@ colnames(getab2) <- c("Leaf", "Light","Temperature", "A", "g\\textsubscript{s}",
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.99\textwidth]{ITE_13c.pdf}
-    \caption{(a) Response of instantaneous transpiration efficiency (ITE) to VPD for sun leaves and shade leaves at both low and high light with elevated and ambient temperature treatments. (b) The relationship between leaf {\textdelta}\textsuperscript{13}C and leaf N\textsubscript{a} for sun leaves at high light and shade leaves at low light. For (a) VPD is the leaf to air pressure difference inside the gas exchange cuvette and lines represent predictions from the optimal ITE model with a g\textsubscript{1} value for each leaf type and treatment. For (b) the dashed line represents the significant linear model fit for all leaves with a marginal and conditional R\textsuperscript{2}~=~ of 0.41 and 0.45, respectively.}
+    \caption{(a) Response of instantaneous transpiration efficiency (ITE) to VPD for sun leaves and shade leaves at both low and high light with elevated and ambient temperature treatments. (b) The relationship between leaf {\textdelta}\textsuperscript{13}C and leaf N\textsubscript{a} for sun leaves at high light and shade leaves at low light. For (a) VPD is the leaf to air pressure difference inside the gas exchange cuvette and lines represent predictions from the optimal ITE model with a g\textsubscript{1} value for each leaf type and treatment. For (b) the dashed line represents the significant linear model fit across all leaves with a marginal and conditional R\textsuperscript{2}~=~ of 0.41 and 0.45, respectively.}
     \label{fig:figure 3.5}
 \end{figure}
 
@@ -778,7 +778,7 @@ colnames(getab2) <- c("Leaf", "Light","Temperature", "A", "g\\textsubscript{s}",
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.99\textwidth]{delta_cica.pdf}
-    \caption{Relationship between the observed discrimination of \textsuperscript{13}CO\textsubscript{2} measured during photosynthesis and measured C\textsubscript{i}/C\textsubscript{a} for sun leaves measured at high light and shade leaves measured at both low and high light. The solid line represents the theoretical line for C3 plants from \citet{evans1986carbon}.}
+    \caption{Relationship between the observed discrimination of \textsuperscript{13}CO\textsubscript{2} measured during photosynthesis (\Delta\textsubscript{0})and measured C\textsubscript{i}/C\textsubscript{a} for sun leaves measured at high light and shade leaves measured at both low and high light. The solid line represents the theoretical line for C3 plants from \citet{evans1986carbon}.}
     \label{fig:figure 3.6}
 \end{figure}
 
@@ -786,7 +786,7 @@ colnames(getab2) <- c("Leaf", "Light","Temperature", "A", "g\\textsubscript{s}",
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.99\textwidth]{cicc_bar.pdf}
-    \caption{The mean $\pm$~1 standard error of intercellular CO\textsubscript{2} concentration (a), CO\textsubscript{2} concentration in the chloroplasts (b) and CO\textsubscript{2} drawdown from substomatal cavities to sites of carboxylation of sun leaves and shade leaves at both low and high light.}
+    \caption{The mean $\pm$~1 standard error of (a) intercellular CO\textsubscript{2} concentration (C\textsubscript{i}), (b) CO\textsubscript{2} concentration in the chloroplasts (C\textsubscript{c}) and (c) CO\textsubscript{2} drawdown from substomatal cavities to sites of carboxylation of sun leaves and shade leaves at both low and high light (C\textsubscript{i}-C\textsubscript{c}).}
     \label{fig:figure 3.7}
 \end{figure}
 
@@ -797,7 +797,7 @@ colnames(getab2) <- c("Leaf", "Light","Temperature", "A", "g\\textsubscript{s}",
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.99\textwidth]{airvars_wtc3.pdf}
-    \caption{Daily maximum and minimum temperature (a) and total daily PPFD (b) for each chamber across the experiment duration.}
+    \caption{Daily maximum and minimum temperature (a), daily maximum VPD (b) and total daily PPFD (c) for each chamber across the experiment duration.}
     \label{fig:figure 3.S1}
 \end{figure}
 
@@ -805,7 +805,7 @@ colnames(getab2) <- c("Leaf", "Light","Temperature", "A", "g\\textsubscript{s}",
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.99\textwidth]{Acc_model.pdf}
-    \caption{Photosynthetic CO\textsubscript{2} response (AC\textsubscript{c}) curves for sun and shade leaves at elevated and ambient temperature treatments. C\textsubscript{c} values were predicted with g\textsubscript{m}, thus curves represent chloroplastic photosynthetic parameters at 25~$\degree$C and saturating light (1800~{\textmugreek}mol~m\textsuperscript{-1}~s\textsuperscript{-1}). }
+    \caption{Photosynthetic CO\textsubscript{2} response (AC\textsubscript{c}) curves for sun and shade leaves at elevated and ambient temperature treatments. C\textsubscript{c} values were predicted with g\textsubscript{m} and curves represent chloroplastic photosynthetic parameters at 25~$\degree$C and saturating light (1800~{\textmugreek}mol~m\textsuperscript{-1}~s\textsuperscript{-1}). }
     \label{fig:figure 3.S2}
 \end{figure}
 
@@ -813,7 +813,7 @@ colnames(getab2) <- c("Leaf", "Light","Temperature", "A", "g\\textsubscript{s}",
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.99\textwidth]{gasex_temp3.pdf}
-    \caption{Response of A (a), g\textsubscript{m} (b) and C\textsubscript{i}-C\textsubscript{c} to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Weak negative relationships with g\textsubscript{m} and increasing leaf temperature were detected with sun and shade leaves under their local light environment (R\textsuperscript{2}~=~0.16 and 0.08, respectively). }
+    \caption{Response of A\textsubscript{n} (a), g\textsubscript{m} (b) and C\textsubscript{i}-C\textsubscript{c} to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Weak negative relationships with g\textsubscript{m} and increasing leaf temperature were detected with sun and shade leaves under their local light environment (R\textsuperscript{2}~=~0.16 and 0.08, respectively). }
     \label{fig:figure 3.S3}
 \end{figure}
 
