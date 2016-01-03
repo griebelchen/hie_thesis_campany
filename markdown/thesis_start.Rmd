@@ -79,7 +79,7 @@ material, either in full or in part, for a degree at this or any other instituti
 **Table 2.2**. Responses of root characteristics of *Eucalyptus tereticornis* seedlings to soil volume treatments. Each value reflects the mean(standard error) for each treatment. All values are from the final harvest. Values for fine root length density (FRLD) are only calculated for seedlings in containers as free seedlings have potentially unlimited soil volume to exploit. Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings, except for FRLD which represents only differences between seedlings in containers.
 
 \
-**Table 2.3**. Responses of leaf level gas exchange parameters of *Eucalyptus tereticornis* seedlings to soil volume treatments. Each value reflects the mean(standard error) for each treatment. A~max~, R and g~s~ are each measured at 25 &deg;C. Values of A~max~, g~s~ and g~1~ represent overall means across measurement campaigns (n=6). R, J~max~ and Vc~max~ values are means of two measurement campaigns at beginning and end of gas exchange measurements. Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings.
+**Table 2.3**. Responses of leaf level gas exchange parameters of *Eucalyptus tereticornis* seedlings to soil volume treatments. Each value reflects the mean(standard error) for each treatment. A~max~, *R* and g~s~ are each measured at 25 &deg;C. Values of A~max~, g~s~ and g~1~ represent overall means across measurement campaigns (n=6). R, J~max~ and Vc~max~ values are means of two measurement campaigns at beginning and end of gas exchange measurements. Different letters represent significant differences between treatments. The volume effect P value represents the overall difference between seedlings with soil volume restriction and the control seedlings.
 
 \
 **Table 2.S1**. Seedling growth model default parameters.
@@ -252,7 +252,7 @@ PPFD  Photosynthetic photon flux density
 \
 Q~10~ Rate of change in respiration due to 10 &deg;C increase in temperature
 \
-R Leaf dark respiration rate
+*R* Leaf dark respiration rate
 \
 RMF Root mass fraction
 \
