@@ -43,6 +43,9 @@
 % for line numbers
 \usepackage{lineno}
 
+% for french
+
+
 % margin size
 \usepackage{geometry}
 \geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=3cm,rmargin=3cm}
@@ -123,7 +126,19 @@ opts_chunk$set(echo=FALSE)
 \section*{Acknowledgements}
 \thispagestyle{empty}
         \vspace{1.5cm}
-        I wish to thank Jesus and my mom yo
+        
+\enquote{I am the Lorax. I speak for the trees. I speak for the trees for the trees have no tongues.”}
+Dr. Seuss
+\\
+\\
+I dedicate this thesis to my mother, for she has been my inspiration to become a scientist for as long as I can remember. Her passion for the natural world is infectious and her ability to pass her scientific knowledge to others is inspirational. It is because of you that I flip over rocks to see what is hiding underneath. 
+\\
+\\
+I would equally like to acknowledge my father for instilling in me the work ethic and drive that has carried me to this point. Without his undying support I might never have achieved the level of success I have been afforded.
+\\
+\\
+À Caroline, rien de tout ça n’aurait été possible sans que tu sois à mes côtés. Tu as été un roc quand j’avais besoin d’ancrage et une lumière quand mon chemin semblait perdu.
+
 
 \clearpage
 %--------------------------------------------------------------------------------------------%
@@ -1043,12 +1058,12 @@ Second, aspects of leaf physiology and C allocation in these \textit{Eucalyptus}
 \addcontentsline{toc}{section}{APPENDIX A: \\ SUPPLEMENTARY FIGURES AND TABLES}
 \clearpage
 %--------------------------------------------------------------------------------------------%
-\section*{REFERENCES}
-
-\addcontentsline{toc}{section}{REFERENCES}
+% \section*{REFERENCES}
+% 
+% \addcontentsline{toc}{section}{REFERENCES}
 %--------------------------------------------------------------------------------------------%
-% \clearpage
-% \bibliography{references}
+
+\bibliography{thesis_references}
 
 
 
