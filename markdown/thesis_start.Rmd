@@ -42,7 +42,7 @@ rasterImage(concept, xleft = 0, ybottom = 0, xright = 1, ytop =1)
 ```
 
 \
-**2015**
+**2016**
 
 # Acknowledgements
 
@@ -148,6 +148,7 @@ material, either in full or in part, for a degree at this or any other instituti
 \
 **Figure 3.S4**. Response of VPD (a), g~s~ (b) and C~a~-C~i~ to leaf temperature for sun leaves and shade leaves at low and high light. Shaded symbols represents each monthly measurement campaign. Solid lines, colored by leaf and light type, are fitted line for the relationship with each parameter and leaf temperature across all measurement campaigns. All parameters with no relationship are fitted with zero slope and the overall mean value for each treatment combination. Leaf VPD inside the gas exchange cuvette was positively correlated with increasing leaf temperature for sun leaves and shade leaves at low and high light (R^2^ = 0.73, 0.58 and 0.72, respectively).
 
+\
 **Figure 4.1**. Conceptual diagram depicting the major components of C flow among plant components including; uptake via photosynthesis, allocation to component tissues, tissue respiration and root exudation. Mass pools of leaves, wood and roots include tissue turnover. Net aboveground C uptake ($\text{F}_{c}$), shown in the shaded box, represents the flux of C measured within each WTC. With the WTC experimental design, total belowground C allocation (TBCA) is measured as the residual between $\text{F}_{c,T}$ and total aboveground C mass. 
 
 \
