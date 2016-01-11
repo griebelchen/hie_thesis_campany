@@ -127,7 +127,7 @@ material, either in full or in part, for a degree at this or any other instituti
 **Figure 3.4**. The mean &pm; 1 standard error of g~s~ (a), g~m~ (b) and *A~n~* (c) of sun leaves and shade leaves at both low and high light pooled across six measurement dates.
 
 \
-**Figure 3.5**. (a) Response of instantaneous transpiration efficiency (ITE) to VPD for sun leaves and shade leaves at both low and high light with elevated and ambient temperature treatments.
+**Figure 3.5**. (a) Response of instantaneous transpiration efficiency (ITE) to VPD for sun leaves and shade leaves at both low and high light with elevated and ambient temperature treatments. (b) The relationship between leaf $\delta$^13^C and leaf N~a~ for sun leaves at high light and shade leaves at low light.
 
 \
 **Figure 3.6**. Relationship between the observed discrimination of ^13^CO~2~ measured during photosynthesis ($\Delta_o$) and measured C~i~/C~a~ for sun leaves measured at high light and shade leaves measured at both low and high light.
@@ -163,7 +163,7 @@ material, either in full or in part, for a degree at this or any other instituti
 **Figure 4.5**. Treatment means of C mass fractions of leaves (a), stems (branches+boles) (c) and roots (e) as a function of tree size, via whole tree C mass.
 
 \
-**Figure 4.6**. Cumulative aboveground net C flux and additive C allocation to individual tree components from 15 April 2008 to 16 March 2009.
+**Figure 4.6**. Cumulative aboveground net C flux and additive C allocation to individual tree components from 15 April 2008 to 16 March 2009. Each panel represents mean values for each treatment combination (n=3).
 
 \
 **Figure 4.7**. Treatment means &pm; 1 standard error of cumulative aboveground net C flux, TBCA, and the residual belowground C flux ($\text{F}_{c,r}$).
@@ -176,7 +176,7 @@ Root mass as a function of shoot mass in *Eucalyptus saligna* for potted seedlin
 
 \
 **Figure 4.S2**.
-Cumulative aboveground net C flux and additive C allocation of individual tree components from 2008-4-15 and 2009-3-16. Panels represent each individual WTC.
+Cumulative aboveground net C flux and additive C allocation of individual tree components tree components from 15 April 2008 to 16 March 2009. Panels represent each individual WTC.
 
 
 # LIST OF ABBREVIATIONS
