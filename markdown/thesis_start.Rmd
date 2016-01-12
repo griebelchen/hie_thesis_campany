@@ -23,7 +23,7 @@ opts_knit$set(root.dir = '../')
 By
 
 \
-**Courtney Campany**
+**Courtney Eugene Campany**
 \
 \
 \
