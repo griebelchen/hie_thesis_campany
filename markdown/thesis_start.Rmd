@@ -95,6 +95,8 @@ material, either in full or in part, for a degree at this or any other instituti
 
 # LIST OF FIGURES
 
+**Figure 1.1**. Each main thesis question linked to individual experiments designed to address current knowledge gaps.
+
 **Figure 2.1**. Soil volume treatment means &pm; standard error of height growth (a), diameter growth (b), and seedling leaf area estimated from leaf counts (c) measured weekly of *Eucalyptus tereticornis* seedlings across the experiment duration in 2013.
 
 \
